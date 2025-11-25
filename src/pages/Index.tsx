@@ -951,20 +951,26 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-muted/50">
-        <div className="container">
+      <section className="py-20 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 relative overflow-hidden">
+        <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
+        <div className="absolute bottom-20 left-20 w-64 h-64 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '3s'}}></div>
+        
+        <div className="container relative z-10">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-bold mb-4">Обо мне </h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">Обо мне — Стрельцов Иван</h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
-                <img
-                  src="https://cdn.poehali.dev/files/bcd118b0-24c2-40de-89c9-8eefe32d6191.jpg"
-                  alt="Стрельцов Иван - SEO специалист"
-                  className="rounded-2xl shadow-2xl w-full"
-                />
+                <div className="relative">
+                  <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
+                  <img
+                    src="https://cdn.poehali.dev/files/bcd118b0-24c2-40de-89c9-8eefe32d6191.jpg"
+                    alt="Стрельцов Иван - SEO специалист"
+                    className="rounded-3xl shadow-2xl w-full relative border-4 border-white"
+                  />
+                </div>
               </div>
 
               <div className="order-1 md:order-2 space-y-6">
@@ -976,23 +982,32 @@ const Index = () => {
                   Мой подход основан на системной аналитике, белых методах продвижения и прозрачной работе. Я делаю не просто SEO «для галочки», а создаю стратегию, которая приводит к росту позиций, трафика и заявок.
                 </p>
 
-                <div className="bg-primary/5 rounded-lg p-6 space-y-4">
-                  <h3 className="text-xl font-bold">Работая со мной, вы получаете:</h3>
-                  <ul className="space-y-3">
+                <div className="bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-2xl p-8 space-y-4 border border-purple-200 shadow-xl relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full filter blur-3xl opacity-20"></div>
+                  <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 relative z-10">Работая со мной, вы получаете:</h3>
+                  <ul className="space-y-4 relative z-10">
                     <li className="flex items-start gap-3">
-                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Icon name="Check" className="text-white" size={14} />
+                      </div>
                       <span className="text-muted-foreground">Проверенную методику, которая работает уже 10 лет</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Icon name="Check" className="text-white" size={14} />
+                      </div>
                       <span className="text-muted-foreground">Опыт продвижения сотен сайтов в ТОП Яндекса и Google</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-pink-500 to-orange-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Icon name="Check" className="text-white" size={14} />
+                      </div>
                       <span className="text-muted-foreground">Репутацию, подтверждённую тысячами клиентов</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Icon name="Check" className="text-white" size={14} />
+                      </div>
                       <span className="text-muted-foreground">Ежемесячные отчёты, прогнозы и понятную стратегию развития сайта</span>
                     </li>
                   </ul>
@@ -1007,18 +1022,36 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="faq" className="py-20">
-        <div className="container">
+      <section id="faq" className="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 relative overflow-hidden">
+        <div className="absolute top-10 left-10 w-96 h-96 bg-gradient-to-br from-purple-400 to-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
+        <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
+        
+        <div className="container relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Частые вопросы</h2>
+            <div className="inline-block mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <Icon name="HelpCircle" className="text-white" size={32} />
+              </div>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">Частые вопросы</h2>
+            <p className="text-xl text-muted-foreground">Ответы на популярные вопросы о SEO-продвижении</p>
           </div>
-          <Accordion type="single" collapsible className="max-w-3xl mx-auto">
+          <Accordion type="single" collapsible className="max-w-3xl mx-auto space-y-4">
             {faq.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left text-lg font-semibold">
-                  {item.question}
+              <AccordionItem 
+                key={index} 
+                value={`item-${index}`}
+                className="bg-white/80 backdrop-blur-sm border-0 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 px-6 overflow-hidden"
+              >
+                <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 mt-1">
+                      <span className="text-white text-sm font-bold">{index + 1}</span>
+                    </div>
+                    <span>{item.question}</span>
+                  </div>
                 </AccordionTrigger>
-                <AccordionContent className="text-base text-muted-foreground">
+                <AccordionContent className="text-base text-muted-foreground pb-6 pl-11">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>
