@@ -786,6 +786,100 @@ const Index = () => {
       <section className="py-20 bg-muted/50">
         <div className="container">
           <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Почему стоит работать со мной</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Eye" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">Прозрачность на каждом этапе</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Вы всегда знаете, какие работы выполняются и зачем. Никаких "магических манипуляций" — только конкретные действия с понятным обоснованием. Предоставляю доступы к системам аналитики, чтобы вы могли отслеживать результаты в режиме реального времени.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="FileText" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">Детальные ежемесячные отчёты</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Каждый месяц вы получаете отчёт с динамикой позиций, трафиком, выполненными работами и планом на следующий период. Вы видите рост позиций по целевым запросам, увеличение органического трафика и количество привлечённых лидов.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Shield" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">Только белые методы</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Я не использую запрещённые методы, которые могут привести к санкциям. Работаю строго в рамках рекомендаций Яндекса и Google. Это означает долгосрочный и устойчивый результат без риска попасть под фильтры.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Award" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">8 лет практического опыта</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  За годы работы я продвинул более 120 проектов в различных нишах: от небольших региональных компаний до крупных федеральных интернет-магазинов. Знаю специфику разных тематик и понимаю, какие методы работают лучше всего в вашей отрасли.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="TrendingUp" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">Измеримый рост позиций</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Моя цель — не просто "что-то делать", а приносить бизнесу реальную пользу. Фокусируюсь на коммерческих запросах, которые приводят платящих клиентов. Раскрутка сайта ради высоких позиций по нецелевым запросам мне не интересна — важен ваш доход.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Target" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-xl">Индивидуальный подход</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Не работаю по шаблонам. Каждый проект изучаю отдельно: анализирую вашу целевую аудиторию, конкурентов, уникальные преимущества. Стратегия создаётся под ваши бизнес-цели, а не под универсальный чек-лист.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="container">
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Отзывы клиентов</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
