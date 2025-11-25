@@ -775,19 +775,23 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="container">
+      <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 relative overflow-hidden">
+        <div className="absolute top-20 left-20 w-72 h-72 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
+        <div className="absolute bottom-20 right-20 w-72 h-72 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
+        
+        <div className="container relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Кому подойдёт услуга продвижения сайтов</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">Кому подойдёт услуга продвижения сайтов</h2>
+            <p className="text-xl text-muted-foreground">Я помогаю компаниям из разных сфер выходить в топ поисковых систем</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <Card className="hover:shadow-lg transition-shadow">
+          <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="ShoppingCart" className="text-primary" size={24} />
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                  <Icon name="ShoppingCart" className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-2xl">Интернет-магазины</CardTitle>
+                <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-600">Интернет-магазины</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -796,12 +800,12 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Briefcase" className="text-primary" size={24} />
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                  <Icon name="Briefcase" className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-2xl">Бизнес услуг</CardTitle>
+                <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Бизнес услуг</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -810,12 +814,12 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="MapPin" className="text-primary" size={24} />
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                  <Icon name="MapPin" className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-2xl">Локальный бизнес</CardTitle>
+                <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600">Локальный бизнес</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -824,12 +828,12 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Factory" className="text-primary" size={24} />
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                  <Icon name="Factory" className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-2xl">Производственные компании (B2B)</CardTitle>
+                <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-red-600">Производственные компании (B2B)</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -838,14 +842,15 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow md:col-span-2">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg md:col-span-2 group relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full filter blur-3xl opacity-20"></div>
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Rocket" className="text-primary" size={24} />
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform relative z-10">
+                  <Icon name="Rocket" className="text-white rotate-[-45deg]" size={28} />
                 </div>
-                <CardTitle className="text-2xl">Новые проекты</CardTitle>
+                <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600 relative z-10">Новые проекты</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="relative z-10">
                 <p className="text-muted-foreground">
                   Запускаете стартап или открываете новое направление? Начните с SEO сразу — результаты появятся не мгновенно, но через полгода вы получите устойчивый канал трафика, который будет работать годами.
                 </p>
