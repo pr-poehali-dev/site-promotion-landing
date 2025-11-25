@@ -955,7 +955,7 @@ const Index = () => {
         <div className="container">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-bold mb-4">Обо мне — Стрельцов Иван</h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-4">Обо мне </h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
