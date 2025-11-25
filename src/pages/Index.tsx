@@ -340,9 +340,14 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
         <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Icon name="TrendingUp" className="text-primary" size={28} />
-            <span className="text-xl font-bold">SEO Pro</span>
+          <div className="flex items-center gap-3">
+            <div className="relative">
+              <Icon name="Rocket" className="text-primary rotate-[-45deg]" size={32} />
+            </div>
+            <div className="flex flex-col leading-none">
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">SEO Pro</span>
+              <span className="text-xs font-semibold text-primary uppercase tracking-wider">в топ</span>
+            </div>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
@@ -1158,9 +1163,14 @@ const Index = () => {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Icon name="TrendingUp" className="text-primary" size={24} />
-                <span className="font-bold text-lg">SEO Pro</span>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="relative">
+                  <Icon name="Rocket" className="text-primary rotate-[-45deg]" size={28} />
+                </div>
+                <div className="flex flex-col leading-none">
+                  <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">SEO Pro</span>
+                  <span className="text-xs font-semibold text-primary uppercase tracking-wider">в топ</span>
+                </div>
               </div>
               <p className="text-sm text-muted-foreground">
                 Профессиональное продвижение сайтов с гарантией результата
