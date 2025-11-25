@@ -703,6 +703,86 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Кому подойдёт услуга продвижения сайтов</h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="ShoppingCart" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-2xl">Интернет-магазины</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Если у вас e-commerce проект, SEO продвижение сайта — ключевой канал привлечения покупателей. Органический трафик конвертируется в 2-3 раза лучше, чем платная реклама, потому что люди уже приняли решение о покупке и просто ищут подходящий магазин.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Briefcase" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-2xl">Бизнес услуг</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Салоны красоты, юридические компании, ремонтные службы, медицинские клиники — любой бизнес, который хочет стабильный поток заявок. Продвижение сайта в топ позволяет вам быть на виду именно в тот момент, когда клиент нуждается в вашей услуге.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="MapPin" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-2xl">Локальный бизнес</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Рестораны, автосервисы, фитнес-клубы — для локальных компаний особенно важно появляться в поисковой выдаче с геометками и на картах. Я настраиваю продвижение по геозависимым запросам и подключаю местные справочники.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Factory" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-2xl">Производственные компании (B2B)</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Если вы работаете с корпоративными клиентами, ваши покупатели тщательно изучают информацию перед принятием решения. Присутствие в топе по отраслевым запросам повышает ваш экспертный статус и генерирует качественные лиды.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow md:col-span-2">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon name="Rocket" className="text-primary" size={24} />
+                </div>
+                <CardTitle className="text-2xl">Новые проекты</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Запускаете стартап или открываете новое направление? Начните с SEO сразу — результаты появятся не мгновенно, но через полгода вы получите устойчивый канал трафика, который будет работать годами.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-muted/50">
         <div className="container">
           <div className="text-center mb-16">
