@@ -362,12 +362,16 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="py-20 md:py-32">
-        <div className="container">
+      <section className="py-20 md:py-32 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 opacity-60"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float"></div>
+        <div className="absolute top-40 right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
+        <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float" style={{animationDelay: '4s'}}></div>
+        <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
               SEO-продвижение сайта в топ Яндекса с{' '}
-              <span className="text-primary">гарантией результата</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">гарантией результата</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold">
               Выведу ваш бизнес на первые позиции поисковых систем
@@ -376,11 +380,11 @@ const Index = () => {
               Привлеку целевых клиентов через органический трафик без переплат за контекстную рекламу. Работаю по белым методам с прозрачной отчётностью на каждом этапе. Первые результаты — уже через 3-7 дней.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8">
+              <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <Icon name="Phone" size={20} className="mr-2" />
                 Заказать аудит
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8">
+              <Button size="lg" variant="outline" className="text-lg px-8 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <Icon name="PlayCircle" size={20} className="mr-2" />
                 Смотреть кейсы
               </Button>
@@ -394,24 +398,24 @@ const Index = () => {
               </p>
             </div>
             <div className="grid grid-cols-3 gap-8 pt-12">
-              <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary">150+</div>
-                <div className="text-sm text-muted-foreground">Проектов</div>
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">150+</div>
+                <div className="text-sm font-semibold text-gray-700 mt-2">Проектов</div>
               </div>
-              <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary">98%</div>
-                <div className="text-sm text-muted-foreground">Довольных клиентов</div>
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">98%</div>
+                <div className="text-sm font-semibold text-gray-700 mt-2">Довольных клиентов</div>
               </div>
-              <div>
-                <div className="text-3xl md:text-4xl font-bold text-primary">+320%</div>
-                <div className="text-sm text-muted-foreground">Средний рост</div>
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-orange-600">+320%</div>
+                <div className="text-sm font-semibold text-gray-700 mt-2">Средний рост</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="services" className="py-20 bg-muted/50">
+      <section id="services" className="py-20 bg-gradient-to-br from-white via-blue-50 to-purple-50">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Что включает комплексное SEO-продвижение сайтов</h2>
@@ -421,10 +425,10 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
             {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
+              <Card key={index} className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                    <Icon name={service.icon} className="text-primary" size={24} />
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-4 shadow-lg">
+                    <Icon name={service.icon} className="text-white" size={24} />
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>
@@ -814,17 +818,17 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Почему стоит работать со мной</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Почему стоит работать со мной</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Eye" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="Eye" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">Прозрачность на каждом этапе</CardTitle>
               </CardHeader>
@@ -835,10 +839,10 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="FileText" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="FileText" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">Детальные ежемесячные отчёты</CardTitle>
               </CardHeader>
@@ -849,10 +853,10 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Shield" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="Shield" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">Только белые методы</CardTitle>
               </CardHeader>
@@ -863,10 +867,10 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Award" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="Award" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">8 лет практического опыта</CardTitle>
               </CardHeader>
@@ -877,10 +881,10 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="TrendingUp" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="TrendingUp" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">Измеримый рост позиций</CardTitle>
               </CardHeader>
@@ -891,10 +895,10 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon name="Target" className="text-primary" size={24} />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center mb-4 shadow-lg">
+                  <Icon name="Target" className="text-white" size={24} />
                 </div>
                 <CardTitle className="text-xl">Индивидуальный подход</CardTitle>
               </CardHeader>
