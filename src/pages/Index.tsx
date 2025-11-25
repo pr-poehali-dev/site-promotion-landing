@@ -341,13 +341,10 @@ const Index = () => {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="relative">
-              <Icon name="Rocket" className="text-primary rotate-[-45deg]" size={32} />
+            <div className="relative w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
+              <Icon name="Rocket" className="text-white rotate-[-45deg]" size={28} />
             </div>
-            <div className="flex flex-col leading-none">
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">SEO Pro</span>
-              <span className="text-xs font-semibold text-primary uppercase tracking-wider">в топ</span>
-            </div>
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">В ТОП</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
@@ -1164,13 +1161,10 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="relative">
-                  <Icon name="Rocket" className="text-primary rotate-[-45deg]" size={28} />
+                <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
+                  <Icon name="Rocket" className="text-white rotate-[-45deg]" size={24} />
                 </div>
-                <div className="flex flex-col leading-none">
-                  <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">SEO Pro</span>
-                  <span className="text-xs font-semibold text-primary uppercase tracking-wider">в топ</span>
-                </div>
+                <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">В ТОП</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Профессиональное продвижение сайтов с гарантией результата
