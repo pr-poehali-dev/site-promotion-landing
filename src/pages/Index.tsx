@@ -235,12 +235,14 @@ const Index = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              Увеличим трафик вашего сайта в{' '}
-              <span className="text-primary">3-5 раз</span>
+              SEO-продвижение сайта в топ Яндекса с{' '}
+              <span className="text-primary">гарантией результата</span>
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold">
+              Выведу ваш бизнес на первые позиции поисковых систем
+            </h2>
             <p className="text-xl text-muted-foreground">
-              Комплексное продвижение сайтов с гарантией результата. Прозрачная отчетность, измеримые KPI и рост
-              продаж.
+              Привлеку целевых клиентов через органический трафик без переплат за контекстную рекламу. Работаю по белым методам с прозрачной отчётностью на каждом этапе. Первые результаты — уже через 3-7 дней.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8">
@@ -252,7 +254,15 @@ const Index = () => {
                 Смотреть кейсы
               </Button>
             </div>
-            <div className="grid grid-cols-3 gap-8 pt-8">
+            <div className="max-w-2xl mx-auto space-y-6">
+              <h2 className="text-2xl md:text-3xl font-semibold">
+                Заказать продвижение сайта — значит инвестировать в долгосрочный рост вашего бизнеса
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Поисковая оптимизация работает 24/7, привлекая клиентов, которые уже ищут ваши товары или услуги. В отличие от платной рекламы, эффект от SEO продвижения сайта накапливается и продолжает приносить лиды даже после завершения активных работ.
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-8 pt-12">
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-primary">150+</div>
                 <div className="text-sm text-muted-foreground">Проектов</div>
