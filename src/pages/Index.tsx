@@ -397,9 +397,9 @@ const Index = () => {
               SEO-продвижение сайта в топ Яндекса с{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">гарантией результата</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold">
+            <p className="text-2xl md:text-3xl font-semibold">
               Выведу ваш бизнес на первые позиции поисковых систем
-            </h2>
+            </p>
             <p className="text-xl text-muted-foreground">
               Привлеку целевых клиентов через органический трафик без переплат за контекстную рекламу. Работаю по белым методам с прозрачной отчётностью на каждом этапе. Первые результаты — уже через 3-7 дней.
             </p>
@@ -414,9 +414,9 @@ const Index = () => {
               </Button>
             </div>
             <div className="max-w-2xl mx-auto space-y-6">
-              <h2 className="text-2xl md:text-3xl font-semibold">
+              <p className="text-2xl md:text-3xl font-semibold">
                 Заказать продвижение сайта — значит инвестировать в долгосрочный рост вашего бизнеса
-              </h2>
+              </p>
               <p className="text-lg text-muted-foreground">
                 Поисковая оптимизация работает 24/7, привлекая клиентов, которые уже ищут ваши товары или услуги. В отличие от платной рекламы, эффект от SEO продвижения сайта накапливается и продолжает приносить лиды даже после завершения активных работ.
               </p>
@@ -493,7 +493,7 @@ const Index = () => {
           </div>
 
           <div className="space-y-6 max-w-5xl mx-auto">
-            <h3 className="text-2xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">Реальные цифры из практики:</h3>
+            <h3 className="text-2xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">Реальные цифры из практики</h3>
             
             <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-400 to-teal-500 rounded-full filter blur-3xl opacity-0 group-hover:opacity-20 transition-opacity"></div>
@@ -666,12 +666,12 @@ const Index = () => {
             </CardHeader>
             <CardContent className="space-y-12">
               <div>
-                <h3 className="text-lg font-semibold mb-6 flex items-center gap-2">
+                <h4 className="text-lg font-semibold mb-6 flex items-center gap-2">
                   <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-blue-600 flex items-center justify-center">
                     <Icon name="TrendingUp" className="text-white" size={16} />
                   </div>
                   Рост трафика (посетители/месяц)
-                </h3>
+                </h4>
                 <div className="relative h-64">
                   <div className="absolute inset-0 flex items-end justify-between gap-4 px-4">
                     {currentCase.trafficGrowth.map((data, index) => {
@@ -704,12 +704,12 @@ const Index = () => {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-6 flex items-center gap-2">
+                <h4 className="text-lg font-semibold mb-6 flex items-center gap-2">
                   <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center">
                     <Icon name="BarChart3" className="text-white" size={16} />
                   </div>
                   Рост конверсии (%)
-                </h3>
+                </h4>
                 <div className="relative h-64">
                   <svg className="w-full h-full" viewBox="0 0 600 200" preserveAspectRatio="none">
                     <defs>
@@ -1117,7 +1117,7 @@ const Index = () => {
 
                 <div className="bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-2xl p-8 space-y-4 border border-purple-200 shadow-xl relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full filter blur-3xl opacity-20"></div>
-                  <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 relative z-10">Работая со мной, вы получаете:</h3>
+                  <h4 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 relative z-10">Работая со мной, вы получаете:</h4>
                   <ul className="space-y-4 relative z-10">
                     <li className="flex items-start gap-3">
                       <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -1212,7 +1212,7 @@ const Index = () => {
             </p>
 
             <div className="text-left max-w-3xl mx-auto space-y-6">
-              <h3 className="text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">Что вы получите после обращения:</h3>
+              <h3 className="text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">Что вы получите после обращения</h3>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group">
