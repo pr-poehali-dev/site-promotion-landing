@@ -9,6 +9,51 @@ import Icon from '@/components/ui/icon';
 const Index = () => {
   const [selectedCase, setSelectedCase] = useState(0);
 
+  const methodology = [
+    {
+      stage: 'Этап 1',
+      title: 'Глубокий анализ ниши и конкурентов',
+      description: 'Изучаю топ-10 сайтов по вашим ключевым запросам: какие страницы они продвигают, какой контент публикуют, откуда получают ссылки. Нахожу слабые места конкурентов и точки роста для вашего проекта. Анализирую коммерческие факторы, которые влияют на ранжирование в вашей нише.',
+      icon: 'Search',
+    },
+    {
+      stage: 'Этап 2',
+      title: 'Разработка стратегии продвижения',
+      description: 'На основе анализа создаю детальный план работ на 6-12 месяцев. Определяю приоритетные направления: что даст быстрый результат, а что — долгосрочный эффект. Прописываю KPI: целевые запросы, планируемый трафик, количество заявок.',
+      icon: 'FileText',
+    },
+    {
+      stage: 'Этап 3',
+      title: 'Техническая оптимизация и доработка сайта',
+      description: 'Исправляю технические ошибки, улучшаю скорость загрузки (критически важно для Яндекса), настраиваю корректную индексацию. Внедряю микроразметку Schema.org для получения расширенных сниппетов. Оптимизирую мобильную версию — более 60% пользователей заходят со смартфонов.',
+      icon: 'Settings',
+    },
+    {
+      stage: 'Этап 4',
+      title: 'Контент и внутренняя оптимизация',
+      description: 'Дорабатываю существующие страницы и создаю новые под ключевые кластеры. СЕО продвижение сайтов невозможно без качественного контента — тексты пишутся с учётом LSI-фраз, вопросов пользователей и требований E-A-T (экспертность, авторитетность, надёжность).',
+      icon: 'PenTool',
+    },
+    {
+      stage: 'Этап 5',
+      title: 'Наращивание ссылочной массы',
+      description: 'Размещаю ссылки на тематических площадках с хорошими показателями траста. Работаю через крауд-маркетинг, гостевые публикации, партнёрские размещения. Каждая ссылка усиливает авторитет сайта в глазах поисковых систем.',
+      icon: 'Link',
+    },
+    {
+      stage: 'Этап 6',
+      title: 'Работа с поведенческими факторами',
+      description: 'Улучшаю юзабилити: удобство навигации, читаемость текста, заметность CTA-кнопок. Провожу A/B-тесты для повышения конверсии. Хорошие поведенческие метрики (время на сайте, глубина просмотра, возвраты) напрямую влияют на позиции.',
+      icon: 'Users',
+    },
+    {
+      stage: 'Этап 7',
+      title: 'Постоянный мониторинг и корректировка',
+      description: 'Продвижение сайтов Яндекс требует регулярного контроля. Отслеживаю изменения в алгоритмах, корректирую стратегию при необходимости. Масштабирую успешные методы, отключаю неэффективные. Предоставляю детальные отчёты каждый месяц.',
+      icon: 'BarChart3',
+    },
+  ];
+
   const cases = [
     {
       client: 'Интернет-магазин электроники',
@@ -408,7 +453,39 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cases" className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Как я провожу поисковое продвижение сайта: моя методика</h2>
+            <p className="text-xl text-muted-foreground">
+              Работаю по проверенной стратегии, которая приносит измеримые результаты
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto space-y-6">
+            {methodology.map((step, index) => (
+              <Card key={index} className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Icon name={step.icon} className="text-primary" size={24} />
+                    </div>
+                    <div className="flex-1">
+                      <div className="text-sm font-semibold text-primary mb-1">{step.stage}</div>
+                      <CardTitle className="text-xl">{step.title}</CardTitle>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" className="py-20">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Реальные кейсы</h2>
