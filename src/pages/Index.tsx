@@ -903,6 +903,62 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-muted/50">
+        <div className="container">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold mb-4">Обо мне — Стрельцов Иван</h2>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="order-2 md:order-1">
+                <img
+                  src="https://cdn.poehali.dev/files/bcd118b0-24c2-40de-89c9-8eefe32d6191.jpg"
+                  alt="Стрельцов Иван - SEO специалист"
+                  className="rounded-2xl shadow-2xl w-full"
+                />
+              </div>
+
+              <div className="order-1 md:order-2 space-y-6">
+                <p className="text-lg text-muted-foreground">
+                  Меня зовут <strong className="text-foreground">Стрельцов Иван</strong>, я SEO-специалист со стажем работы с 2015 года. За это время я помог вывести в топ тысячи проектов в разных нишах и собрал более <strong className="text-foreground">4000 довольных клиентов</strong> — их отзывы можно увидеть на Кворке, где мои услуги стабильно получают высокие оценки и рекомендации.
+                </p>
+
+                <p className="text-lg text-muted-foreground">
+                  Мой подход основан на системной аналитике, белых методах продвижения и прозрачной работе. Я делаю не просто SEO «для галочки», а создаю стратегию, которая приводит к росту позиций, трафика и заявок.
+                </p>
+
+                <div className="bg-primary/5 rounded-lg p-6 space-y-4">
+                  <h3 className="text-xl font-bold">Работая со мной, вы получаете:</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <span className="text-muted-foreground">Проверенную методику, которая работает уже 10 лет</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <span className="text-muted-foreground">Опыт продвижения сотен сайтов в ТОП Яндекса и Google</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <span className="text-muted-foreground">Репутацию, подтверждённую тысячами клиентов</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
+                      <span className="text-muted-foreground">Ежемесячные отчёты, прогнозы и понятную стратегию развития сайта</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <p className="text-lg font-semibold">
+                  Если вам нужен специалист, который приведёт сайт к результату и сделает это профессионально — вы по адресу.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="faq" className="py-20">
         <div className="container">
           <div className="text-center mb-16">
