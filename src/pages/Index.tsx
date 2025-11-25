@@ -970,6 +970,55 @@ const Index = () => {
                 </p>
               </div>
             </div>
+
+            <div className="mt-16">
+              <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
+                Сертификаты и подтверждение квалификации
+              </h3>
+              <div className="grid md:grid-cols-3 gap-8">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="p-6">
+                    <img
+                      src="https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/61c5a424-2ca9-46e4-bda0-24e1430bc45e.jpg"
+                      alt="Сертификат Яндекс.Директ"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h4 className="font-semibold text-center">Яндекс.Директ</h4>
+                    <p className="text-sm text-muted-foreground text-center mt-2">
+                      Сертифицированный специалист по контекстной рекламе
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="p-6">
+                    <img
+                      src="https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/9e08ceaa-12b5-4771-b530-c24cb5908ab3.jpg"
+                      alt="Сертификат Google Analytics"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h4 className="font-semibold text-center">Google Analytics</h4>
+                    <p className="text-sm text-muted-foreground text-center mt-2">
+                      Сертификат по веб-аналитике и отслеживанию конверсий
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="p-6">
+                    <img
+                      src="https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/bd03d68f-4df2-4b75-8d79-f6c28c21202b.jpg"
+                      alt="Сертификат SEO специалиста"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h4 className="font-semibold text-center">SEO Специалист</h4>
+                    <p className="text-sm text-muted-foreground text-center mt-2">
+                      Профессиональный сертификат по поисковой оптимизации
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
           </div>
         </div>
       </section>
