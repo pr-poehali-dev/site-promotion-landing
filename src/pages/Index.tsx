@@ -10,14 +10,25 @@ const Index = () => {
   const [selectedCase, setSelectedCase] = useState(0);
   const [showRocket, setShowRocket] = useState(false);
   const [isLaunching, setIsLaunching] = useState(false);
+  const [animateCharts, setAnimateCharts] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setShowRocket(window.scrollY > 500);
+      
+      const casesSection = document.getElementById('cases');
+      if (casesSection) {
+        const rect = casesSection.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+        if (isVisible && !animateCharts) {
+          setAnimateCharts(true);
+        }
+      }
     };
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [animateCharts]);
 
   const scrollToTop = () => {
     setIsLaunching(true);
@@ -568,10 +579,13 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cases" className="py-20">
-        <div className="container">
+      <section id="cases" className="py-20 bg-gradient-to-br from-purple-50 via-white to-blue-50 relative overflow-hidden">
+        <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
+        <div className="absolute bottom-20 left-20 w-64 h-64 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '3s'}}></div>
+        
+        <div className="container relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Реальные кейсы</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600">Реальные кейсы</h2>
             <p className="text-xl text-muted-foreground">
               Интерактивные графики роста наших клиентов
             </p>
@@ -582,24 +596,37 @@ const Index = () => {
               <Button
                 key={index}
                 variant={selectedCase === index ? 'default' : 'outline'}
-                onClick={() => setSelectedCase(index)}
-                className="flex-shrink-0"
+                onClick={() => {
+                  setSelectedCase(index);
+                  setAnimateCharts(false);
+                  setTimeout(() => setAnimateCharts(true), 50);
+                }}
+                className={`flex-shrink-0 transition-all duration-300 ${
+                  selectedCase === index 
+                    ? 'bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 shadow-lg' 
+                    : 'hover:border-purple-400'
+                }`}
               >
                 {c.client}
               </Button>
             ))}
           </div>
 
-          <Card className="max-w-5xl mx-auto">
+          <Card className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm border-0 shadow-2xl">
             <CardHeader>
-              <CardTitle className="text-2xl">{currentCase.client}</CardTitle>
+              <CardTitle className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600">{currentCase.client}</CardTitle>
               <CardDescription className="text-base">
-                {currentCase.industry} • {currentCase.results}
+                {currentCase.industry} • <span className="font-semibold text-primary">{currentCase.results}</span>
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-12">
               <div>
-                <h3 className="text-lg font-semibold mb-6">Рост трафика (посетители/месяц)</h3>
+                <h3 className="text-lg font-semibold mb-6 flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-blue-600 flex items-center justify-center">
+                    <Icon name="TrendingUp" className="text-white" size={16} />
+                  </div>
+                  Рост трафика (посетители/месяц)
+                </h3>
                 <div className="relative h-64">
                   <div className="absolute inset-0 flex items-end justify-between gap-4 px-4">
                     {currentCase.trafficGrowth.map((data, index) => {
@@ -607,17 +634,23 @@ const Index = () => {
                       return (
                         <div key={index} className="flex-1 flex flex-col items-center gap-2">
                           <div
-                            className="w-full bg-primary rounded-t-lg transition-all duration-1000 ease-out hover:bg-primary/80 relative group"
+                            className={`w-full bg-gradient-to-t from-purple-600 to-blue-500 rounded-t-lg transition-all duration-1000 ease-out hover:from-purple-700 hover:to-blue-600 relative group shadow-lg ${
+                              animateCharts ? 'animate-bar-grow' : 'opacity-0'
+                            }`}
                             style={{
-                              height: `${height}%`,
+                              height: animateCharts ? `${height}%` : '0%',
                               animationDelay: `${index * 100}ms`,
                             }}
                           >
-                            <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div className={`absolute -top-10 left-1/2 -translate-x-1/2 text-sm font-bold bg-white px-2 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity ${
+                              animateCharts ? 'animate-counter' : ''
+                            }`} style={{ animationDelay: `${index * 100 + 500}ms` }}>
                               {data.value.toLocaleString()}
                             </div>
                           </div>
-                          <span className="text-xs text-muted-foreground font-medium">{data.month}</span>
+                          <span className={`text-xs text-muted-foreground font-medium ${
+                            animateCharts ? 'animate-fade-in-up' : 'opacity-0'
+                          }`} style={{ animationDelay: `${index * 100}ms` }}>{data.month}</span>
                         </div>
                       );
                     })}
@@ -626,7 +659,12 @@ const Index = () => {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-6">Рост конверсии (%)</h3>
+                <h3 className="text-lg font-semibold mb-6 flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center">
+                    <Icon name="BarChart3" className="text-white" size={16} />
+                  </div>
+                  Рост конверсии (%)
+                </h3>
                 <div className="relative h-64">
                   <svg className="w-full h-full" viewBox="0 0 600 200" preserveAspectRatio="none">
                     <defs>
