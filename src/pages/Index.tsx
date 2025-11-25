@@ -707,28 +707,45 @@ const Index = () => {
           </div>
 
           <div className="text-center mb-12">
-            <h3 className="text-2xl md:text-3xl font-bold">Тарифные пакеты</h3>
+            <h3 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">Тарифные пакеты</h3>
           </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {pricing.map((plan, index) => (
-              <Card key={index} className={plan.popular ? 'border-primary shadow-lg scale-105' : ''}>
+              <Card key={index} className={`relative overflow-hidden transition-all duration-300 transform hover:scale-105 ${
+                plan.popular 
+                  ? 'border-0 shadow-2xl bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50' 
+                  : 'bg-white/90 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl'
+              }`}>
                 {plan.popular && (
-                  <div className="bg-primary text-primary-foreground text-center py-2 text-sm font-semibold">
-                    Популярный
-                  </div>
+                  <>
+                    <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full filter blur-3xl opacity-20"></div>
+                    <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white text-center py-3 text-sm font-bold uppercase tracking-wide relative z-10">
+                      ⭐ Популярный выбор
+                    </div>
+                  </>
                 )}
-                <CardHeader>
-                  <CardTitle className="text-2xl">{plan.name}</CardTitle>
+                <CardHeader className="relative z-10">
+                  <CardTitle className={`text-2xl ${plan.popular ? 'bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600' : ''}`}>
+                    {plan.name}
+                  </CardTitle>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold">{plan.price}</span>
+                    <span className={`text-4xl font-bold ${plan.popular ? 'bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600' : ''}`}>
+                      {plan.price}
+                    </span>
                     <span className="text-muted-foreground">{plan.period}</span>
                   </div>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="relative z-10">
                   <ul className="space-y-3">
                     {plan.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <Icon name="Check" className="text-primary mt-0.5 flex-shrink-0" size={20} />
+                      <li key={i} className="flex items-start gap-3">
+                        <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${
+                          plan.popular 
+                            ? 'bg-gradient-to-br from-blue-500 to-purple-600' 
+                            : 'bg-primary/10'
+                        }`}>
+                          <Icon name="Check" className={plan.popular ? 'text-white' : 'text-primary'} size={14} />
+                        </div>
                         <span className="text-sm">{feature}</span>
                       </li>
                     ))}
@@ -738,7 +755,14 @@ const Index = () => {
                       <strong>Подходит для:</strong> {plan.description.replace('Подходит для: ', '')}
                     </p>
                   )}
-                  <Button className="w-full mt-6" variant={plan.popular ? 'default' : 'outline'}>
+                  <Button 
+                    className={`w-full mt-6 ${
+                      plan.popular 
+                        ? 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl' 
+                        : ''
+                    }`}
+                    variant={plan.popular ? 'default' : 'outline'}
+                  >
                     Выбрать тариф
                   </Button>
                 </CardContent>
