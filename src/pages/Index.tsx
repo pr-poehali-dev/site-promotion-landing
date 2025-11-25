@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -8,6 +8,22 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   const [selectedCase, setSelectedCase] = useState(0);
+  const [showRocket, setShowRocket] = useState(false);
+  const [isLaunching, setIsLaunching] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowRocket(window.scrollY > 500);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    setIsLaunching(true);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => setIsLaunching(false), 1000);
+  };
 
   const methodology = [
     {
@@ -1187,6 +1203,24 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      {showRocket && (
+        <button
+          onClick={scrollToTop}
+          className={`fixed bottom-8 right-8 w-14 h-14 bg-primary text-primary-foreground rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center z-50 group ${
+            isLaunching ? 'animate-rocket-launch' : 'hover:scale-110'
+          }`}
+          aria-label="Наверх"
+        >
+          <Icon
+            name="Rocket"
+            size={24}
+            className={`transition-transform ${
+              isLaunching ? 'rotate-[-45deg]' : 'rotate-[-45deg] group-hover:translate-y-[-2px]'
+            }`}
+          />
+        </button>
+      )}
     </div>
   );
 };
