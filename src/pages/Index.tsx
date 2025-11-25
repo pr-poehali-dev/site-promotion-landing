@@ -328,16 +328,82 @@ const Index = () => {
 
       <section className="py-20">
         <div className="container">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {advantages.map((advantage, index) => (
-              <div key={index} className="text-center space-y-4">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
-                  <Icon name={advantage.icon} className="text-primary" size={32} />
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Почему важно вывести сайт в топ Яндекса</h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+              Когда ваш сайт в топ Яндекса, вы получаете постоянный поток целевых клиентов без необходимости ежедневно платить за рекламу. Согласно статистике, первые 5 позиций в поисковой выдаче собирают до 70% всех кликов. Если вас нет на первой странице — вас просто не видят.
+            </p>
+          </div>
+
+          <div className="space-y-8 max-w-5xl mx-auto">
+            <h3 className="text-2xl font-bold text-center mb-12">Реальные цифры из практики:</h3>
+            
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-xl">Стоматологическая клиника в Москве</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-muted-foreground">
+                  После 5 месяцев работы трафик вырос на <strong className="text-foreground">280%</strong>, количество записей через сайт увеличилось в <strong className="text-foreground">4 раза</strong>.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2">
+                    <Icon name="TrendingUp" className="text-primary" size={20} />
+                    <span className="text-sm">23 коммерческих запроса в ТОП</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Users" className="text-primary" size={20} />
+                    <span className="text-sm">140+ новых пациентов</span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold">{advantage.title}</h3>
-                <p className="text-muted-foreground">{advantage.description}</p>
-              </div>
-            ))}
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-xl">Интернет-магазин спортивного питания</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-muted-foreground">
+                  За 4 месяца органический трафик вырос на <strong className="text-foreground">190%</strong>, выручка с SEO-канала — на <strong className="text-foreground">320 тысяч рублей в месяц</strong>.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Target" className="text-primary" size={20} />
+                    <span className="text-sm">Сайт вышел в ТОП-10 по 34 запросам</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="DollarSign" className="text-primary" size={20} />
+                    <span className="text-sm">+320 тыс. руб. выручки</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-xl">Производитель металлоконструкций (B2B)</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-muted-foreground">
+                  Продвижение сайта в топ по региональным запросам дало рост заявок на <strong className="text-foreground">150%</strong>. Стоимость лида снизилась с 4500 до <strong className="text-foreground">1200 рублей</strong> — в 3,7 раза дешевле, чем через контекст.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2">
+                    <Icon name="ArrowUp" className="text-primary" size={20} />
+                    <span className="text-sm">+150% заявок</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="ArrowDown" className="text-primary" size={20} />
+                    <span className="text-sm">-73% стоимости лида</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <p className="text-lg text-muted-foreground text-center mt-12">
+              Когда вы занимаете высокие позиции, ваш бизнес воспринимается как более авторитетный и надёжный. Клиенты доверяют компаниям из топа поисковой выдачи — это психология потребителя.
+            </p>
           </div>
         </div>
       </section>
