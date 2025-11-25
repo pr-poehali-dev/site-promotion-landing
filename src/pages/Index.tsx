@@ -923,13 +923,106 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-primary/5">
+        <div className="container">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h2 className="text-3xl md:text-5xl font-bold">
+              SEO продвижение сайта заказать — просто и быстро
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Готовы вывести ваш бизнес на новый уровень? Начнём с бесплатного аудита вашего сайта.
+            </p>
+
+            <div className="text-left max-w-3xl mx-auto space-y-6">
+              <h3 className="text-2xl font-bold text-center">Что вы получите после обращения:</h3>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card>
+                  <CardHeader>
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                      <Icon name="Search" className="text-primary" size={20} />
+                    </div>
+                    <CardTitle className="text-lg">Экспресс-анализ сайта</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      В течение 24 часов я изучу ваш проект и подготовлю список первоочередных рекомендаций.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                      <Icon name="FileText" className="text-primary" size={20} />
+                    </div>
+                    <CardTitle className="text-lg">Коммерческое предложение</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Понятный план работ с прогнозируемыми результатами и точной стоимостью.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                      <Icon name="Users" className="text-primary" size={20} />
+                    </div>
+                    <CardTitle className="text-lg">Стратегическую сессию</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Созвонимся, обсудим ваши цели, целевую аудиторию, бюджет. Я расскажу, как именно буду продвигать ваш проект и какие результаты реально достичь.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                      <Icon name="FileCheck" className="text-primary" size={20} />
+                    </div>
+                    <CardTitle className="text-lg">Прозрачные условия сотрудничества</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Договор, где прописаны все обязательства, сроки и KPI.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="text-center space-y-4 pt-8">
+                <p className="text-lg font-semibold">
+                  Заказать продвижение сайта можно прямо сейчас — заполните форму заявки, и я свяжусь с вами в течение 2 часов в рабочее время.
+                </p>
+                <p className="text-muted-foreground">
+                  Не откладывайте — пока вы раздумываете, ваши конкуренты уже получают клиентов из поисковых систем. Начните инвестировать в долгосрочный канал привлечения, который будет работать годами.
+                </p>
+                <div className="bg-muted/50 rounded-lg p-6 space-y-3">
+                  <p className="font-semibold">
+                    Оставьте заявку, и я покажу, как вывести ваш сайт в топ и превратить поисковый трафик в реальную прибыль.
+                  </p>
+                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                    <Icon name="Clock" size={16} />
+                    <span>Работаю с понедельника по четверг с 10:00 до 19:00 МСК. Готов ответить на любые вопросы о продвижении вашего проекта.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-20 bg-muted/50">
         <div className="container">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-5xl font-bold mb-4">Получить консультацию</h2>
               <p className="text-xl text-muted-foreground">
-                Оставьте заявку и мы свяжемся с вами в течение часа
+                Оставьте заявку и я свяжусь с вами в течение 2 часов
               </p>
             </div>
             <Card>
