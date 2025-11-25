@@ -344,7 +344,7 @@ const Index = () => {
             <div className="relative w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
               <Icon name="Rocket" className="text-white rotate-[-45deg]" size={28} />
             </div>
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">В ТОП</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">SEO ЭКСПЕРТ</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
@@ -1164,7 +1164,7 @@ const Index = () => {
                 <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
                   <Icon name="Rocket" className="text-white rotate-[-45deg]" size={24} />
                 </div>
-                <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">В ТОП</span>
+                <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">SEO ЭКСПЕРТ</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Профессиональное продвижение сайтов с гарантией результата
