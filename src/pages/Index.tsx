@@ -186,37 +186,72 @@ const Index = () => {
     },
   ];
 
+  const pricingFactors = [
+    {
+      icon: 'TrendingUp',
+      title: 'Конкурентность тематики',
+      description: 'Чем больше сильных игроков в нише, тем больше усилий требуется для выхода в топ.',
+    },
+    {
+      icon: 'Settings',
+      title: 'Текущее состояние сайта',
+      description: 'Если есть серьёзные технические проблемы или санкции, потребуется больше времени на восстановление.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'География продвижения',
+      description: 'Региональная раскрутка сайта дешевле и быстрее, чем продвижение по всей России.',
+    },
+    {
+      icon: 'List',
+      title: 'Количество запросов',
+      description: 'Чем шире семантическое ядро, тем больше страниц нужно оптимизировать и контента создать.',
+    },
+    {
+      icon: 'Briefcase',
+      title: 'Объём работ',
+      description: 'Написание статей, наращивание ссылок, улучшение юзабилити — каждая задача имеет свою стоимость.',
+    },
+  ];
+
   const pricing = [
     {
       name: 'Старт',
-      price: '50 000 ₽',
+      price: '30 000 ₽',
       period: '/месяц',
-      features: ['SEO-аудит сайта', 'Базовая оптимизация', 'Ежемесячные отчеты', 'Email поддержка'],
+      features: [
+        'До 50 ключевых запросов в топ',
+        'Технический аудит и устранение критических ошибок',
+        'Ежемесячный отчёт',
+      ],
+      description: 'Подходит для: небольших сайтов, локального бизнеса, новых проектов',
     },
     {
       name: 'Бизнес',
-      price: '120 000 ₽',
+      price: '50 000 ₽',
       period: '/месяц',
       features: [
+        'До 100 ключевых запросов в топ',
         'Полный комплекс SEO',
-        'Контекстная реклама',
-        'Контент-маркетинг',
-        'Еженедельные отчеты',
-        'Личный менеджер',
+        'Контент-стратегия',
+        'Ссылочное продвижение',
+        'Ежемесячный отчёт',
       ],
       popular: true,
+      description: 'Подходит для: среднего бизнеса, интернет-магазинов с каталогом до 500 товаров',
     },
     {
-      name: 'Энтерпрайз',
-      price: 'От 300 000 ₽',
+      name: 'Максимум',
+      price: 'От 150 000 ₽',
       period: '/месяц',
       features: [
+        'От 500 запросов в ТОП',
         'Индивидуальная стратегия',
         'Все каналы продвижения',
         'Выделенная команда',
-        'Ежедневные отчеты',
-        '24/7 поддержка',
+        'Еженедельные отчёты',
       ],
+      description: 'Подходит для: крупных интернет-магазинов, высококонкурентных ниш, федеральных проектов',
     },
   ];
 
@@ -598,13 +633,33 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="pricing" className="py-20">
+      <section id="pricing" className="py-20 bg-muted/50">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Тарифы</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Продвижение сайта: цена и что на неё влияет</h2>
             <p className="text-xl text-muted-foreground">
-              Выберите подходящий план для вашего бизнеса
+              Стоимость SEO-продвижения зависит от нескольких факторов
             </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
+            {pricingFactors.map((factor, index) => (
+              <Card key={index} className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                    <Icon name={factor.icon} className="text-primary" size={24} />
+                  </div>
+                  <CardTitle className="text-lg">{factor.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">{factor.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold">Тарифные пакеты</h3>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {pricing.map((plan, index) => (
@@ -630,6 +685,11 @@ const Index = () => {
                       </li>
                     ))}
                   </ul>
+                  {plan.description && (
+                    <p className="text-xs text-muted-foreground mt-4 pt-4 border-t">
+                      <strong>Подходит для:</strong> {plan.description.replace('Подходит для: ', '')}
+                    </p>
+                  )}
                   <Button className="w-full mt-6" variant={plan.popular ? 'default' : 'outline'}>
                     Выбрать тариф
                   </Button>
@@ -637,6 +697,9 @@ const Index = () => {
               </Card>
             ))}
           </div>
+          <p className="text-center text-muted-foreground mt-12 max-w-3xl mx-auto">
+            Окончательная стоимость формируется после аудита вашего сайта. Я не работаю по шаблонам — каждый проект получает индивидуальную стратегию.
+          </p>
         </div>
       </section>
 
