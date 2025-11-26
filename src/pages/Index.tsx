@@ -16,7 +16,7 @@ const Index = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPromoModal(true);
-    }, 2000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
