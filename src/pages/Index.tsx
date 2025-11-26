@@ -869,8 +869,10 @@ const Index = () => {
                         : ''
                     }`}
                     variant={plan.popular ? 'default' : 'outline'}
+                    onClick={() => window.open('https://t.me/seovzlet', '_blank')}
                   >
-                    Выбрать тариф
+                    <Icon name="Send" size={16} className="mr-2" />
+                    Написать в Telegram
                   </Button>
                 </CardContent>
               </Card>
