@@ -422,11 +422,20 @@ const Index = () => {
               Привлеку целевых клиентов через органический трафик без переплат за контекстную рекламу. Работаю по белым методам с прозрачной отчётностью на каждом этапе. Первые результаты — уже через 3-7 дней.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <Icon name="Phone" size={20} className="mr-2" />
-                Заказать аудит
+              <Button 
+                size="lg" 
+                className="text-lg px-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Rocket" size={20} className="mr-2" />
+                Хочу в топ
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="text-lg px-8 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                onClick={() => document.getElementById('cases')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 <Icon name="PlayCircle" size={20} className="mr-2" />
                 Смотреть кейсы
               </Button>
