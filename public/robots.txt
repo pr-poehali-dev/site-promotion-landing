@@ -24,7 +24,7 @@ User-agent: facebookexternalhit
 Allow: /
 
 # Sitemap
-Sitemap: https://site-promotion-landing.poehali.app/sitemap.xml
+Sitemap: https://streltsevseo.ru/sitemap.xml
 
 # Запрещаем индексацию служебных файлов
 Disallow: /src/
