@@ -1498,9 +1498,7 @@ const Index = () => {
           </div>
           <div className="border-t border-white/10 py-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-slate-400">
-                © 2024 SEO Эксперт — Стрельцов Иван. Все права защищены.
-              </p>
+              <p className="text-sm text-slate-400">© 2025 SEO Эксперт — Стрельцов Иван. Все права защищены.</p>
               <div className="flex gap-6 text-xs text-slate-500">
                 <a href="#" className="hover:text-purple-400 transition-colors">Политика конфиденциальности</a>
                 <a href="#" className="hover:text-purple-400 transition-colors">Договор оферты</a>
