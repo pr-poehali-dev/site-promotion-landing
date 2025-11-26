@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Главная страница -->
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/11f0ea09-532f-45e6-b3c0-1cabd77ca2ff.jpg</image:loc>
+      <image:title>SEO продвижение сайта в топ Яндекса</image:title>
+      <image:caption>Профессиональное SEO продвижение сайтов - Стрельцов Иван</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Якорные ссылки на разделы -->
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/#services</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/#cases</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/#pricing</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/#faq</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://site-promotion-landing.poehali.app/#contact</loc>
+    <lastmod>2024-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
