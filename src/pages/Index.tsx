@@ -1536,85 +1536,96 @@ const Index = () => {
       )}
 
       {showPromoModal && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
-          <div className="relative max-w-md w-full animate-in zoom-in-95 duration-500">
+        <div 
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300 overflow-y-auto"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setShowPromoModal(false);
+            }
+          }}
+        >
+          <div className="relative max-w-md w-full my-8 animate-in zoom-in-95 duration-500">
             <div className="absolute -inset-1 bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 rounded-3xl blur-xl opacity-75 animate-pulse"></div>
             <Card className="relative border-0 shadow-2xl bg-white overflow-hidden">
               <button
-                onClick={() => setShowPromoModal(false)}
-                className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition-colors"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowPromoModal(false);
+                }}
+                className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white hover:bg-slate-100 flex items-center justify-center transition-all shadow-lg hover:shadow-xl border-2 border-slate-200"
                 aria-label="Закрыть"
               >
-                <Icon name="X" size={18} className="text-slate-600" />
+                <Icon name="X" size={20} className="text-slate-700" />
               </button>
 
               <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-br from-orange-500 via-pink-500 to-purple-600 opacity-10"></div>
               <div className="absolute top-10 right-10 w-32 h-32 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full blur-3xl opacity-30 animate-float"></div>
               <div className="absolute bottom-10 left-10 w-32 h-32 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full blur-3xl opacity-30 animate-float" style={{animationDelay: '1s'}}></div>
 
-              <CardHeader className="text-center pb-4 relative z-10">
+              <CardHeader className="text-center pb-4 relative z-10 pt-8">
                 <div className="flex justify-center mb-4">
                   <div className="relative">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-orange-500 via-pink-600 to-purple-600 flex items-center justify-center shadow-2xl animate-bounce">
-                      <Icon name="Rocket" className="text-white rotate-[-45deg]" size={40} />
+                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-orange-500 via-pink-600 to-purple-600 flex items-center justify-center shadow-2xl animate-bounce">
+                      <Icon name="Rocket" className="text-white rotate-[-45deg]" size={32} />
                     </div>
-                    <div className="absolute -top-2 -right-2 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    <div className="absolute -top-2 -right-2 w-10 h-10 md:w-12 md:h-12 bg-red-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
                       <span className="text-white text-xs font-bold">-20%</span>
                     </div>
                   </div>
                 </div>
-                <CardTitle className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600">
+                <CardTitle className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 px-4">
                   Специальное предложение!
                 </CardTitle>
-                <CardDescription className="text-lg mt-2">
+                <CardDescription className="text-base md:text-lg mt-2 px-4">
                   Только для первых клиентов
                 </CardDescription>
               </CardHeader>
 
-              <CardContent className="text-center space-y-6 relative z-10 pb-8">
-                <div className="bg-gradient-to-r from-orange-50 via-pink-50 to-purple-50 rounded-2xl p-6 border-2 border-orange-200">
-                  <div className="flex items-center justify-center gap-3 mb-3">
-                    <Icon name="Sparkles" size={24} className="text-orange-600" />
-                    <p className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-purple-600">
+              <CardContent className="text-center space-y-4 md:space-y-6 relative z-10 pb-6 md:pb-8 px-4 md:px-6">
+                <div className="bg-gradient-to-r from-orange-50 via-pink-50 to-purple-50 rounded-2xl p-4 md:p-6 border-2 border-orange-200">
+                  <div className="flex items-center justify-center gap-2 md:gap-3 mb-2 md:mb-3">
+                    <Icon name="Sparkles" size={20} className="text-orange-600 flex-shrink-0" />
+                    <p className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-purple-600">
                       СКИДКА 20%
                     </p>
-                    <Icon name="Sparkles" size={24} className="text-purple-600" />
+                    <Icon name="Sparkles" size={20} className="text-purple-600 flex-shrink-0" />
                   </div>
-                  <p className="text-muted-foreground">
+                  <p className="text-sm md:text-base text-muted-foreground">
                     на любой тарифный пакет при заказе сегодня
                   </p>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-2 md:space-y-3">
                   <div className="flex items-center gap-3 text-left">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center flex-shrink-0">
-                      <Icon name="Check" className="text-white" size={16} />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center flex-shrink-0">
+                      <Icon name="Check" className="text-white" size={14} />
                     </div>
-                    <span className="text-sm">Бесплатный аудит за 24 часа</span>
+                    <span className="text-xs md:text-sm">Бесплатный аудит за 24 часа</span>
                   </div>
                   <div className="flex items-center gap-3 text-left">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0">
-                      <Icon name="Check" className="text-white" size={16} />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0">
+                      <Icon name="Check" className="text-white" size={14} />
                     </div>
-                    <span className="text-sm">Гарантия результата</span>
+                    <span className="text-xs md:text-sm">Гарантия результата</span>
                   </div>
                   <div className="flex items-center gap-3 text-left">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
-                      <Icon name="Check" className="text-white" size={16} />
+                    <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
+                      <Icon name="Check" className="text-white" size={14} />
                     </div>
-                    <span className="text-sm">Первые результаты через 3-7 дней</span>
+                    <span className="text-xs md:text-sm">Первые результаты через 3-7 дней</span>
                   </div>
                 </div>
 
                 <Button 
                   size="lg"
-                  className="w-full text-lg bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 hover:from-orange-700 hover:via-pink-700 hover:to-purple-700 shadow-xl hover:shadow-2xl transition-all"
-                  onClick={() => {
+                  className="w-full text-base md:text-lg bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 hover:from-orange-700 hover:via-pink-700 hover:to-purple-700 shadow-xl hover:shadow-2xl transition-all"
+                  onClick={(e) => {
+                    e.stopPropagation();
                     window.open('https://t.me/seovzlet', '_blank');
                     setShowPromoModal(false);
                   }}
                 >
-                  <Icon name="Send" size={20} className="mr-2" />
+                  <Icon name="Send" size={18} className="mr-2" />
                   Получить скидку 20%
                 </Button>
 
