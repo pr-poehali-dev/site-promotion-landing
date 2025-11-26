@@ -349,29 +349,45 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="relative w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
-              <Icon name="Rocket" className="text-white rotate-[-45deg]" size={28} />
+      <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-lg shadow-sm">
+        <div className="container flex h-20 items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="relative w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
+              <Icon name="Rocket" className="text-white rotate-[-45deg]" size={30} />
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
             </div>
-            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">SEO ЭКСПЕРТ</span>
+            <div>
+              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight block">SEO Эксперт</span>
+              <span className="text-xs text-muted-foreground font-medium">Продвижение в топ Яндекса</span>
+            </div>
           </div>
-          <nav className="hidden md:flex gap-6">
-            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
+          <nav className="hidden md:flex gap-8">
+            <a href="#services" className="text-sm font-semibold hover:text-primary transition-colors relative group">
               Услуги
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
-            <a href="#cases" className="text-sm font-medium hover:text-primary transition-colors">
+            <a href="#cases" className="text-sm font-semibold hover:text-primary transition-colors relative group">
               Кейсы
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
-            <a href="#pricing" className="text-sm font-medium hover:text-primary transition-colors">
-              Цены
+            <a href="#pricing" className="text-sm font-semibold hover:text-primary transition-colors relative group">
+              Тарифы
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
-            <a href="#faq" className="text-sm font-medium hover:text-primary transition-colors">
-              FAQ
+            <a href="#faq" className="text-sm font-semibold hover:text-primary transition-colors relative group">
+              Вопросы
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
           </nav>
-          <Button>Получить консультацию</Button>
+          <div className="flex items-center gap-3">
+            <Button variant="ghost" size="icon" className="hidden md:flex">
+              <Icon name="Phone" size={20} className="text-green-600" />
+            </Button>
+            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all">
+              <Icon name="Send" size={16} className="mr-2" />
+              Консультация
+            </Button>
+          </div>
         </div>
       </header>
 
@@ -1365,58 +1381,110 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="border-t py-12">
-        <div className="container">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-lg">
-                  <Icon name="Rocket" className="text-white rotate-[-45deg]" size={24} />
+      <footer className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:64px_64px]"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" style={{animationDelay: '2s'}}></div>
+        
+        <div className="container relative z-10">
+          <div className="py-16">
+            <div className="grid md:grid-cols-4 gap-12">
+              <div className="md:col-span-2">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-2xl">
+                    <Icon name="Rocket" className="text-white rotate-[-45deg]" size={32} />
+                  </div>
+                  <div>
+                    <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 uppercase tracking-tight block">SEO Эксперт</span>
+                    <span className="text-sm text-slate-400 font-medium">Стрельцов Иван</span>
+                  </div>
                 </div>
-                <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight">SEO ЭКСПЕРТ</span>
+                <p className="text-slate-300 mb-6 max-w-md">
+                  Профессиональное продвижение сайтов в топ Яндекса. 150+ успешных проектов, белые методы, прозрачная отчётность.
+                </p>
+                <div className="flex gap-3">
+                  <Button variant="outline" size="icon" className="bg-white/5 border-white/10 hover:bg-white/10 text-white">
+                    <Icon name="Mail" size={20} />
+                  </Button>
+                  <Button variant="outline" size="icon" className="bg-white/5 border-white/10 hover:bg-white/10 text-white">
+                    <Icon name="Phone" size={20} />
+                  </Button>
+                  <Button variant="outline" size="icon" className="bg-white/5 border-white/10 hover:bg-white/10 text-white">
+                    <Icon name="MessageCircle" size={20} />
+                  </Button>
+                </div>
               </div>
-              <p className="text-sm text-muted-foreground">
-                Профессиональное продвижение сайтов с гарантией результата
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Услуги</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>SEO-оптимизация</li>
-                <li>Контекстная реклама</li>
-                <li>Аналитика и аудит</li>
-                <li>Контент-маркетинг</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Компания</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>О нас</li>
-                <li>Кейсы</li>
-                <li>Блог</li>
-                <li>Контакты</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Контакты</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-center gap-2">
-                  <Icon name="Phone" size={16} />
-                  +7 (495) 123-45-67
-                </li>
-                <li className="flex items-center gap-2">
-                  <Icon name="Mail" size={16} />
-                  info@seopro.ru
-                </li>
-                <li className="flex items-center gap-2">
-                  <Icon name="MapPin" size={16} />
-                  Москва, ул. Примерная, 1
-                </li>
-              </ul>
+              <div>
+                <h4 className="font-bold text-white mb-6 flex items-center gap-2">
+                  <Icon name="Sparkles" size={18} className="text-purple-400" />
+                  Услуги
+                </h4>
+                <ul className="space-y-3 text-sm text-slate-400">
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    SEO-продвижение
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    Технический аудит
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    Контент-маркетинг
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    Аналитика и отчёты
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold text-white mb-6 flex items-center gap-2">
+                  <Icon name="Phone" size={18} className="text-green-400" />
+                  Контакты
+                </h4>
+                <ul className="space-y-4 text-sm text-slate-400">
+                  <li className="flex items-start gap-3 hover:text-green-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-green-500/20 transition-colors">
+                      <Icon name="Phone" size={16} className="text-green-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">Телефон</div>
+                      <div className="text-white font-medium">+7 (495) 123-45-67</div>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 transition-colors">
+                      <Icon name="Mail" size={16} className="text-blue-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">Email</div>
+                      <div className="text-white font-medium">info@seopro.ru</div>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 hover:text-purple-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-purple-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500/20 transition-colors">
+                      <Icon name="Clock" size={16} className="text-purple-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">График</div>
+                      <div className="text-white font-medium">Пн-Чт: 10:00-19:00</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 SEO Pro. Все права защищены.
+          <div className="border-t border-white/10 py-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p className="text-sm text-slate-400">
+                © 2024 SEO Эксперт — Стрельцов Иван. Все права защищены.
+              </p>
+              <div className="flex gap-6 text-xs text-slate-500">
+                <a href="#" className="hover:text-purple-400 transition-colors">Политика конфиденциальности</a>
+                <a href="#" className="hover:text-purple-400 transition-colors">Договор оферты</a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
