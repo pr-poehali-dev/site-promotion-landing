@@ -374,10 +374,18 @@ const Index = () => {
             </a>
           </nav>
           <div className="flex items-center gap-3">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hidden md:flex"
+              onClick={() => window.open('tel:+79859758010', '_self')}
+            >
               <Icon name="Phone" size={20} className="text-green-600" />
             </Button>
-            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all">
+            <Button 
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+            >
               <Icon name="Send" size={16} className="mr-2" />
               Консультация
             </Button>
