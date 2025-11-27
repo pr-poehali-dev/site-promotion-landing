@@ -454,6 +454,94 @@ export default function AdditionalServices() {
             </div>
           </div>
 
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+              🛠️ Комплексные способы продвижения сайтов в поиске
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              Мы используем все эффективные способы продвижения, чтобы обеспечить стабильный рост позиций:
+            </p>
+
+            <div className="overflow-x-auto mb-8">
+              <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-lg">
+                <thead>
+                  <tr className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+                    <th className="px-6 py-4 text-left text-lg font-bold">Метод</th>
+                    <th className="px-6 py-4 text-left text-lg font-bold">Описание</th>
+                    <th className="px-6 py-4 text-left text-lg font-bold">Результат</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-gray-200 hover:bg-indigo-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <Icon name="Link" className="text-indigo-600" size={24} />
+                        <strong className="text-lg">Ссылочное продвижение</strong>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-gray-700">Размещение на авторитетных донорах с высоким DR/DA</td>
+                    <td className="px-6 py-4 text-gray-700">Рост позиций и домен-рейтинга</td>
+                  </tr>
+                  <tr className="border-b border-gray-200 hover:bg-purple-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <Icon name="FileText" className="text-purple-600" size={24} />
+                        <strong className="text-lg">Контент-маркетинг</strong>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-gray-700">Публикация статей на внешних площадках и вашем сайте</td>
+                    <td className="px-6 py-4 text-gray-700">Трафик + естественные ссылки</td>
+                  </tr>
+                  <tr className="border-b border-gray-200 hover:bg-pink-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <Icon name="MessageSquare" className="text-pink-600" size={24} />
+                        <strong className="text-lg">Крауд-маркетинг</strong>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-gray-700">Нативные упоминания на форумах и в сообществах</td>
+                    <td className="px-6 py-4 text-gray-700">Поведенческие факторы + репутация</td>
+                  </tr>
+                  <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <Icon name="PenTool" className="text-blue-600" size={24} />
+                        <strong className="text-lg">Гостевые посты</strong>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-gray-700">Экспертные статьи на отраслевых медиа</td>
+                    <td className="px-6 py-4 text-gray-700">Авторитет + целевая аудитория</td>
+                  </tr>
+                  <tr className="hover:bg-green-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <Icon name="Network" className="text-green-600" size={24} />
+                        <strong className="text-lg">PBN-сети</strong>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-gray-700">Размещение на качественных сателлитах (по запросу)</td>
+                    <td className="px-6 py-4 text-gray-700">Быстрый рост по конкурентным запросам</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center font-semibold">
+              Каждый проект получает индивидуальную стратегию с учётом ниши, конкурентов и текущего состояния сайта.
+            </p>
+
+            <div className="text-center">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="MessageCircle" size={24} className="mr-3" />
+                Получить бесплатную консультацию
+              </Button>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
