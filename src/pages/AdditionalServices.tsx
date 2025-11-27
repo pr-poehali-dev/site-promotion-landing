@@ -542,6 +542,78 @@ export default function AdditionalServices() {
             </div>
           </div>
 
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+              🏆 Почему наше поисковое продвижение сайта SEO эффективно
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border-2 border-blue-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                    🔒
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Безопасность превыше всего</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Мы используем только белые и серые методы, которые не приводят к санкциям. Никаких ссылочных помоек, автоматических бирж и массовых закупок. 
+                  Каждый донор проверяется вручную.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                    📈
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Постепенный рост</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Мы не обещаем "ТОП-1 за неделю". Наращиваем ссылочную массу плавно, имитируя естественный рост популярности сайта. 
+                  Это защищает от фильтров и обеспечивает стабильный результат.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                    🎨
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Качественный контент</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Все тексты пишутся копирайтерами с опытом в SEO. Уникальность не ниже 95%, полезность — приоритет. 
+                  Мы не размещаем откровенную рекламу — только экспертный контент.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                    📊
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Прозрачная отчётность</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Вы получаете ежемесячные отчёты: где размещены ссылки, динамика позиций, изменение трафика. 
+                  Никаких "чёрных ящиков" — всё под вашим контролем.
+                </p>
+              </div>
+
+              <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                    🎯
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Индивидуальный подход</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Мы не продаём готовые пакеты. Каждому клиенту — персональная стратегия с учётом бюджета, целей и особенностей ниши.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
