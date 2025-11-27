@@ -1211,6 +1211,77 @@ export default function AdditionalServices() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+        <div className="container max-w-5xl">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+            ❓ Часто задаваемые вопросы (FAQ)
+          </h2>
+
+          <div className="space-y-6">
+            <div className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-blue-600 text-2xl flex-shrink-0">1.</span>
+                Как быстро будет виден результат?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                Первые изменения в позициях заметны через 3-4 недели. Стабильный рост — через 2-3 месяца. SEO — это марафон, а не спринт.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-indigo-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-indigo-600 text-2xl flex-shrink-0">2.</span>
+                Есть ли риск попасть под фильтр?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                При грамотном подходе риск минимален. Мы соблюдаем все рекомендации поисковиков, используем белые методы и следим за качеством доноров.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-purple-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-purple-600 text-2xl flex-shrink-0">3.</span>
+                Можно ли купить только ссылки, без статей?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                Да, возможна любая комбинация услуг. Однако комплексный подход даёт лучший результат.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-pink-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-pink-600 text-2xl flex-shrink-0">4.</span>
+                Сколько ссылок нужно для продвижения?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                Зависит от конкурентности ниши. В среднем — от 50 до 200 качественных ссылок для выхода в топ-10 по коммерческим запросам.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-green-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-green-600 text-2xl flex-shrink-0">5.</span>
+                Вы даёте гарантии на позиции?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                Мы гарантируем соблюдение технологии и качество работ. Конечные позиции зависят от многих факторов, включая действия конкурентов и обновления алгоритмов. 
+                Но мы всегда работаем на результат и корректируем стратегию при необходимости.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-orange-200 shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-start gap-3">
+                <span className="text-orange-600 text-2xl flex-shrink-0">6.</span>
+                Работаете ли вы с молодыми сайтами?
+              </h3>
+              <p className="text-gray-700 leading-relaxed pl-9">
+                Да, мы успешно продвигаем как новые проекты (возраст от 3 месяцев), так и зрелые сайты с историей.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
