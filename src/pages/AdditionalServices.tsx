@@ -2,8 +2,11 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
+import { useState } from 'react';
 
 export default function AdditionalServices() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const additionalServices = [
     {
       icon: 'Globe',
@@ -117,15 +120,69 @@ export default function AdditionalServices() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </Link>
           </nav>
-          <Button 
-            size="sm"
-            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs md:text-sm px-3 md:px-4"
-            onClick={() => window.open('https://t.me/seovzlet', '_blank')}
-          >
-            <Icon name="Send" size={16} className="mr-1 md:mr-2" />
-            Связаться
-          </Button>
+          
+          <div className="flex items-center gap-2">
+            <Button 
+              size="sm"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs md:text-sm px-3 md:px-4"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+            >
+              <Icon name="Send" size={16} className="mr-1 md:mr-2" />
+              <span className="hidden sm:inline">Связаться</span>
+            </Button>
+            
+            <Button
+              variant="ghost"
+              size="sm"
+              className="md:hidden"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <Icon name={mobileMenuOpen ? "X" : "Menu"} size={24} />
+            </Button>
+          </div>
         </div>
+        
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t bg-white">
+            <nav className="container py-4 px-4 flex flex-col gap-4">
+              <Link 
+                to="/" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Главная
+              </Link>
+              <Link 
+                to="/#services" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Услуги
+              </Link>
+              <Link 
+                to="/#cases" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Кейсы
+              </Link>
+              <Link 
+                to="/#pricing" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Тарифы
+              </Link>
+              <Link 
+                to="/additional-services" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Дополнительные услуги
+              </Link>
+            </nav>
+          </div>
+        )}
       </header>
 
       <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 relative overflow-hidden">

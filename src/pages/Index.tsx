@@ -13,6 +13,7 @@ const Index = () => {
   const [isLaunching, setIsLaunching] = useState(false);
   const [animateCharts, setAnimateCharts] = useState(false);
   const [showPromoModal, setShowPromoModal] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -437,8 +438,67 @@ const Index = () => {
               <span className="hidden sm:inline">Консультация</span>
               <span className="sm:hidden">Связь</span>
             </Button>
+            
+            <Button
+              variant="ghost"
+              size="sm"
+              className="md:hidden"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <Icon name={mobileMenuOpen ? "X" : "Menu"} size={24} />
+            </Button>
           </div>
         </div>
+        
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t bg-white">
+            <nav className="container py-4 px-4 flex flex-col gap-4">
+              <a 
+                href="#services" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Услуги
+              </a>
+              <Link 
+                to="/additional-services" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Дополнительные услуги
+              </Link>
+              <a 
+                href="#cases" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Кейсы
+              </a>
+              <a 
+                href="#pricing" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Тарифы
+              </a>
+              <a 
+                href="#faq" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Вопросы
+              </a>
+              <a 
+                href="tel:+79859758010" 
+                className="text-base font-semibold text-green-600 hover:text-green-700 transition-colors py-2 flex items-center gap-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <Icon name="Phone" size={20} />
+                +7 (985) 975 80-10
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
       <section className="py-12 md:py-20 lg:py-32 relative overflow-hidden">
