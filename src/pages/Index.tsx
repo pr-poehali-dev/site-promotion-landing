@@ -1544,19 +1544,15 @@ const Index = () => {
                 <ul className="space-y-3 text-sm text-slate-400">
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    SEO-продвижение
+                    <Link to="/">SEO-продвижение</Link>
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    Технический аудит
+                    <a href="https://streltsevseo.ru/additional-services" target="_blank" rel="noopener noreferrer">Дополнительные услуги</a>
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    Контент-маркетинг
-                  </li>
-                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
-                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    Аналитика и отчёты
+                    Блог
                   </li>
                 </ul>
               </div>

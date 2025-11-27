@@ -1527,15 +1527,11 @@ export default function AdditionalServices() {
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    <Link to="/#services">Технический аудит</Link>
+                    <a href="https://streltsevseo.ru/additional-services" target="_blank" rel="noopener noreferrer">Дополнительные услуги</a>
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    <Link to="/additional-services">Продвижение ссылками</Link>
-                  </li>
-                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
-                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    <Link to="/additional-services">Крауд-маркетинг</Link>
+                    Блог
                   </li>
                 </ul>
               </div>
