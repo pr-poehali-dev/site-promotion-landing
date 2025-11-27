@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
+import ContactForm from '@/components/ContactForm';
 
 const Index = () => {
   const [selectedCase, setSelectedCase] = useState(0);
@@ -1443,52 +1442,7 @@ const Index = () => {
             </div>
             <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-2xl">
               <CardContent className="pt-6">
-                <form className="space-y-4">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <label className="text-sm font-medium flex items-center gap-2">
-                        <Icon name="User" size={16} className="text-blue-600" />
-                        Ваше имя
-                      </label>
-                      <Input placeholder="Иван Иванов" className="border-2 focus:border-blue-500" />
-                    </div>
-                    <div className="space-y-2">
-                      <label className="text-sm font-medium flex items-center gap-2">
-                        <Icon name="Phone" size={16} className="text-green-600" />
-                        Телефон
-                      </label>
-                      <Input placeholder="+7 (999) 123-45-67" className="border-2 focus:border-green-500" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium flex items-center gap-2">
-                      <Icon name="Mail" size={16} className="text-purple-600" />
-                      Email
-                    </label>
-                    <Input type="email" placeholder="ivan@company.ru" className="border-2 focus:border-purple-500" />
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium flex items-center gap-2">
-                      <Icon name="Globe" size={16} className="text-cyan-600" />
-                      Сайт
-                    </label>
-                    <Input placeholder="https://yoursite.ru" className="border-2 focus:border-cyan-500" />
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium flex items-center gap-2">
-                      <Icon name="MessageSquare" size={16} className="text-orange-600" />
-                      Расскажите о вашем проекте
-                    </label>
-                    <Textarea placeholder="Опишите ваши цели и задачи..." rows={4} className="border-2 focus:border-orange-500" />
-                  </div>
-                  <Button className="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-700 hover:to-pink-700 shadow-lg hover:shadow-xl" size="lg">
-                    <Icon name="Send" size={20} className="mr-2" />
-                    Отправить заявку
-                  </Button>
-                  <p className="text-xs text-muted-foreground text-center">
-                    Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
-                  </p>
-                </form>
+                <ContactForm />
               </CardContent>
             </Card>
           </div>

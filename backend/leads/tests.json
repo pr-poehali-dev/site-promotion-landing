@@ -1,0 +1,43 @@
+{
+  "tests": [
+    {
+      "name": "Submit lead successfully",
+      "method": "POST",
+      "body": {
+        "name": "Иван Иванов",
+        "phone": "+7 (999) 123-45-67",
+        "email": "ivan@example.com",
+        "website": "https://example.com",
+        "message": "Хочу заказать SEO продвижение"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "message": "string"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Get all leads",
+      "method": "GET",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "leads": []
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Missing required fields",
+      "method": "POST",
+      "body": {
+        "email": "test@example.com"
+      },
+      "expectedStatus": 400,
+      "expectedBody": {
+        "error": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
