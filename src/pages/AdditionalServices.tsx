@@ -872,6 +872,76 @@ export default function AdditionalServices() {
                   </div>
                 </CardContent>
               </Card>
+
+              <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 border-4 border-orange-400 shadow-xl relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-400 to-amber-500 opacity-20 rounded-bl-full"></div>
+                <div className="absolute -top-6 -right-6 w-24 h-24 bg-yellow-400 rounded-full opacity-30 animate-pulse"></div>
+                <CardHeader>
+                  <div className="flex items-start gap-6">
+                    <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-orange-500 via-amber-600 to-yellow-600 flex items-center justify-center flex-shrink-0 shadow-2xl text-5xl animate-pulse">
+                      🚀
+                    </div>
+                    <div className="flex-1">
+                      <div className="inline-block bg-gradient-to-r from-orange-600 to-amber-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-2">
+                        ⭐ ПРЕМИУМ
+                      </div>
+                      <CardTitle className="text-4xl mb-3 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-amber-600">
+                        Комплексное продвижение
+                      </CardTitle>
+                      <p className="text-xl font-semibold mb-4 text-gray-800">(все способы продвижения)</p>
+                      <p className="text-lg font-semibold">Что получаете:</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg font-semibold">Всё из трёх пакетов выше</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Техническая оптимизация сайта (рекомендации)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Работа с семантическим ядром</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Создание и оптимизация контента на вашем сайте</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Мониторинг конкурентов</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Персональный менеджер проекта</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Еженедельные созвоны и ежемесячные детальные отчёты</span>
+                    </li>
+                  </ul>
+                  <div className="bg-white rounded-xl p-6 border-2 border-orange-300 mb-4 shadow-md">
+                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> для амбициозных проектов с целью занять топ-3 по высококонкурентным запросам</p>
+                  </div>
+                  <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 text-white rounded-xl p-6 shadow-lg mb-6">
+                    <p className="text-xl font-bold"><strong>Результат:</strong> максимальная видимость в поиске, кратный рост трафика и конверсий, вытеснение конкурентов 🏆</p>
+                  </div>
+                  <div className="text-center">
+                    <Button 
+                      size="lg"
+                      className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 shadow-xl hover:shadow-2xl transition-all text-xl px-10 py-7 w-full md:w-auto"
+                      onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+                    >
+                      <Icon name="Rocket" size={28} className="mr-3" />
+                      Заказать комплексное продвижение
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
