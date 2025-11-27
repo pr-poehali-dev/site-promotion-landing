@@ -262,6 +262,110 @@ export default function AdditionalServices() {
             </div>
           </div>
 
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+              ✍️ Продвижение сайта статьями и SEO-контент
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              <strong>Продвижение статьями</strong> решает сразу две задачи: улучшает поведенческие факторы на вашем сайте и создаёт естественные точки входа для ссылок. 
+              Мы пишем экспертный контент, который читают люди и индексируют поисковики.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">Как работает продвижение контента:</h3>
+
+            <div className="space-y-6 mb-8">
+              <div className="bg-white border-2 border-indigo-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+                    1
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Написание SEO-текстов для вашего сайта</h4>
+                    <p className="text-gray-700">
+                      Создаём информационные и коммерческие страницы под кластеры ключевых слов. Каждая статья оптимизирована под поисковые запросы, 
+                      но написана для людей — без переспама, с пользой и структурой.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+                    2
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Размещение статей на внешних площадках</h4>
+                    <p className="text-gray-700">
+                      Публикуем материалы на тематических блогах, новостных порталах, отраслевых медиа. Каждая статья содержит естественные ссылки на ваш сайт 
+                      и работает как источник целевого трафика.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-pink-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+                    3
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Крауд-маркетинг и нативное продвижение</h4>
+                    <p className="text-gray-700">
+                      Размещаем полезные ответы и рекомендации на форумах, в сообществах, на Q&A-площадках (Quora, TheQuestion, отраслевые форумы). 
+                      Создаём репутацию эксперта и получаем качественные переходы.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">Преимущества продвижения статьями:</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                  <div>
+                    <strong>Естественность</strong> — поисковики видят живой интерес к вашему бренду
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                  <div>
+                    <strong>Долгая жизнь</strong> — статьи остаются в сети годами и приводят трафик
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                  <div>
+                    <strong>Целевая аудитория</strong> — читатели приходят по интересующим их темам
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                  <div>
+                    <strong>Репутация</strong> — экспертный контент повышает доверие к бренду
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Вы можете <strong>купить статью</strong> отдельно или заказать комплексное продвижение с регулярными публикациями.
+            </p>
+
+            <div className="text-center">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="FileText" size={24} className="mr-3" />
+                Заказать написание SEO-текстов
+              </Button>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
