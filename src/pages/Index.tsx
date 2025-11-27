@@ -821,14 +821,14 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
             {pricingFactors.map((factor, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow flex flex-col h-full">
+              <Card key={index} className="hover:shadow-lg transition-shadow flex flex-col">
                 <CardHeader className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                     <Icon name={factor.icon} className="text-primary" size={24} />
                   </div>
                   <CardTitle className="text-lg">{factor.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow">
+                <CardContent className="flex-grow flex items-start">
                   <p className="text-sm text-muted-foreground">{factor.description}</p>
                 </CardContent>
               </Card>
