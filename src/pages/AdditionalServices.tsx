@@ -133,16 +133,54 @@ export default function AdditionalServices() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
         
         <div className="container relative z-10">
-          <div className="text-center mb-16">
-            <div className="inline-block mb-4">
-              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <Icon name="Sparkles" className="text-white" size={40} />
-              </div>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">Дополнительные услуги</h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Расширенные решения для максимального эффекта от SEO-продвижения. Каждая услуга дополняет основной комплекс работ и усиливает результат.
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+              🚀 SEO-продвижение сайтов ссылками и статьями под ключ
+            </h1>
+            <p className="text-2xl font-semibold text-gray-700 mb-8 max-w-4xl mx-auto">
+              Увеличьте трафик и выведите сайт в ТОП с помощью безопасного линкбилдинга, качественного контента и крауд-маркетинга
             </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto space-y-6 text-lg text-gray-700">
+            <p className="leading-relaxed">
+              <strong>Ваш сайт теряется на 5-й странице поиска?</strong> Конкуренты забирают клиентов, а органический трафик не растёт? 
+              Продвижение сайта ссылками и статьями — проверенный способ выйти в топ-10 Google и Яндекса без риска санкций.
+            </p>
+
+            <p className="leading-relaxed">
+              Мы предлагаем <strong>комплексное поисковое продвижение сайта SEO</strong> с использованием белых методов: размещение на авторитетных площадках, 
+              написание SEO-текстов под ключевые запросы и крауд-маркетинг для естественного роста позиций.
+            </p>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border-2 border-indigo-200 shadow-lg">
+              <p className="text-xl font-semibold text-indigo-900 mb-4">Результат:</p>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <Icon name="TrendingUp" className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
+                  <span>Рост позиций на 20-50 пунктов за 2-3 месяца</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="BarChart3" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                  <span>Увеличение органического трафика в 2-4 раза</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="Users" className="text-pink-600 flex-shrink-0 mt-1" size={24} />
+                  <span>Стабильные заявки от целевой аудитории</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="text-center pt-6">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Rocket" size={24} className="mr-3" />
+                Заказать продвижение сайта
+              </Button>
+            </div>
           </div>
         </div>
       </section>
