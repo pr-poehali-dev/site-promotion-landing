@@ -352,15 +352,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-lg shadow-sm">
-        <div className="container flex h-20 items-center justify-between">
-          <div className="flex items-center gap-4">
-            <div className="relative w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
-              <Icon name="Rocket" className="text-white rotate-[-45deg]" size={30} />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
+        <div className="container flex h-16 md:h-20 items-center justify-between px-4">
+          <div className="flex items-center gap-2 md:gap-4">
+            <div className="relative w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
+              <Icon name="Rocket" className="text-white rotate-[-45deg]" size={20} />
+              <div className="absolute -top-1 -right-1 w-2 h-2 md:w-3 md:h-3 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
             </div>
             <div>
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight block">SEO Эксперт</span>
-              <span className="text-xs text-muted-foreground font-medium">Продвижение в топ Яндекса</span>
+              <span className="text-base md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 uppercase tracking-tight block">SEO Эксперт</span>
+              <span className="text-[10px] md:text-xs text-muted-foreground font-medium hidden sm:block">Продвижение в топ Яндекса</span>
             </div>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -381,7 +381,7 @@ const Index = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             <Button 
               variant="ghost" 
               size="icon" 
@@ -391,17 +391,19 @@ const Index = () => {
               <Icon name="Phone" size={20} className="text-green-600" />
             </Button>
             <Button 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all"
+              size="sm"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs md:text-sm px-3 md:px-4"
               onClick={() => window.open('https://t.me/seovzlet', '_blank')}
             >
-              <Icon name="Send" size={16} className="mr-2" />
-              Консультация
+              <Icon name="Send" size={14} className="mr-1 md:mr-2" />
+              <span className="hidden sm:inline">Консультация</span>
+              <span className="sm:hidden">Связь</span>
             </Button>
           </div>
         </div>
       </header>
 
-      <section className="py-20 md:py-32 relative overflow-hidden">
+      <section className="py-12 md:py-20 lg:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10"></div>
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
@@ -417,16 +419,16 @@ const Index = () => {
         <div className="absolute top-48 left-1/3 w-2 h-2 bg-purple-500 rounded-full animate-ping" style={{animationDelay: '1s'}}></div>
         <div className="absolute bottom-40 right-1/3 w-2 h-2 bg-pink-500 rounded-full animate-ping" style={{animationDelay: '2s'}}></div>
         
-        <div className="container relative z-10">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
+        <div className="container relative z-10 px-4">
+          <div className="max-w-3xl mx-auto text-center space-y-4 md:space-y-8">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 leading-tight">
               SEO-продвижение сайта в топ Яндекса с{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">гарантией результата</span>
             </h1>
-            <p className="text-2xl md:text-3xl font-semibold">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">
               Выведу ваш бизнес на первые позиции поисковых систем
             </p>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-base md:text-lg lg:text-xl text-muted-foreground">
               Привлеку целевых клиентов через органический трафик без переплат за контекстную рекламу. Работаю по белым методам с прозрачной отчётностью на каждом этапе. Первые результаты — уже через 3-7 дней.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -456,18 +458,18 @@ const Index = () => {
                 Поисковая оптимизация работает 24/7, привлекая клиентов, которые уже ищут ваши товары или услуги. В отличие от платной рекламы, эффект от SEO продвижения сайта накапливается и продолжает приносить лиды даже после завершения активных работ.
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-8 pt-12">
-              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">150+</div>
-                <div className="text-sm font-semibold text-gray-700 mt-2">Проектов</div>
+            <div className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 pt-8 md:pt-12">
+              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">150+</div>
+                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Проектов</div>
               </div>
-              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">98%</div>
-                <div className="text-sm font-semibold text-gray-700 mt-2">Довольных клиентов</div>
+              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">98%</div>
+                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Довольных клиентов</div>
               </div>
-              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-orange-600">+320%</div>
-                <div className="text-sm font-semibold text-gray-700 mt-2">Средний рост</div>
+              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-orange-600">+320%</div>
+                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Средний рост</div>
               </div>
             </div>
           </div>
@@ -671,17 +673,18 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2 sm:gap-4 mb-8 md:mb-12 px-4">
             {cases.map((c, index) => (
               <Button
                 key={index}
+                size="sm"
                 variant={selectedCase === index ? 'default' : 'outline'}
                 onClick={() => {
                   setSelectedCase(index);
                   setAnimateCharts(false);
                   setTimeout(() => setAnimateCharts(true), 50);
                 }}
-                className={`flex-shrink-0 transition-all duration-300 ${
+                className={`flex-shrink-0 transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto ${
                   selectedCase === index 
                     ? 'bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 shadow-lg' 
                     : 'hover:border-purple-400'
@@ -1331,20 +1334,20 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50 relative overflow-hidden">
+      <section id="contact" className="py-12 md:py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-slate-400 to-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-float"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-gray-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-float" style={{animationDelay: '3s'}}></div>
         
-        <div className="container relative z-10">
+        <div className="container relative z-10 px-4">
           <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8 md:mb-12">
               <div className="inline-block mb-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-slate-500 via-blue-600 to-purple-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <Icon name="Mail" className="text-white" size={32} />
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-gradient-to-br from-slate-500 via-blue-600 to-purple-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <Icon name="Mail" className="text-white" size={24} />
                 </div>
               </div>
-              <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-slate-600 via-blue-600 to-purple-600">Получить консультацию</h2>
-              <p className="text-xl text-muted-foreground">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 bg-clip-text text-transparent bg-gradient-to-r from-slate-600 via-blue-600 to-purple-600">Получить консультацию</h2>
+              <p className="text-base md:text-lg lg:text-xl text-muted-foreground">
                 Оставьте заявку и я свяжусь с вами в течение 2 часов
               </p>
             </div>
