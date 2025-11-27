@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -401,6 +402,10 @@ const Index = () => {
               Услуги
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
+            <Link to="/additional-services" className="text-sm font-semibold hover:text-primary transition-colors relative group">
+              Доп. услуги
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
+            </Link>
             <a href="#cases" className="text-sm font-semibold hover:text-primary transition-colors relative group">
               Кейсы
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
@@ -537,41 +542,6 @@ const Index = () => {
                 </CardHeader>
                 <CardContent className="relative z-10">
                   <CardDescription className="text-base">{service.description}</CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
-        
-        <div className="container relative z-10">
-          <div className="text-center mb-16">
-            <div className="inline-block mb-4">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <Icon name="Sparkles" className="text-white" size={32} />
-              </div>
-            </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">Дополнительные услуги</h2>
-            <p className="text-xl text-muted-foreground">
-              Расширенные решения для максимального эффекта от SEO
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {additionalServices.map((service, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm border-0 shadow-lg group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-indigo-400 to-pink-500 rounded-full filter blur-3xl opacity-0 group-hover:opacity-20 transition-opacity"></div>
-                <CardHeader className="relative z-10">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
-                    <Icon name={service.icon} className="text-white" size={22} />
-                  </div>
-                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="relative z-10">
-                  <CardDescription className="text-sm">{service.description}</CardDescription>
                 </CardContent>
               </Card>
             ))}
