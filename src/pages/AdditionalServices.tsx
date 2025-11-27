@@ -366,6 +366,94 @@ export default function AdditionalServices() {
             </div>
           </div>
 
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+              🎯 Крауд-маркетинг и безопасные SEO-ссылки
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              <strong>Крауд-маркетинг</strong> — это размещение ссылок и упоминаний на форумах, в комментариях блогов, тематических сообществах и социальных сетях. 
+              Это создаёт эффект "сарафанного радио" и показывает поисковикам живой интерес пользователей.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">Где мы размещаем крауд-ссылки:</h3>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-white border-2 border-blue-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="MessageCircle" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Форумы</h4>
+                    <p className="text-gray-700">
+                      Отраслевые обсуждения, где ваше решение действительно может помочь
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="BookOpen" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Блоги и медиа</h4>
+                    <p className="text-gray-700">
+                      Комментарии под релевантными статьями
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-green-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="HelpCircle" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Q&A-площадки</h4>
+                    <p className="text-gray-700">
+                      Ответы на вопросы с естественным упоминанием вашего сайта
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white border-2 border-pink-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Users" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold mb-2">Социальные сети</h4>
+                    <p className="text-gray-700">
+                      Обсуждения в тематических группах и сообществах
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-8">
+              <p className="text-gray-800">
+                <strong>Важно:</strong> мы не спамим. Каждое размещение — это полезный контент, который решает проблему читателя. 
+                Такие ссылки не вызывают подозрений у модераторов и поисковиков.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Target" size={24} className="mr-3" />
+                Заказать крауд-маркетинг
+              </Button>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
