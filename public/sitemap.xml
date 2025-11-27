@@ -52,4 +52,28 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Дополнительные услуги -->
+  <url>
+    <loc>https://streltsevseo.ru/additional-services</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Политика конфиденциальности -->
+  <url>
+    <loc>https://streltsevseo.ru/privacy</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Договор оферты -->
+  <url>
+    <loc>https://streltsevseo.ru/terms</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
