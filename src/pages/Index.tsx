@@ -458,18 +458,18 @@ const Index = () => {
                 Поисковая оптимизация работает 24/7, привлекая клиентов, которые уже ищут ваши товары или услуги. В отличие от платной рекламы, эффект от SEO продвижения сайта накапливается и продолжает приносить лиды даже после завершения активных работ.
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 pt-8 md:pt-12">
-              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">150+</div>
-                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Проектов</div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 pt-8 md:pt-12 max-w-3xl mx-auto">
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center">
+                <div className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">150+</div>
+                <div className="text-sm md:text-base font-semibold text-gray-700 mt-2">Проектов</div>
               </div>
-              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">98%</div>
-                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Довольных клиентов</div>
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center">
+                <div className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">98%</div>
+                <div className="text-sm md:text-base font-semibold text-gray-700 mt-2">Довольных клиентов</div>
               </div>
-              <div className="p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-orange-600">+320%</div>
-                <div className="text-[10px] sm:text-xs md:text-sm font-semibold text-gray-700 mt-1 md:mt-2">Средний рост</div>
+              <div className="p-6 rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center">
+                <div className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-orange-600">+320%</div>
+                <div className="text-sm md:text-base font-semibold text-gray-700 mt-2">Средний рост</div>
               </div>
             </div>
           </div>
