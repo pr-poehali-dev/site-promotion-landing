@@ -425,9 +425,9 @@ const Index = () => {
               variant="ghost" 
               size="icon" 
               className="hidden md:flex"
-              onClick={() => window.open('tel:+79859758010', '_self')}
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
             >
-              <Icon name="Phone" size={20} className="text-green-600" />
+              <Icon name="Send" size={20} className="text-blue-600" />
             </Button>
             <Button 
               size="sm"
