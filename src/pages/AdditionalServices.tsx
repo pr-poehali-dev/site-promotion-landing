@@ -1018,6 +1018,78 @@ export default function AdditionalServices() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-cyan-50">
+        <div className="container max-w-6xl">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+            🎓 Для кого подходит раскрутка сайта продвижение сайтов
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                  🏢
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для бизнеса</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Интернет-магазины, сервисные компании, B2B-проекты. Вы получаете стабильный поток заявок из органического поиска, 
+                снижаете стоимость привлечения клиента, перестаёте зависеть от контекстной рекламы.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-purple-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                  🚀
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для стартапов</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Молодые проекты с ограниченным бюджетом. Мы поможем выйти на рынок, обогнать конкурентов и занять свою нишу без огромных вложений в рекламу.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-green-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                  📰
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для информационных проектов</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Блоги, медиа, образовательные порталы. Увеличиваем охваты, привлекаем целевую аудиторию, 
+                монетизируем трафик через рекламу или продажу своих продуктов.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border-2 border-orange-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-4xl">
+                  🏆
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для интернет-магазинов</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Продвигаем товарные категории и карточки товаров. Обеспечиваем рост продаж за счёт SEO-трафика, 
+                который конвертируется лучше контекстной рекламы.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button 
+              size="lg"
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-xl hover:shadow-2xl transition-all text-lg px-10 py-6"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+            >
+              <Icon name="MessageSquare" size={24} className="mr-3" />
+              Обсудить ваш проект
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
