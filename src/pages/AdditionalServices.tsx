@@ -186,7 +186,82 @@ export default function AdditionalServices() {
       </section>
 
       <section className="py-20 bg-white">
-        <div className="container">
+        <div className="container max-w-6xl">
+          <div className="mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+              📊 Продвижение сайта ссылками: как это работает
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              <strong>Купить продвижение ссылками</strong> — значит получить естественную ссылочную массу, которая сигнализирует поисковикам о важности вашего ресурса. 
+              Мы размещаем ссылки на тематических сайтах с высоким DA/DR, создавая качественный ссылочный профиль.
+            </p>
+
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">Что даёт продвижение ссылками:</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="TrendingUp" className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Рост позиций по целевым запросам</h4>
+                    <p className="text-gray-600">Сайт поднимается в выдаче за счёт передачи веса от авторитетных доноров</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Award" className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Увеличение домен-рейтинга</h4>
+                    <p className="text-gray-600">Улучшение DR/DA повышает доверие поисковиков к вашему сайту</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Shield" className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Защита от конкурентов</h4>
+                    <p className="text-gray-600">Мощный ссылочный профиль защищает от негативного SEO</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Clock" className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Долгосрочный эффект</h4>
+                    <p className="text-gray-600">Качественные ссылки работают годами, обеспечивая стабильный трафик</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Мы используем только <strong>безопасные SEO-ссылки</strong> с естественным анкор-листом, постепенным наращиванием и ручным размещением. 
+              Никаких автоматических бирж, никаких ссылочных помоек.
+            </p>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-xl mb-8">
+              <p className="text-gray-800">
+                <strong>Важно:</strong> можно <strong>купить ссылки для продвижения сайта</strong>, но без стратегии это приведёт к фильтрам. 
+                Мы создаём сбалансированный профиль с учётом вашей ниши, конкурентов и текущего состояния сайта.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Link" size={24} className="mr-3" />
+                Купить SEO ссылки
+              </Button>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
