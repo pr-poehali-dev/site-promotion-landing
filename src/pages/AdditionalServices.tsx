@@ -1282,21 +1282,96 @@ export default function AdditionalServices() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-        <div className="container">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Нужна консультация?</h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Не знаете, какие дополнительные услуги подойдут вашему проекту? Получите бесплатную консультацию и индивидуальный план работ.
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white text-lg px-12 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
-            >
-              <Icon name="MessageCircle" size={24} className="mr-2" />
-              Получить консультацию
-            </Button>
+      <section className="py-20 bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxLTEuNzktNC00LTRzLTQgMS43OS00IDQgMS43OSA0IDQgNCA0LTEuNzkgNC00em0wLTEwYzAtMi4yMS0xLjc5LTQtNC00cy00IDEuNzktNCA0IDEuNzkgNCA0IDQgNC0xLjc5IDQtNHptMC0xMGMwLTIuMjEtMS43OS00LTQtNHMtNCAxLjc5LTQgNCAxLjc5IDQgNCA0IDQtMS43OSA0LTR6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30"></div>
+        
+        <div className="container relative z-10">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                🎯 Готовы начать продвижение?
+              </h2>
+              <p className="text-xl md:text-2xl text-white/90 mb-4 font-semibold">
+                Не откладывайте рост вашего бизнеса на потом. Чем дольше вы ждёте — тем сильнее становятся конкуренты.
+              </p>
+              <p className="text-lg md:text-xl text-white/80 mb-8">
+                Закажите бесплатный аудит сайта — мы проанализируем текущее состояние, оценим потенциал и предложим персональную стратегию продвижения.
+              </p>
+            </div>
+
+            <div className="bg-white/95 backdrop-blur-lg rounded-3xl p-8 md:p-12 shadow-2xl mb-12">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Вы получите:</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="CheckCircle2" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-gray-900">Анализ ссылочного профиля</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="CheckCircle2" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-gray-900">Оценку контента и структуры сайта</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="CheckCircle2" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-gray-900">План продвижения с прогнозом результатов</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="CheckCircle2" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-gray-900">Расчёт стоимости и сроков</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-6 md:p-8 shadow-xl mb-12 border-4 border-white/20">
+              <p className="text-xl md:text-2xl text-white font-bold text-center">
+                ⏰ Время действовать — сейчас. Пока вы думаете, ваши конкуренты уже получают заявки из поиска.
+              </p>
+            </div>
+
+            <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+              <Button 
+                size="lg"
+                className="bg-white text-purple-600 hover:bg-gray-100 shadow-2xl hover:shadow-3xl transition-all text-xl px-10 py-7 font-bold w-full md:w-auto"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="FileSearch" size={28} className="mr-3" />
+                Заказать бесплатный аудит
+              </Button>
+              <Button 
+                size="lg"
+                variant="outline"
+                className="bg-transparent border-4 border-white text-white hover:bg-white hover:text-purple-600 shadow-2xl transition-all text-xl px-10 py-7 font-bold w-full md:w-auto"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Send" size={28} className="mr-3" />
+                Связаться в Телеграм
+              </Button>
+            </div>
+
+            <div className="text-center mt-8">
+              <a 
+                href="tel:+79859758010"
+                className="inline-flex items-center gap-3 text-white text-xl font-bold hover:text-white/80 transition-colors"
+              >
+                <Icon name="Phone" size={28} />
+                Позвонить: +7 (985) 975 8010
+              </a>
+            </div>
           </div>
         </div>
       </section>
