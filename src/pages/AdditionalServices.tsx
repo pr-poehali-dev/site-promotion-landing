@@ -614,6 +614,115 @@ export default function AdditionalServices() {
             </div>
           </div>
 
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+              📋 Как мы работаем: этапы сотрудничества
+            </h2>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-8 border-2 border-indigo-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-indigo-500 to-purple-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    1
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Анализ и аудит</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Изучаем ваш сайт, конкурентов, текущие позиции. Оцениваем ссылочный профиль, контент, техническое состояние. Определяем точки роста.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-purple-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-purple-500 to-pink-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    2
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Разработка стратегии</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Составляем план продвижения: какие ключевые запросы будем продвигать, какие доноры использовать, какой контент создавать. Согласовываем бюджет и сроки.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-pink-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-pink-500 to-red-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    3
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Подбор доноров</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Находим тематические площадки с высоким авторитетом. Проверяем каждый донор на санкции, трастовость, релевантность. Формируем базу для размещения.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-blue-500 to-cyan-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    4
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Написание SEO-текстов</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Наши копирайтеры создают уникальные статьи под ключевые запросы. Тексты оптимизированы для поисковиков, но написаны для людей — никакой "воды" и переспама.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-green-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-green-500 to-emerald-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    5
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Размещение ссылок</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Публикуем контент на отобранных площадках. Используем разнообразные анкоры: брендовые, коммерческие, информационные, безанкорные. Соблюдаем естественность распределения.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+                <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-orange-500 to-amber-600"></div>
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                    6
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Рост позиций и масштабирование</h3>
+                    <p className="text-gray-700 leading-relaxed">
+                      Отслеживаем динамику, корректируем стратегию. По мере роста усиливаем продвижение по наиболее перспективным запросам. Добавляем новые направления.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-lg px-8 py-6"
+                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+              >
+                <Icon name="Calculator" size={24} className="mr-3" />
+                Рассчитать стоимость продвижения
+              </Button>
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-6xl mx-auto">
             {additionalServices.map((service, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
