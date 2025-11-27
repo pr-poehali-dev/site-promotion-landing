@@ -947,6 +947,77 @@ export default function AdditionalServices() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container max-w-6xl">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+            🛡️ Гарантии безопасности и качества
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="ShieldCheck" className="text-white" size={32} />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Без санкций</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Мы не используем спам-методы и сомнительные площадки. Каждый донор проходит ручную проверку. 
+                Вероятность попадания под фильтр — менее 1%.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border-2 border-blue-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="TrendingUp" className="text-white" size={32} />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Без резких скачков</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Наращиваем ссылочную массу плавно. Поисковики видят естественный рост популярности сайта, а не манипуляции.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="Award" className="text-white" size={32} />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Качество контента</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Все статьи пишутся вручную. Уникальность проверяется через Advego и Text.ru. Тексты проходят редактуру перед публикацией.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="BarChart3" className="text-white" size={32} />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Полная отчётность</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Вы видите каждую размещённую ссылку, каждую опубликованную статью. Предоставляем доступ к системам аналитики для контроля результата.
+              </p>
+            </div>
+
+            <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="RefreshCw" className="text-white" size={32} />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mt-2">Гибкость и адаптация</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed text-lg">
+                Если стратегия не даёт результат — меняем подход без доплат. Ваша цель — наша цель.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
@@ -957,6 +1028,7 @@ export default function AdditionalServices() {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white text-lg px-12 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
             >
               <Icon name="MessageCircle" size={24} className="mr-2" />
               Получить консультацию
