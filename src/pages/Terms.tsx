@@ -302,7 +302,7 @@ export default function Terms() {
             <h2 className="text-2xl font-bold mb-4">13. Реквизиты Исполнителя</h2>
             <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
               <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>ИП Стрельцов Иван</strong>
+                <strong></strong>
               </p>
               <p className="text-gray-700 leading-relaxed mb-2">
                 <strong>Telegram:</strong> <a href="https://t.me/seovzlet" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">@seovzlet</a>
