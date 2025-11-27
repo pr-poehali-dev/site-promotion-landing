@@ -1466,6 +1466,127 @@ export default function AdditionalServices() {
           </div>
         </div>
       </section>
+
+      <footer className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:64px_64px]"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" style={{animationDelay: '2s'}}></div>
+        
+        <div className="container relative z-10">
+          <div className="py-16">
+            <div className="grid md:grid-cols-4 gap-12">
+              <div className="md:col-span-2">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 flex items-center justify-center shadow-2xl">
+                    <Icon name="Rocket" className="text-white rotate-[-45deg]" size={32} />
+                  </div>
+                  <div>
+                    <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 uppercase tracking-tight block">SEO Эксперт</span>
+                    <span className="text-sm text-slate-400 font-medium">Стрельцов Иван</span>
+                  </div>
+                </div>
+                <p className="text-slate-300 mb-6 max-w-md">
+                  Профессиональное продвижение сайтов в топ Яндекса. 150+ успешных проектов, белые методы, прозрачная отчётность.
+                </p>
+                <div className="flex gap-3">
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="bg-white/5 border-white/10 hover:bg-white/10 text-white"
+                    onClick={() => window.open('mailto:info@seopro.ru', '_blank')}
+                  >
+                    <Icon name="Mail" size={20} />
+                  </Button>
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="bg-white/5 border-white/10 hover:bg-white/10 text-white"
+                    onClick={() => window.open('tel:+79859758010', '_self')}
+                  >
+                    <Icon name="Phone" size={20} />
+                  </Button>
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="bg-white/5 border-white/10 hover:bg-white/10 text-white"
+                    onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+                  >
+                    <Icon name="MessageCircle" size={20} />
+                  </Button>
+                </div>
+              </div>
+              <div>
+                <h4 className="font-bold text-white mb-6 flex items-center gap-2">
+                  <Icon name="Sparkles" size={18} className="text-purple-400" />
+                  Услуги
+                </h4>
+                <ul className="space-y-3 text-sm text-slate-400">
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    <Link to="/">SEO-продвижение</Link>
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    <Link to="/#services">Технический аудит</Link>
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    <Link to="/additional-services">Продвижение ссылками</Link>
+                  </li>
+                  <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
+                    <Icon name="ChevronRight" size={14} className="text-purple-400" />
+                    <Link to="/additional-services">Крауд-маркетинг</Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold text-white mb-6 flex items-center gap-2">
+                  <Icon name="Phone" size={18} className="text-green-400" />
+                  Контакты
+                </h4>
+                <ul className="space-y-4 text-sm text-slate-400">
+                  <li className="flex items-start gap-3 hover:text-green-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-green-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-green-500/20 transition-colors">
+                      <Icon name="Phone" size={16} className="text-green-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">Телефон</div>
+                      <a href="tel:+79859758010" className="text-white font-medium hover:text-green-400">+7 (985) 975 80-10</a>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 transition-colors">
+                      <Icon name="Mail" size={16} className="text-blue-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">Email</div>
+                      <a href="mailto:info@seopro.ru" className="text-white font-medium hover:text-blue-400">info@seopro.ru</a>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 hover:text-purple-400 transition-colors group">
+                    <div className="w-8 h-8 rounded-lg bg-purple-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500/20 transition-colors">
+                      <Icon name="Clock" size={16} className="text-purple-400" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 mb-1">График</div>
+                      <div className="text-white font-medium">Пн-Чт: 10:00-19:00</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-white/10 py-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p className="text-sm text-slate-400">© 2025 SEO Эксперт — Стрельцов Иван. Все права защищены.</p>
+              <div className="flex gap-6 text-xs text-slate-500">
+                <a href="#" className="hover:text-purple-400 transition-colors">Политика конфиденциальности</a>
+                <a href="#" className="hover:text-purple-400 transition-colors">Договор оферты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
