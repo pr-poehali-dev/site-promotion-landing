@@ -3,26 +3,74 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title data-route="/">SEO продвижение сайта в топ Яндекса | Заказать с гарантией результата</title>
-    <title data-route="/additional-services">Сео продвижение сайтов ссылками и статьями | Купить SEO ссылки</title>
-    <meta name="description" data-route="/" content="Продвижение сайтов в топ Яндекса. SEO-продвижение под ключ: технический аудит, оптимизация, контент, ссылки. Белые методы, прозрачная отчётность. 120+ проектов в топе. Заказать продвижение сайта от 30 000 ₽/мес ➤ Бесплатный аудит за 24 часа"/>
-    <meta name="description" data-route="/additional-services" content="Продвижение сайта ссылками, статьями и крауд маркетинг. SEO-ссылки, написание SEO-текстов, рост в ТОП. Заказать продвижение."/>
+    <title id="page-title">SEO продвижение сайта в топ Яндекса | Заказать с гарантией результата</title>
+    <meta name="description" id="page-description" content="Продвижение сайтов в топ Яндекса. SEO-продвижение под ключ: технический аудит, оптимизация, контент, ссылки. Белые методы, прозрачная отчётность. 120+ проектов в топе. Заказать продвижение сайта от 30 000 ₽/мес ➤ Бесплатный аудит за 24 часа"/>
     <meta name="keywords" content="продвижение сайта в топ, SEO продвижение сайта, сайт в топ Яндекса, продвижение сайтов в топ Яндекса, заказать продвижение сайта, продвижение сайта цена, СЕО продвижение сайтов, продвижение сайта ссылками, купить SEO ссылки, написание SEO текстов, крауд маркетинг, продвижение статьями"/>
     <meta name="author" content="Стрельцов Иван - SEO специалист"/>
     <meta name="yandex-verification" content="f0d4b3ca3a7b00bd" />
     <meta name="google-site-verification" content="G4_6G0Pgvl0WTFhhKI8MefboB7iGiqtB8rfS35BOp88" />
     <link rel="icon" type="image/png" href="https://cdn.poehali.dev/files/fa0216bf-b959-4927-bf96-2ca43e8b2116.png">
-    <meta property="og:title" content="SEO продвижение сайта в топ Яндекса и Google | Заказать с гарантией">
-    <meta property="og:description" content="Профессиональное продвижение сайтов в топ. 120+ проектов, рост трафика до 300%. Белые методы, прозрачная отчётность. Бесплатный аудит за 24 часа.">
+    <meta property="og:title" id="og-title" content="SEO продвижение сайта в топ Яндекса и Google | Заказать с гарантией">
+    <meta property="og:description" id="og-description" content="Профессиональное продвижение сайтов в топ. 120+ проектов, рост трафика до 300%. Белые методы, прозрачная отчётность. Бесплатный аудит за 24 часа.">
     <meta property="og:type" content="website">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="SEO продвижение сайта в топ Яндекса - Стрельцов Иван">
     <meta property="og:image" content="https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/11f0ea09-532f-45e6-b3c0-1cabd77ca2ff.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SEO продвижение сайта в топ Яндекса | Заказать с гарантией">
-    <meta name="twitter:description" content="Профессиональное продвижение сайтов в топ. 120+ проектов, рост трафика до 300%. Белые методы, прозрачная отчётность.">
+    <meta name="twitter:title" id="twitter-title" content="SEO продвижение сайта в топ Яндекса | Заказать с гарантией">
+    <meta name="twitter:description" id="twitter-description" content="Профессиональное продвижение сайтов в топ. 120+ проектов, рост трафика до 300%. Белые методы, прозрачная отчётность.">
     <meta name="twitter:image" content="https://cdn.poehali.dev/projects/7539ecdf-2a1f-4c55-9681-937edd171456/files/11f0ea09-532f-45e6-b3c0-1cabd77ca2ff.jpg">
+    
+    <script>
+      // Dynamic meta tags for different routes
+      const metaConfig = {
+        '/': {
+          title: 'SEO продвижение сайта в топ Яндекса | Заказать с гарантией результата',
+          description: 'Продвижение сайтов в топ Яндекса. SEO-продвижение под ключ: технический аудит, оптимизация, контент, ссылки. Белые методы, прозрачная отчётность. 120+ проектов в топе. Заказать продвижение сайта от 30 000 ₽/мес ➤ Бесплатный аудит за 24 часа',
+          ogTitle: 'SEO продвижение сайта в топ Яндекса и Google | Заказать с гарантией',
+          ogDescription: 'Профессиональное продвижение сайтов в топ. 120+ проектов, рост трафика до 300%. Белые методы, прозрачная отчётность. Бесплатный аудит за 24 часа.'
+        },
+        '/additional-services': {
+          title: 'Сео продвижение сайтов ссылками и статьями | Купить SEO ссылки',
+          description: 'Продвижение сайта ссылками, статьями и крауд маркетинг. SEO-ссылки, написание SEO-текстов, рост в ТОП. Заказать продвижение.',
+          ogTitle: 'Продвижение сайта ссылками и статьями | SEO под ключ',
+          ogDescription: 'Комплексное SEO-продвижение: ссылки, статьи, крауд-маркетинг. Безопасные методы, выход в ТОП за 2-3 месяца. Заказать от 25 000 ₽/мес.'
+        }
+      };
+
+      function updateMetaTags() {
+        const path = window.location.pathname;
+        const config = metaConfig[path] || metaConfig['/'];
+        
+        document.getElementById('page-title').textContent = config.title;
+        document.getElementById('page-description').setAttribute('content', config.description);
+        document.getElementById('og-title').setAttribute('content', config.ogTitle);
+        document.getElementById('og-description').setAttribute('content', config.ogDescription);
+        document.getElementById('twitter-title').setAttribute('content', config.ogTitle);
+        document.getElementById('twitter-description').setAttribute('content', config.ogDescription);
+      }
+
+      // Update on initial load
+      updateMetaTags();
+
+      // Update on navigation (for SPA)
+      window.addEventListener('popstate', updateMetaTags);
+      
+      // Listen to React Router navigation
+      const originalPushState = history.pushState;
+      const originalReplaceState = history.replaceState;
+      
+      history.pushState = function() {
+        originalPushState.apply(history, arguments);
+        updateMetaTags();
+      };
+      
+      history.replaceState = function() {
+        originalReplaceState.apply(history, arguments);
+        updateMetaTags();
+      };
+    </script>
     
     <!-- Sitemap and Robots -->
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
