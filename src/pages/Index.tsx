@@ -422,14 +422,6 @@ const Index = () => {
           </nav>
           <div className="flex items-center gap-2 md:gap-3">
             <Button 
-              variant="ghost" 
-              size="icon" 
-              className="hidden md:flex"
-              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
-            >
-              <Icon name="Send" size={20} className="text-blue-600" />
-            </Button>
-            <Button 
               size="sm"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs md:text-sm px-3 md:px-4"
               onClick={() => window.open('https://t.me/seovzlet', '_blank')}
