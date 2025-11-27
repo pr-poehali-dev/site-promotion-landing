@@ -1571,13 +1571,13 @@ const Index = () => {
                       <div className="text-white font-medium">+7 9859758010</div>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group">
+                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group cursor-pointer" onClick={() => window.open('https://t.me/seovzlet', '_blank')}>
                     <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 transition-colors">
-                      <Icon name="Mail" size={16} className="text-blue-400" />
+                      <Icon name="Send" size={16} className="text-blue-400" />
                     </div>
                     <div>
-                      <div className="text-xs text-slate-500 mb-1">Email</div>
-                      <div className="text-white font-medium">info@seopro.ru</div>
+                      <div className="text-xs text-slate-500 mb-1">Telegram</div>
+                      <div className="text-white font-medium">@seovzlet</div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3 hover:text-purple-400 transition-colors group">

@@ -1550,13 +1550,13 @@ export default function AdditionalServices() {
                       <a href="tel:+79859758010" className="text-white font-medium hover:text-green-400">+7 (985) 975 80-10</a>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group">
+                  <li className="flex items-start gap-3 hover:text-blue-400 transition-colors group cursor-pointer" onClick={() => window.open('https://t.me/seovzlet', '_blank')}>
                     <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 transition-colors">
-                      <Icon name="Mail" size={16} className="text-blue-400" />
+                      <Icon name="Send" size={16} className="text-blue-400" />
                     </div>
                     <div>
-                      <div className="text-xs text-slate-500 mb-1">Email</div>
-                      <a href="mailto:info@seopro.ru" className="text-white font-medium hover:text-blue-400">info@seopro.ru</a>
+                      <div className="text-xs text-slate-500 mb-1">Telegram</div>
+                      <div className="text-white font-medium">@seovzlet</div>
                     </div>
                   </li>
                   <li className="flex items-start gap-3 hover:text-purple-400 transition-colors group">
