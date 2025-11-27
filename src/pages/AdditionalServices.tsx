@@ -1090,6 +1090,127 @@ export default function AdditionalServices() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container max-w-6xl">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-900 text-center">
+            💰 Цены на продвижение и возможность купить ссылки для продвижения сайта
+          </h2>
+
+          <p className="text-lg text-gray-700 leading-relaxed mb-12 text-center max-w-4xl mx-auto">
+            Стоимость зависит от конкурентности ниши, текущего состояния сайта и ваших целей. 
+            Мы не работаем по фиксированным тарифам — каждый проект оценивается индивидуально.
+          </p>
+
+          <h3 className="text-2xl font-bold mb-8 text-gray-900 text-center">Ориентировочные цены:</h3>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border-2 border-blue-300 shadow-lg hover:shadow-2xl transition-all">
+              <div className="text-center mb-6">
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Базовое продвижение</h4>
+                <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 mb-4">
+                  От 25 000 ₽/мес
+                </div>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">15-20 ссылок</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">3-5 статей</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Мониторинг позиций</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-400 shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="text-center mb-2">
+                <div className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-3 py-1 rounded-full text-xs font-bold mb-3">
+                  ПОПУЛЯРНЫЙ
+                </div>
+              </div>
+              <div className="text-center mb-6">
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Стандартное продвижение</h4>
+                <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 mb-4">
+                  От 50 000 ₽/мес
+                </div>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">30-40 ссылок</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">8-10 статей</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Крауд-маркетинг (20 размещений)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Персональный менеджер</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-orange-300 shadow-lg hover:shadow-2xl transition-all">
+              <div className="text-center mb-6">
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Комплексное продвижение</h4>
+                <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-amber-600 mb-4">
+                  От 100 000 ₽/мес
+                </div>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">50+ ссылок</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">15+ статей</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Крауд-маркетинг (50 размещений)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Техническая оптимизация</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Работа с контентом на сайте</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8 border-2 border-indigo-200 mb-12">
+            <p className="text-lg text-gray-800 text-center">
+              Вы также можете <strong>ссылки заказать разово</strong>, без ежемесячного обслуживания — 
+              <span className="text-2xl font-bold text-indigo-600 mx-2">от 500 ₽</span> за размещение (в зависимости от донора).
+            </p>
+          </div>
+
+          <div className="text-center">
+            <Button 
+              size="lg"
+              className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-xl hover:shadow-2xl transition-all text-xl px-10 py-7"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+            >
+              <Icon name="Calculator" size={28} className="mr-3" />
+              Узнать точную стоимость для вашего проекта
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
