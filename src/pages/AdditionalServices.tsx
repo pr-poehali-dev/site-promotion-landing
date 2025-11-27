@@ -723,40 +723,156 @@ export default function AdditionalServices() {
             </div>
           </div>
 
-          <div className="space-y-8 max-w-6xl mx-auto">
-            {additionalServices.map((service, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 bg-white border-2 shadow-lg group">
+          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+              📦 Что входит в услуги: полный комплекс работ
+            </h2>
+
+            <div className="space-y-8">
+              <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 shadow-lg">
                 <CardHeader>
                   <div className="flex items-start gap-6">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                      <Icon name={service.icon} className="text-white" size={28} />
+                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 shadow-lg text-4xl">
+                      🔗
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-2xl mb-2">{service.title}</CardTitle>
-                      <CardDescription className="text-base">{service.description}</CardDescription>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-600">
-                        {service.price}
-                      </div>
+                      <CardTitle className="text-3xl mb-3">Пакет "Ссылочное продвижение"</CardTitle>
+                      <p className="text-lg font-semibold mb-4">Что получаете:</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <div className="ml-22">
-                    <h4 className="font-semibold mb-3 text-lg">Что входит:</h4>
-                    <ul className="space-y-2">
-                      {service.details.map((detail, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-0.5" size={20} />
-                          <span className="text-muted-foreground">{detail}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Анализ конкурентов и подбор донорской базы</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Размещение 15-50 ссылок в месяц (в зависимости от ниши)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Написание уникальных статей для размещения</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Разнообразный анкор-лист с учётом естественности</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Ежемесячный отчёт по размещённым ссылкам</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Мониторинг позиций по целевым запросам</span>
+                    </li>
+                  </ul>
+                  <div className="bg-white rounded-xl p-6 border-2 border-blue-200 mb-4">
+                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> подходит для молодых сайтов и проектов с низким DR/DA</p>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl p-6">
+                    <p className="text-lg"><strong>Результат:</strong> рост домен-рейтинга, выход в топ-30 по средне- и низкочастотным запросам за 2-3 месяца</p>
                   </div>
                 </CardContent>
               </Card>
-            ))}
+
+              <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-300 shadow-lg">
+                <CardHeader>
+                  <div className="flex items-start gap-6">
+                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg text-4xl">
+                      ✍️
+                    </div>
+                    <div className="flex-1">
+                      <CardTitle className="text-3xl mb-3">Пакет "Продвижение статьями"</CardTitle>
+                      <p className="text-lg font-semibold mb-4">Что получаете:</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Разработка контент-стратегии под ваши цели</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Написание 5-15 SEO-оптимизированных статей в месяц</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Размещение на тематических блогах, новостных порталах, отраслевых медиа</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Интеграция естественных ссылок в текст</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Продвижение статей в социальных сетях</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Отчёт по публикациям и переходам</span>
+                    </li>
+                  </ul>
+                  <div className="bg-white rounded-xl p-6 border-2 border-purple-200 mb-4">
+                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> для бизнеса, который хочет получать целевой трафик и строить репутацию эксперта</p>
+                  </div>
+                  <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl p-6">
+                    <p className="text-lg"><strong>Результат:</strong> рост органического трафика, повышение узнаваемости бренда, стабильный поток заявок</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-300 shadow-lg">
+                <CardHeader>
+                  <div className="flex items-start gap-6">
+                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-lg text-4xl">
+                      💬
+                    </div>
+                    <div className="flex-1">
+                      <CardTitle className="text-3xl mb-3">Пакет "Крауд-маркетинг"</CardTitle>
+                      <p className="text-lg font-semibold mb-4">Что получаете:</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3 mb-6">
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Поиск релевантных площадок (форумы, Q&A, отраслевые сообщества)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Регистрация и прогрев аккаунтов</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Написание полезных ответов и рекомендаций с естественным упоминанием вашего сайта</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">20-50 размещений в месяц</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Мониторинг реакций и модерации</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                      <span className="text-gray-700 text-lg">Отчёт по размещениям и переходам</span>
+                    </li>
+                  </ul>
+                  <div className="bg-white rounded-xl p-6 border-2 border-green-200 mb-4">
+                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> для проектов, которым важны поведенческие факторы и живая аудитория</p>
+                  </div>
+                  <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl p-6">
+                    <p className="text-lg"><strong>Результат:</strong> рост CTR в поисковой выдаче, улучшение поведенческих, естественные ссылки</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
