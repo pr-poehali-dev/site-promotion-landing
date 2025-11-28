@@ -679,11 +679,12 @@ export default function BlogPost() {
                 </p>
               </div>
 
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-6 md:p-8 border-2 border-red-200 my-8">
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                <strong>⚠️ Важно:</strong> Если вам предлагают такой же объём работ за 15 000 рублей — задумайтесь, где подвох.
-              </p>
-            </div>
+              <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-6 md:p-8 border-2 border-red-200 shadow-lg">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                  <strong>⚠️ Важно:</strong> Если вам предлагают такой же объём работ за 15 000 рублей — задумайтесь, где подвох.
+                </p>
+              </div>
+            </section>
 
             <section className="space-y-6">
               <div className="text-center">
@@ -880,8 +881,7 @@ export default function BlogPost() {
                 Заказать продвижение сайта с гарантией качества — это инвестиция в стабильный поток клиентов на годы вперёд.
               </p>
             </div>
-
-            </div>
+          </div>
 
           <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
             <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200">
