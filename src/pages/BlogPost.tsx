@@ -801,6 +801,7 @@ export default function BlogPost() {
                 </li>
               </ul>
             </div>
+            </section>
 
             <section className="space-y-6 mt-16">
               <div className="text-center">
