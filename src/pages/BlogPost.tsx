@@ -121,26 +121,17 @@ export default function BlogPost() {
 
           <div className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:md:text-2xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:text-sm prose-p:md:text-base prose-ul:text-sm prose-ul:md:text-base prose-li:text-gray-700 prose-strong:text-gray-900 prose-strong:font-semibold">
             
-            <p className="text-base md:text-xl text-gray-700 font-medium mb-8 break-words">
-              Продвижение сайта в поисковых системах — это инвестиция в долгосрочный рост бизнеса. 
-              Но сколько это стоит на самом деле? В этой статье разберём актуальные цены на 2025 год, 
-              факторы влияния на стоимость и реальные примеры.
+            <p className="text-base md:text-xl text-gray-700 leading-relaxed mb-6 break-words">
+              Вы решили продвигать свой сайт и начали изучать предложения на рынке. И тут оказалось, что один специалист предлагает SEO за 10 000 рублей в месяц, другой — за 50 000, а третий называет цифру в 150 000. Почему такая разница? Кто из них прав, а кто просто завышает цены или, наоборот, предлагает некачественную работу?
             </p>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6 md:p-8 border-2 border-blue-200 my-8">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg">
-                  <Icon name="Info" className="text-white" size={24} />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-900 break-words">Текст статьи будет добавлен</h3>
-                  <p className="text-sm md:text-base text-gray-700 break-words">
-                    Сейчас готовится полная версия статьи с подробным анализом цен, примерами и рекомендациями. 
-                    Присылайте текст частями — я добавлю его на страницу.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6 break-words">
+              В этой статье мы честно разберём, из чего складывается стоимость SEO-продвижения в 2025 году, какие факторы влияют на цену и почему слишком дешёвые услуги могут навредить вашему бизнесу. Вы узнаете реальные цены на рынке, поймёте, за что именно платите, и сможете выбрать исполнителя осознанно.
+            </p>
+
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-8 break-words">
+              Никаких маркетинговых уловок — только факты, примеры и практические советы для владельцев бизнеса.
+            </p>
 
           </div>
 
