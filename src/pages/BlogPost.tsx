@@ -119,98 +119,151 @@ export default function BlogPost() {
             />
           </div>
 
-          <div className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:md:text-2xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:text-sm prose-p:md:text-base prose-ul:text-sm prose-ul:md:text-base prose-li:text-gray-700 prose-strong:text-gray-900 prose-strong:font-semibold">
+          <div className="space-y-12">
             
-            <p className="text-base md:text-xl text-gray-700 leading-relaxed mb-6 break-words">
-              Вы решили продвигать свой сайт и начали изучать предложения на рынке. И тут оказалось, что один специалист предлагает SEO за 10 000 рублей в месяц, другой — за 50 000, а третий называет цифру в 150 000. Почему такая разница? Кто из них прав, а кто просто завышает цены или, наоборот, предлагает некачественную работу?
-            </p>
+            <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 rounded-3xl p-6 md:p-10 border-2 border-purple-200 shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full blur-3xl opacity-20"></div>
+              <p className="text-base md:text-xl text-gray-800 leading-relaxed mb-6 break-words relative z-10">
+                Вы решили продвигать свой сайт и начали изучать предложения на рынке. И тут оказалось, что один специалист предлагает SEO за 10 000 рублей в месяц, другой — за 50 000, а третий называет цифру в 150 000. Почему такая разница? Кто из них прав, а кто просто завышает цены или, наоборот, предлагает некачественную работу?
+              </p>
 
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6 break-words">
-              В этой статье мы честно разберём, из чего складывается стоимость SEO-продвижения в 2025 году, какие факторы влияют на цену и почему слишком дешёвые услуги могут навредить вашему бизнесу. Вы узнаете реальные цены на рынке, поймёте, за что именно платите, и сможете выбрать исполнителя осознанно.
-            </p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6 break-words relative z-10">
+                В этой статье мы честно разберём, из чего складывается стоимость SEO-продвижения в 2025 году, какие факторы влияют на цену и почему слишком дешёвые услуги могут навредить вашему бизнесу. Вы узнаете реальные цены на рынке, поймёте, за что именно платите, и сможете выбрать исполнителя осознанно.
+              </p>
 
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-8 break-words">
-              Никаких маркетинговых уловок — только факты, примеры и практические советы для владельцев бизнеса.
-            </p>
-
-            <h2>От чего зависит стоимость SEO-продвижения</h2>
-
-            <p>
-              Цена продвижения сайта в 2025 году — это не произвольная цифра. Она формируется на основе конкретных факторов, которые определяют объём и сложность работы.
-            </p>
-
-            <h3>Тип сайта</h3>
-            <p>
-              Одностраничный лендинг продвигать проще и дешевле, чем интернет-магазин с тысячами товаров. Чем больше страниц, тем больше времени нужно на техническую оптимизацию, написание текстов и работу с контентом.
-            </p>
-
-            <h3>Возраст домена</h3>
-            <p>
-              Новый сайт — это чистый лист. Ему нужно набрать доверие поисковых систем, получить первые ссылки, наполниться контентом. Старый сайт с историей и ссылочной массой продвигается быстрее, но может требовать исправления старых ошибок.
-            </p>
-
-            <h3>Конкуренция в нише</h3>
-            <p>
-              В высококонкурентных тематиках (недвижимость, финансы, юридические услуги, пластиковые окна) пробиться в топ сложнее. Конкуренты уже вложили много денег в SEO, и чтобы обойти их, нужен серьёзный бюджет и время. В узких нишах с низкой конкуренцией результаты можно получить быстрее и дешевле.
-            </p>
-
-            <h3>Регион продвижения</h3>
-            <p>
-              Продвижение по Москве стоит дороже, чем по небольшому городу. Причина проста: в столице больше конкурентов, выше стоимость рекламы и SEO-услуг. Региональное продвижение обычно обходится в 1,5–2 раза дешевле.
-            </p>
-
-            <h3>Объём работ</h3>
-            <p>
-              Если сайт технически исправен, имеет качественный контент и нормальную структуру, работы меньше. Если нужно переделывать дизайн, переписывать все тексты, исправлять критические ошибки — стоимость вырастет.
-            </p>
-
-            <h3>Состояние сайта на старте</h3>
-            <p>
-              Сайт может быть под фильтром, иметь некачественные ссылки, дублированные страницы или медленную загрузку. Всё это требует дополнительной работы: снятие санкций, чистка ссылочного профиля, техническая доработка. Чем хуже стартовая позиция, тем дороже продвижение.
-            </p>
-
-            <h2>Средние цены на продвижение сайта в 2025 году</h2>
-
-            <p>
-              Чтобы вы понимали реальную картину рынка, приведём средние цены на SEO-продвижение в зависимости от типа сайта. Цены актуальны для России и стран СНГ.
-            </p>
-
-            <div className="overflow-x-auto my-8">
-              <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-lg">
-                <thead className="bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-                  <tr>
-                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Тип сайта</th>
-                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Цена в месяц (рубли)</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Лендинг (одностраничник)</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 15 000 до 30 000</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Сайт услуг (10–50 страниц)</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 30 000 до 70 000</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Интернет-магазин (до 1000 товаров)</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 50 000 до 120 000</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Крупный интернет-магазин (1000+ товаров)</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 100 000 до 250 000</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Корпоративный сайт</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 40 000 до 100 000</td>
-                  </tr>
-                </tbody>
-              </table>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed break-words relative z-10 font-medium">
+                Никаких маркетинговых уловок — только факты, примеры и практические советы для владельцев бизнеса.
+              </p>
             </div>
 
-            <p className="text-sm md:text-base text-gray-600 italic">
-              Это усреднённые диапазоны. Конкретная стоимость зависит от региона, ниши и задач.
-            </p>
+            <section className="space-y-8">
+              <div className="text-center">
+                <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mb-4">От чего зависит стоимость SEO-продвижения</h2>
+                <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
+                  Цена продвижения сайта в 2025 году — это не произвольная цифра. Она формируется на основе конкретных факторов, которые определяют объём и сложность работы.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-blue-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-lg">1</span>
+                    Тип сайта
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Одностраничный лендинг продвигать проще и дешевле, чем интернет-магазин с тысячами товаров. Чем больше страниц, тем больше времени нужно на техническую оптимизацию, написание текстов и работу с контентом.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-purple-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center text-white text-lg">2</span>
+                    Возраст домена
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Новый сайт — это чистый лист. Ему нужно набрать доверие поисковых систем, получить первые ссылки, наполниться контентом. Старый сайт с историей и ссылочной массой продвигается быстрее, но может требовать исправления старых ошибок.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-pink-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-pink-500 to-orange-600 flex items-center justify-center text-white text-lg">3</span>
+                    Конкуренция в нише
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    В высококонкурентных тематиках (недвижимость, финансы, юридические услуги, пластиковые окна) пробиться в топ сложнее. Конкуренты уже вложили много денег в SEO, и чтобы обойти их, нужен серьёзный бюджет и время. В узких нишах с низкой конкуренцией результаты можно получить быстрее и дешевле.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-green-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center text-white text-lg">4</span>
+                    Регион продвижения
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Продвижение по Москве стоит дороже, чем по небольшому городу. Причина проста: в столице больше конкурентов, выше стоимость рекламы и SEO-услуг. Региональное продвижение обычно обходится в 1,5–2 раза дешевле.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-indigo-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-lg">5</span>
+                    Объём работ
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Если сайт технически исправен, имеет качественный контент и нормальную структуру, работы меньше. Если нужно переделывать дизайн, переписывать все тексты, исправлять критические ошибки — стоимость вырастет.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-l-4 border-orange-500">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                    <span className="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center text-white text-lg">6</span>
+                    Состояние сайта на старте
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Сайт может быть под фильтром, иметь некачественные ссылки, дублированные страницы или медленную загрузку. Всё это требует дополнительной работы: снятие санкций, чистка ссылочного профиля, техническая доработка. Чем хуже стартовая позиция, тем дороже продвижение.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section className="space-y-6">
+              <div className="text-center">
+                <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 mb-4">Средние цены на продвижение сайта в 2025 году</h2>
+                <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
+                  Чтобы вы понимали реальную картину рынка, приведём средние цены на SEO-продвижение в зависимости от типа сайта. Цены актуальны для России и стран СНГ.
+                </p>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse bg-white rounded-2xl overflow-hidden shadow-2xl">
+                  <thead className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 text-white">
+                    <tr>
+                      <th className="px-4 py-4 md:px-6 md:py-5 text-left text-sm md:text-base font-bold">Тип сайта</th>
+                      <th className="px-4 py-4 md:px-6 md:py-5 text-left text-sm md:text-base font-bold">Цена в месяц (рубли)</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr className="hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Лендинг (одностраничник)</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base">
+                        <span className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text font-bold">от 15 000 до 30 000</span>
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Сайт услуг (10–50 страниц)</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base">
+                        <span className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text font-bold">от 30 000 до 70 000</span>
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Интернет-магазин (до 1000 товаров)</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base">
+                        <span className="inline-block bg-gradient-to-r from-pink-600 to-orange-600 text-transparent bg-clip-text font-bold">от 50 000 до 120 000</span>
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Крупный интернет-магазин (1000+ товаров)</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base">
+                        <span className="inline-block bg-gradient-to-r from-orange-600 to-red-600 text-transparent bg-clip-text font-bold">от 100 000 до 250 000</span>
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Корпоративный сайт</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base">
+                        <span className="inline-block bg-gradient-to-r from-green-600 to-teal-600 text-transparent bg-clip-text font-bold">от 40 000 до 100 000</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-4 border-l-4 border-gray-400">
+                <p className="text-sm md:text-base text-gray-600 italic">
+                  💡 Это усреднённые диапазоны. Конкретная стоимость зависит от региона, ниши и задач.
+                </p>
+              </div>
+            </section>
 
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200 my-8">
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
