@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import { useState } from 'react';
 
-export default function Blog() {
+export default function BlogPost() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -86,73 +85,99 @@ export default function Blog() {
         </div>
       </nav>
 
-      <section className="py-12 md:py-20">
-        <div className="container max-w-6xl px-4">
-          <div className="text-center mb-12 md:mb-16">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-gray-900 break-words">
-              📚 Блог о SEO-продвижении
+      <article className="py-8 md:py-12">
+        <div className="container max-w-4xl px-4">
+          <Link 
+            to="/blog" 
+            className="inline-flex items-center gap-2 text-sm md:text-base text-purple-600 hover:text-purple-700 font-medium mb-6 md:mb-8 group"
+          >
+            <Icon name="ArrowLeft" size={18} className="group-hover:-translate-x-1 transition-transform" />
+            Вернуться к блогу
+          </Link>
+
+          <div className="mb-6 md:mb-8">
+            <div className="flex flex-wrap items-center gap-2 md:gap-3 mb-4 md:mb-6">
+              <span className="text-xs md:text-sm text-gray-500">28 ноября 2025</span>
+              <span className="text-xs md:text-sm text-gray-400">•</span>
+              <span className="text-xs md:text-sm bg-purple-100 text-purple-700 px-3 py-1 rounded-full font-medium">SEO</span>
+              <span className="text-xs md:text-sm text-gray-500 flex items-center gap-1">
+                <Icon name="Clock" size={14} />
+                ~15 минут чтения
+              </span>
+            </div>
+
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight break-words">
+              Сколько стоит продвижение сайта в 2025 году: цены, факторы и примеры
             </h1>
-            <p className="text-base md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto break-words">
-              Практические советы, кейсы и актуальные новости из мира поискового продвижения
+          </div>
+
+          <div className="relative w-full aspect-video md:aspect-[21/9] rounded-2xl overflow-hidden mb-8 md:mb-12 shadow-2xl">
+            <img 
+              src="https://cdn.poehali.dev/files/d8e066b0-a967-4878-b90e-a69a20516854.jpg"
+              alt="Сколько стоит продвижение сайта в 2025 году"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <div className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:md:text-2xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:text-sm prose-p:md:text-base prose-ul:text-sm prose-ul:md:text-base prose-li:text-gray-700 prose-strong:text-gray-900 prose-strong:font-semibold">
+            
+            <p className="text-base md:text-xl text-gray-700 font-medium mb-8 break-words">
+              Продвижение сайта в поисковых системах — это инвестиция в долгосрочный рост бизнеса. 
+              Но сколько это стоит на самом деле? В этой статье разберём актуальные цены на 2025 год, 
+              факторы влияния на стоимость и реальные примеры.
             </p>
-          </div>
 
-          <div className="grid gap-6 md:gap-8">
-            <Link to="/blog/skolko-stoit-prodvizhenie-sajta" className="block group">
-              <Card className="hover:shadow-2xl transition-all duration-300 bg-white border-2 border-gray-200 hover:border-purple-300 cursor-pointer">
-                <CardHeader className="p-4 md:p-6">
-                  <div className="flex flex-col gap-4">
-                    <div className="flex items-start gap-3 md:gap-4">
-                      <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
-                        💰
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex flex-wrap items-center gap-2 mb-2">
-                          <span className="text-xs md:text-sm text-gray-500">28 ноября 2025</span>
-                          <span className="text-xs md:text-sm text-gray-400">•</span>
-                          <span className="text-xs md:text-sm text-purple-600 font-medium">SEO</span>
-                        </div>
-                        <CardTitle className="text-lg md:text-2xl lg:text-3xl mb-2 md:mb-3 break-words group-hover:text-purple-600 transition-colors">
-                          Сколько стоит продвижение сайта в 2025 году: цены, факторы и примеры
-                        </CardTitle>
-                      </div>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="p-4 md:p-6 pt-0">
-                  <p className="text-sm md:text-base text-gray-700 leading-relaxed break-words mb-4">
-                    Разбираем актуальные цены на SEO-продвижение в 2025 году, факторы влияния на стоимость 
-                    и реальные примеры с разбором бюджетов.
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6 md:p-8 border-2 border-blue-200 my-8">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <Icon name="Info" className="text-white" size={24} />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-900 break-words">Текст статьи будет добавлен</h3>
+                  <p className="text-sm md:text-base text-gray-700 break-words">
+                    Сейчас готовится полная версия статьи с подробным анализом цен, примерами и рекомендациями. 
+                    Присылайте текст частями — я добавлю его на страницу.
                   </p>
-                  <div className="flex items-center gap-2 text-sm text-gray-500">
-                    <Icon name="Clock" size={16} className="flex-shrink-0" />
-                    <span className="break-words">Время чтения: ~15 минут</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-          <div className="text-center mt-12 md:mt-16">
+          <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
             <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200">
-              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-900 break-words">
-                Хотите быть в курсе новых статей?
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 mb-4 md:mb-6 break-words">
-                Подпишитесь на наш Telegram-канал и получайте уведомления о новых публикациях
-              </p>
-              <Button 
-                size="lg"
-                className="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-sm md:text-lg px-4 md:px-8 py-4 md:py-6"
-                onClick={() => window.open('https://t.me/seovzlet', '_blank')}
-              >
-                <Icon name="Send" size={18} className="mr-2 md:mr-3 flex-shrink-0" />
-                <span className="break-words">Подписаться на обновления</span>
-              </Button>
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-gray-900 break-words">
+                    Нужна консультация по продвижению?
+                  </h3>
+                  <p className="text-sm md:text-base text-gray-700 break-words">
+                    Обсудим ваш проект, рассчитаем стоимость и составим индивидуальную стратегию продвижения
+                  </p>
+                </div>
+                <Button 
+                  size="lg"
+                  className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all whitespace-nowrap"
+                  onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+                >
+                  <Icon name="Send" size={18} className="mr-2 flex-shrink-0" />
+                  Получить консультацию
+                </Button>
+              </div>
             </div>
           </div>
+
+          <div className="mt-8 md:mt-12">
+            <Link 
+              to="/blog" 
+              className="inline-flex items-center gap-2 text-sm md:text-base text-purple-600 hover:text-purple-700 font-medium group"
+            >
+              <Icon name="ArrowLeft" size={18} className="group-hover:-translate-x-1 transition-transform" />
+              Вернуться к блогу
+            </Link>
+          </div>
         </div>
-      </section>
+      </article>
 
       <footer className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PHBhdGggZD0iTTM2IDM0djItaDJ2LTJoLTJ6bTAtNHYyaDJ2LTJoLTJ6bTAtNHYyaDJ2LTJoLTJ6bTAtNHYyaDJ2LTJoLTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-40"></div>
