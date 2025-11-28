@@ -1,54 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import Icon from '@/components/ui/icon';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function BlogPost() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    document.title = 'Сколько стоит продвижение сайта в 2025 году: цены на SEO от 15 000 ₽';
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Узнайте реальные цены на продвижение сайта в 2025 году ➤ От чего зависит стоимость SEO ➤ Средний прайс: лендинг от 15 000 ₽, интернет-магазин от 50 000 ₽ ➤ Как выбрать специалиста и не переплатить ➤ Примеры расчета бюджета');
-    } else {
-      const meta = document.createElement('meta');
-      meta.name = 'description';
-      meta.content = 'Узнайте реальные цены на продвижение сайта в 2025 году ➤ От чего зависит стоимость SEO ➤ Средний прайс: лендинг от 15 000 ₽, интернет-магазин от 50 000 ₽ ➤ Как выбрать специалиста и не переплатить ➤ Примеры расчета бюджета';
-      document.head.appendChild(meta);
-    }
-
-    const metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (metaKeywords) {
-      metaKeywords.setAttribute('content', 'сколько стоит продвижение сайта, стоимость seo продвижения, цена продвижения сайта, seo продвижение цена, заказать продвижение сайта, сколько стоит seo');
-    } else {
-      const meta = document.createElement('meta');
-      meta.name = 'keywords';
-      meta.content = 'сколько стоит продвижение сайта, стоимость seo продвижения, цена продвижения сайта, seo продвижение цена, заказать продвижение сайта, сколько стоит seo';
-      document.head.appendChild(meta);
-    }
-
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
-      ogTitle.setAttribute('content', 'Сколько стоит продвижение сайта в 2025 году: цены на SEO от 15 000 ₽');
-    } else {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:title');
-      meta.content = 'Сколько стоит продвижение сайта в 2025 году: цены на SEO от 15 000 ₽';
-      document.head.appendChild(meta);
-    }
-
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) {
-      ogDescription.setAttribute('content', 'Узнайте реальные цены на продвижение сайта в 2025 году ➤ От чего зависит стоимость SEO ➤ Средний прайс: лендинг от 15 000 ₽, интернет-магазин от 50 000 ₽');
-    } else {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:description');
-      meta.content = 'Узнайте реальные цены на продвижение сайта в 2025 году ➤ От чего зависит стоимость SEO ➤ Средний прайс: лендинг от 15 000 ₽, интернет-магазин от 50 000 ₽';
-      document.head.appendChild(meta);
-    }
-  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
