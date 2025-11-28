@@ -133,6 +133,91 @@ export default function BlogPost() {
               Никаких маркетинговых уловок — только факты, примеры и практические советы для владельцев бизнеса.
             </p>
 
+            <h2>От чего зависит стоимость SEO-продвижения</h2>
+
+            <p>
+              Цена продвижения сайта в 2025 году — это не произвольная цифра. Она формируется на основе конкретных факторов, которые определяют объём и сложность работы.
+            </p>
+
+            <h3>Тип сайта</h3>
+            <p>
+              Одностраничный лендинг продвигать проще и дешевле, чем интернет-магазин с тысячами товаров. Чем больше страниц, тем больше времени нужно на техническую оптимизацию, написание текстов и работу с контентом.
+            </p>
+
+            <h3>Возраст домена</h3>
+            <p>
+              Новый сайт — это чистый лист. Ему нужно набрать доверие поисковых систем, получить первые ссылки, наполниться контентом. Старый сайт с историей и ссылочной массой продвигается быстрее, но может требовать исправления старых ошибок.
+            </p>
+
+            <h3>Конкуренция в нише</h3>
+            <p>
+              В высококонкурентных тематиках (недвижимость, финансы, юридические услуги, пластиковые окна) пробиться в топ сложнее. Конкуренты уже вложили много денег в SEO, и чтобы обойти их, нужен серьёзный бюджет и время. В узких нишах с низкой конкуренцией результаты можно получить быстрее и дешевле.
+            </p>
+
+            <h3>Регион продвижения</h3>
+            <p>
+              Продвижение по Москве стоит дороже, чем по небольшому городу. Причина проста: в столице больше конкурентов, выше стоимость рекламы и SEO-услуг. Региональное продвижение обычно обходится в 1,5–2 раза дешевле.
+            </p>
+
+            <h3>Объём работ</h3>
+            <p>
+              Если сайт технически исправен, имеет качественный контент и нормальную структуру, работы меньше. Если нужно переделывать дизайн, переписывать все тексты, исправлять критические ошибки — стоимость вырастет.
+            </p>
+
+            <h3>Состояние сайта на старте</h3>
+            <p>
+              Сайт может быть под фильтром, иметь некачественные ссылки, дублированные страницы или медленную загрузку. Всё это требует дополнительной работы: снятие санкций, чистка ссылочного профиля, техническая доработка. Чем хуже стартовая позиция, тем дороже продвижение.
+            </p>
+
+            <h2>Средние цены на продвижение сайта в 2025 году</h2>
+
+            <p>
+              Чтобы вы понимали реальную картину рынка, приведём средние цены на SEO-продвижение в зависимости от типа сайта. Цены актуальны для России и стран СНГ.
+            </p>
+
+            <div className="overflow-x-auto my-8">
+              <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-lg">
+                <thead className="bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+                  <tr>
+                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Тип сайта</th>
+                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Цена в месяц (рубли)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Лендинг (одностраничник)</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 15 000 до 30 000</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Сайт услуг (10–50 страниц)</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 30 000 до 70 000</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Интернет-магазин (до 1000 товаров)</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 50 000 до 120 000</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Крупный интернет-магазин (1000+ товаров)</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 100 000 до 250 000</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Корпоративный сайт</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">от 40 000 до 100 000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="text-sm md:text-base text-gray-600 italic">
+              Это усреднённые диапазоны. Конкретная стоимость зависит от региона, ниши и задач.
+            </p>
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200 my-8">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                <strong>Важно понимать:</strong> seo продвижение цена — это инвестиция в долгосрочный результат, а не разовая трата. В отличие от контекстной рекламы, где трафик пропадает сразу после остановки оплаты, SEO продолжает приносить посетителей даже после завершения активной работы.
+              </p>
+            </div>
+
           </div>
 
           <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
