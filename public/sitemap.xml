@@ -76,4 +76,25 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Блог -->
+  <url>
+    <loc>https://streltsevseo.ru/blog</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Статья блога: Сколько стоит продвижение сайта -->
+  <url>
+    <loc>https://streltsevseo.ru/blog/skolko-stoit-prodvizhenie-sajta</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cdn.poehali.dev/files/d8e066b0-a967-4878-b90e-a69a20516854.jpg</image:loc>
+      <image:title>Сколько стоит продвижение сайта в 2025 году</image:title>
+      <image:caption>Узнайте реальные цены на продвижение сайта в 2025 году: от чего зависит стоимость SEO</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
