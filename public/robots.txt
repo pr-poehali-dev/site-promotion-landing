@@ -26,9 +26,18 @@ Allow: /
 # Sitemap
 Sitemap: https://streltsevseo.ru/sitemap.xml
 
+# Основные разделы сайта
+Allow: /blog
+Allow: /blog/
+Allow: /additional-services
+
 # Запрещаем индексацию служебных файлов
 Disallow: /src/
 Disallow: /node_modules/
 Disallow: /*.json$
 Disallow: /*.ts$
 Disallow: /*.tsx$
+Disallow: /admin
+
+# Скорость сканирования для основных поисковиков
+Crawl-delay: 0

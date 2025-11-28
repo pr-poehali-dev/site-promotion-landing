@@ -116,6 +116,9 @@ export default function BlogPost() {
               src="https://cdn.poehali.dev/files/d8e066b0-a967-4878-b90e-a69a20516854.jpg"
               alt="Сколько стоит продвижение сайта в 2025 году"
               className="w-full h-full object-cover"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
             />
           </div>
 
