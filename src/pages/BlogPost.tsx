@@ -258,6 +258,70 @@ export default function BlogPost() {
               Всё это входит в стандартный пакет. Если вам предлагают заказать продвижение сайта за символическую сумму, уточните, какие именно услуги включены — скорее всего, это будет урезанный вариант.
             </p>
 
+            <h2>Дешевое vs профессиональное SEO — в чем разница</h2>
+
+            <p>
+              На рынке есть предложения на любой бюджет. Но важно понимать, что скрывается за низкой и высокой ценой.
+            </p>
+
+            <div className="overflow-x-auto my-8">
+              <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-lg">
+                <thead className="bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+                  <tr>
+                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Критерий</th>
+                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Дешёвое SEO (10 000–20 000 ₽)</th>
+                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Профессиональное SEO (от 40 000 ₽)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Подход</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Шаблонный, одинаковый для всех</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Индивидуальная стратегия</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Аудит</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Поверхностный или отсутствует</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Глубокий технический и контентный анализ</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Контент</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Копипаст или минимальные правки</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Уникальные тексты, написанные под запросы</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Ссылки</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Массовая закупка на биржах</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Качественные ссылки, естественный профиль</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Риски</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Высокий риск попасть под фильтр</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Минимальные риски, белые методы</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Результаты</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Нестабильные или отсутствуют</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Стабильный рост позиций и трафика</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Отчётность</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Формальная или её нет</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Подробные отчёты с аналитикой</td>
+                  </tr>
+                  <tr className="hover:bg-purple-50 transition-colors">
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Гарантии</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">«Гарантируем ТОП-1 за месяц»</td>
+                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Реалистичные прогнозы без пустых обещаний</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>
+              Дешёвое SEO — это лотерея. Иногда срабатывает, но чаще приводит к потере времени и денег. Профессиональное продвижение — это системная работа с предсказуемым результатом.
+            </p>
+
           </div>
 
           <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
