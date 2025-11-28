@@ -124,11 +124,11 @@ export default function AdditionalServices() {
           <div className="flex items-center gap-2">
             <Button 
               size="sm"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs md:text-sm px-3 md:px-4"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-xs sm:text-sm px-3 sm:px-4"
               onClick={() => window.open('https://t.me/seovzlet', '_blank')}
             >
-              <Icon name="Send" size={16} className="mr-1 md:mr-2" />
-              <span className="hidden sm:inline">Связаться</span>
+              <Icon name="Send" size={16} className="flex-shrink-0 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline whitespace-nowrap">Связаться</span>
             </Button>
             
             <Button
@@ -231,11 +231,11 @@ export default function AdditionalServices() {
             <div className="text-center pt-6">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-lg px-8 py-6"
+                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-sm sm:text-lg px-4 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Rocket" size={24} className="mr-3" />
-                Заказать продвижение сайта
+                <Icon name="Rocket" size={20} className="mr-2 sm:mr-3 flex-shrink-0" />
+                <span className="whitespace-nowrap">Заказать продвижение</span>
               </Button>
             </div>
           </div>
@@ -310,11 +310,11 @@ export default function AdditionalServices() {
             <div className="text-center">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                className="w-full sm:w-auto bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all text-sm sm:text-lg px-4 sm:px-8"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Link" size={24} className="mr-3" />
-                Купить SEO ссылки
+                <Icon name="Link" size={24} className="flex-shrink-0 mr-2 sm:mr-3" />
+                <span className="whitespace-nowrap">Купить SEO ссылки</span>
               </Button>
             </div>
           </div>
@@ -414,11 +414,11 @@ export default function AdditionalServices() {
             <div className="text-center">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                className="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all text-sm sm:text-lg px-4 sm:px-8"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="FileText" size={24} className="mr-3" />
-                Заказать написание SEO-текстов
+                <Icon name="FileText" size={24} className="flex-shrink-0 mr-2 sm:mr-3" />
+                <span className="whitespace-nowrap">Заказать написание SEO-текстов</span>
               </Button>
             </div>
           </div>
@@ -502,11 +502,11 @@ export default function AdditionalServices() {
             <div className="text-center">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all text-sm sm:text-lg px-4 sm:px-8"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Target" size={24} className="mr-3" />
-                Заказать крауд-маркетинг
+                <Icon name="Target" size={24} className="flex-shrink-0 mr-2 sm:mr-3" />
+                <span className="whitespace-nowrap">Заказать крауд-маркетинг</span>
               </Button>
             </div>
           </div>
