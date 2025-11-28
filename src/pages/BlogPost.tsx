@@ -889,7 +889,9 @@ export default function BlogPost() {
                 </p>
               </div>
             </section>
+          </div>
 
+          <div className="container max-w-4xl px-4">
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6 md:p-8 border-2 border-blue-200 my-8">
               <h3 className="text-xl md:text-2xl font-bold mb-3 text-gray-900">
                 Хотите узнать точную стоимость продвижения именно вашего сайта?
@@ -901,39 +903,39 @@ export default function BlogPost() {
                 Заказать продвижение сайта с гарантией качества — это инвестиция в стабильный поток клиентов на годы вперёд.
               </p>
             </div>
-          </div>
 
-          <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
-            <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-gray-900 break-words">
-                    Нужна консультация по продвижению?
-                  </h3>
-                  <p className="text-sm md:text-base text-gray-700 break-words">
-                    Обсудим ваш проект, рассчитаем стоимость и составим индивидуальную стратегию продвижения
-                  </p>
+            <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200">
+                <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-gray-900 break-words">
+                      Нужна консультация по продвижению?
+                    </h3>
+                    <p className="text-sm md:text-base text-gray-700 break-words">
+                      Обсудим ваш проект, рассчитаем стоимость и составим индивидуальную стратегию продвижения
+                    </p>
+                  </div>
+                  <Button 
+                    size="lg"
+                    className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all whitespace-nowrap"
+                    onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+                  >
+                    <Icon name="Send" size={18} className="mr-2 flex-shrink-0" />
+                    Получить консультацию
+                  </Button>
                 </div>
-                <Button 
-                  size="lg"
-                  className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all whitespace-nowrap"
-                  onClick={() => window.open('https://t.me/seovzlet', '_blank')}
-                >
-                  <Icon name="Send" size={18} className="mr-2 flex-shrink-0" />
-                  Получить консультацию
-                </Button>
               </div>
             </div>
-          </div>
 
-          <div className="mt-8 md:mt-12">
-            <Link 
-              to="/blog" 
-              className="inline-flex items-center gap-2 text-sm md:text-base text-purple-600 hover:text-purple-700 font-medium group"
-            >
-              <Icon name="ArrowLeft" size={18} className="group-hover:-translate-x-1 transition-transform" />
-              Вернуться к блогу
-            </Link>
+            <div className="mt-8 md:mt-12">
+              <Link 
+                to="/blog" 
+                className="inline-flex items-center gap-2 text-sm md:text-base text-purple-600 hover:text-purple-700 font-medium group"
+              >
+                <Icon name="ArrowLeft" size={18} className="group-hover:-translate-x-1 transition-transform" />
+                Вернуться к блогу
+              </Link>
+            </div>
           </div>
         </div>
       </article>
