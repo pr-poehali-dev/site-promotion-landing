@@ -271,109 +271,163 @@ export default function BlogPost() {
               </p>
             </div>
 
-            <h2>Какие услуги входят в стандартное SEO-продвижение</h2>
+            <section className="space-y-8">
+              <div className="text-center">
+                <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 via-teal-600 to-cyan-600 mb-4">Какие услуги входят в стандартное SEO-продвижение</h2>
+                <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
+                  Когда вы платите за продвижение, важно понимать, за что конкретно идут деньги. Стандартный комплекс работ включает несколько этапов.
+                </p>
+              </div>
 
-            <p>
-              Когда вы платите за продвижение, важно понимать, за что конкретно идут деньги. Стандартный комплекс работ включает несколько этапов.
-            </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-blue-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">🔍</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Аудит сайта</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Первичный анализ: техническое состояние, ошибки индексации, скорость загрузки, юзабилити. Специалист находит проблемы, которые мешают сайту занимать высокие позиции.
+                  </p>
+                </div>
 
-            <h3>Аудит сайта</h3>
-            <p>
-              Первичный анализ: техническое состояние, ошибки индексации, скорость загрузки, юзабилити. Специалист находит проблемы, которые мешают сайту занимать высокие позиции.
-            </p>
+                <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-purple-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">🔑</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Сбор семантического ядра</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Поиск ключевых запросов, по которым ваши клиенты ищут товары или услуги. Формируется список целевых фраз для продвижения.
+                  </p>
+                </div>
 
-            <h3>Сбор семантического ядра</h3>
-            <p>
-              Поиск ключевых запросов, по которым ваши клиенты ищут товары или услуги. Формируется список целевых фраз для продвижения.
-            </p>
+                <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-green-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">⚙️</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Внутренняя оптимизация</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Доработка структуры сайта, настройка заголовков, мета-тегов, перелинковки. Цель — сделать сайт понятным для поисковых систем и удобным для пользователей.
+                  </p>
+                </div>
 
-            <h3>Внутренняя оптимизация</h3>
-            <p>
-              Доработка структуры сайта, настройка заголовков, мета-тегов, перелинковки. Цель — сделать сайт понятным для поисковых систем и удобным для пользователей.
-            </p>
+                <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-orange-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-yellow-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">✍️</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Создание и доработка контента</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Написание новых текстов, оптимизация существующих, создание посадочных страниц под ключевые запросы. Контент должен быть полезным, уникальным и отвечать на вопросы пользователей.
+                  </p>
+                </div>
 
-            <h3>Создание и доработка контента</h3>
-            <p>
-              Написание новых текстов, оптимизация существующих, создание посадочных страниц под ключевые запросы. Контент должен быть полезным, уникальным и отвечать на вопросы пользователей.
-            </p>
+                <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-indigo-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">🔗</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Наращивание ссылочной массы</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Получение внешних ссылок с других сайтов. Ссылки — это сигнал доверия для поисковиков. Важно, чтобы они были качественными и естественными.
+                  </p>
+                </div>
 
-            <h3>Наращивание ссылочной массы</h3>
-            <p>
-              Получение внешних ссылок с других сайтов. Ссылки — это сигнал доверия для поисковиков. Важно, чтобы они были качественными и естественными.
-            </p>
+                <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-pink-200">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <span className="text-white text-2xl">📊</span>
+                    </div>
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mt-2">Аналитика и отчёты</h3>
+                  </div>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    Ежемесячные отчёты о проделанной работе, динамике позиций, трафике, конверсиях. Вы видите, как движется сайт, что работает, а что требует корректировки.
+                  </p>
+                </div>
+              </div>
 
-            <h3>Аналитика и отчёты</h3>
-            <p>
-              Ежемесячные отчёты о проделанной работе, динамике позиций, трафике, конверсиях. Вы видите, как движется сайт, что работает, а что требует корректировки.
-            </p>
+              <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200 shadow-lg">
+                <p className="text-sm md:text-base text-gray-800 leading-relaxed font-medium">
+                  💡 Всё это входит в стандартный пакет. Если вам предлагают заказать продвижение сайта за символическую сумму, уточните, какие именно услуги включены — скорее всего, это будет урезанный вариант.
+                </p>
+              </div>
+            </section>
 
-            <p>
-              Всё это входит в стандартный пакет. Если вам предлагают заказать продвижение сайта за символическую сумму, уточните, какие именно услуги включены — скорее всего, это будет урезанный вариант.
-            </p>
+            <section className="space-y-6">
+              <div className="text-center">
+                <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 mb-4">Дешевое vs профессиональное SEO — в чем разница</h2>
+                <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
+                  На рынке есть предложения на любой бюджет. Но важно понимать, что скрывается за низкой и высокой ценой.
+                </p>
+              </div>
 
-            <h2>Дешевое vs профессиональное SEO — в чем разница</h2>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse bg-white rounded-2xl overflow-hidden shadow-2xl">
+                  <thead className="bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 text-white">
+                    <tr>
+                      <th className="px-4 py-4 md:px-6 md:py-5 text-left text-sm md:text-base font-bold">Критерий</th>
+                      <th className="px-4 py-4 md:px-6 md:py-5 text-left text-sm md:text-base font-bold">❌ Дешёвое SEO (10 000–20 000 ₽)</th>
+                      <th className="px-4 py-4 md:px-6 md:py-5 text-left text-sm md:text-base font-bold">✅ Профессиональное SEO (от 40 000 ₽)</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Подход</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Шаблонный, одинаковый для всех</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Индивидуальная стратегия</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Аудит</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Поверхностный или отсутствует</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Глубокий технический и контентный анализ</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Контент</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Копипаст или минимальные правки</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Уникальные тексты, написанные под запросы</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Ссылки</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Массовая закупка на биржах</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Качественные ссылки, естественный профиль</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Риски</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-red-700 font-medium">Высокий риск попасть под фильтр</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Минимальные риски, белые методы</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Результаты</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Нестабильные или отсутствуют</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Стабильный рост позиций и трафика</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Отчётность</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">Формальная или её нет</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Подробные отчёты с аналитикой</td>
+                    </tr>
+                    <tr className="hover:bg-gradient-to-r hover:from-red-50 hover:to-orange-50 transition-all">
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-900 font-semibold">Гарантии</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-gray-700">«Гарантируем ТОП-1 за месяц»</td>
+                      <td className="px-4 py-4 md:px-6 md:py-5 text-sm md:text-base text-green-700 font-medium">Реалистичные прогнозы без пустых обещаний</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-            <p>
-              На рынке есть предложения на любой бюджет. Но важно понимать, что скрывается за низкой и высокой ценой.
-            </p>
-
-            <div className="overflow-x-auto my-8">
-              <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-lg">
-                <thead className="bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-                  <tr>
-                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Критерий</th>
-                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Дешёвое SEO (10 000–20 000 ₽)</th>
-                    <th className="px-4 py-3 md:px-6 md:py-4 text-left text-sm md:text-base font-semibold">Профессиональное SEO (от 40 000 ₽)</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Подход</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Шаблонный, одинаковый для всех</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Индивидуальная стратегия</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Аудит</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Поверхностный или отсутствует</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Глубокий технический и контентный анализ</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Контент</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Копипаст или минимальные правки</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Уникальные тексты, написанные под запросы</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Ссылки</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Массовая закупка на биржах</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Качественные ссылки, естественный профиль</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Риски</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Высокий риск попасть под фильтр</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Минимальные риски, белые методы</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Результаты</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Нестабильные или отсутствуют</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Стабильный рост позиций и трафика</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Отчётность</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Формальная или её нет</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Подробные отчёты с аналитикой</td>
-                  </tr>
-                  <tr className="hover:bg-purple-50 transition-colors">
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-900 font-medium">Гарантии</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">«Гарантируем ТОП-1 за месяц»</td>
-                    <td className="px-4 py-3 md:px-6 md:py-4 text-sm md:text-base text-gray-700">Реалистичные прогнозы без пустых обещаний</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p>
-              Дешёвое SEO — это лотерея. Иногда срабатывает, но чаще приводит к потере времени и денег. Профессиональное продвижение — это системная работа с предсказуемым результатом.
-            </p>
+              <div className="bg-gradient-to-r from-yellow-50 via-orange-50 to-red-50 rounded-2xl p-6 md:p-8 border-2 border-orange-300 shadow-lg">
+                <p className="text-sm md:text-base text-gray-800 leading-relaxed font-medium">
+                  ⚡ Дешёвое SEO — это лотерея. Иногда срабатывает, но чаще приводит к потере времени и денег. Профессиональное продвижение — это системная работа с предсказуемым результатом.
+                </p>
+              </div>
+            </section>
 
             <h2>Почему SEO не может стоить 5 000–10 000 рублей</h2>
 
@@ -665,7 +719,7 @@ export default function BlogPost() {
               </p>
             </div>
 
-          </div>
+            </div>
 
           <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t-2 border-gray-200">
             <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 md:p-8 border-2 border-purple-200">
