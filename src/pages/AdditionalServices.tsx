@@ -1816,7 +1816,7 @@ export default function AdditionalServices() {
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    Блог
+                    <Link to="/blog">Блог</Link>
                   </li>
                 </ul>
               </div>

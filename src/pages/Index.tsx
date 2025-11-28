@@ -414,6 +414,10 @@ const Index = () => {
               Тарифы
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
             </a>
+            <Link to="/blog" className="text-sm font-semibold hover:text-primary transition-colors relative group">
+              Блог
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
+            </Link>
             <a href="#faq" className="text-sm font-semibold hover:text-primary transition-colors relative group">
               Вопросы
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all"></span>
@@ -472,6 +476,13 @@ const Index = () => {
               >
                 Тарифы
               </a>
+              <Link 
+                to="/blog" 
+                className="text-base font-semibold hover:text-primary transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Блог
+              </Link>
               <a 
                 href="#faq" 
                 className="text-base font-semibold hover:text-primary transition-colors py-2"
