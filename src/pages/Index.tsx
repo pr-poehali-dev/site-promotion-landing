@@ -1494,11 +1494,11 @@ const Index = () => {
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    <a href="https://streltsevseo.ru/additional-services" target="_blank" rel="noopener noreferrer">Дополнительные услуги</a>
+                    <Link to="/additional-services">Дополнительные услуги</Link>
                   </li>
                   <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center gap-2">
                     <Icon name="ChevronRight" size={14} className="text-purple-400" />
-                    Блог
+                    <Link to="/blog">Блог</Link>
                   </li>
                 </ul>
               </div>
