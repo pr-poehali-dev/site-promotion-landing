@@ -185,21 +185,21 @@ export default function AdditionalServices() {
         )}
       </header>
 
-      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 relative overflow-hidden">
+      <section className="py-10 md:py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
         
-        <div className="container relative z-10">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+        <div className="container relative z-10 px-4">
+          <div className="text-center mb-8 md:mb-12">
+            <h1 className="text-2xl md:text-6xl font-bold mb-4 md:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
               🚀 SEO-продвижение сайтов ссылками и статьями под ключ
             </h1>
-            <p className="text-2xl font-semibold text-gray-700 mb-8 max-w-4xl mx-auto">
+            <p className="text-base md:text-2xl font-semibold text-gray-700 mb-6 md:mb-8 max-w-4xl mx-auto px-2">
               Увеличьте трафик и выведите сайт в ТОП с помощью безопасного линкбилдинга, качественного контента и крауд-маркетинга
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto space-y-6 text-lg text-gray-700">
+          <div className="max-w-5xl mx-auto space-y-4 md:space-y-6 text-base md:text-lg text-gray-700 px-2">
             <p className="leading-relaxed">
               <strong>Ваш сайт теряется на 5-й странице поиска?</strong> Конкуренты забирают клиентов, а органический трафик не растёт? 
               Продвижение сайта ссылками и статьями — проверенный способ выйти в топ-10 Google и Яндекса без риска санкций.
@@ -210,8 +210,8 @@ export default function AdditionalServices() {
               написание SEO-текстов под ключевые запросы и крауд-маркетинг для естественного роста позиций.
             </p>
 
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border-2 border-indigo-200 shadow-lg">
-              <p className="text-xl font-semibold text-indigo-900 mb-4">Результат:</p>
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-4 md:p-8 border-2 border-indigo-200 shadow-lg">
+              <p className="text-lg md:text-xl font-semibold text-indigo-900 mb-4">Результат:</p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <Icon name="TrendingUp" className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
@@ -242,27 +242,27 @@ export default function AdditionalServices() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="container max-w-6xl">
-          <div className="mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+      <section className="py-10 md:py-20 bg-white">
+        <div className="container max-w-6xl px-4">
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
               📊 Продвижение сайта ссылками: как это работает
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
               <strong>Купить продвижение ссылками</strong> — значит получить естественную ссылочную массу, которая сигнализирует поисковикам о важности вашего ресурса. 
               Мы размещаем ссылки на тематических сайтах с высоким DA/DR, создавая качественный ссылочный профиль.
             </p>
 
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Что даёт продвижение ссылками:</h3>
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-4 md:p-8 mb-6 md:mb-8">
+              <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Что даёт продвижение ссылками:</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
                     <Icon name="TrendingUp" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Рост позиций по целевым запросам</h4>
-                    <p className="text-gray-600">Сайт поднимается в выдаче за счёт передачи веса от авторитетных доноров</p>
+                    <h4 className="font-semibold text-base md:text-lg mb-1">Рост позиций по целевым запросам</h4>
+                    <p className="text-sm md:text-base text-gray-600">Сайт поднимается в выдаче за счёт передачи веса от авторитетных доноров</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -270,8 +270,8 @@ export default function AdditionalServices() {
                     <Icon name="Award" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Увеличение домен-рейтинга</h4>
-                    <p className="text-gray-600">Улучшение DR/DA повышает доверие поисковиков к вашему сайту</p>
+                    <h4 className="font-semibold text-base md:text-lg mb-1">Увеличение домен-рейтинга</h4>
+                    <p className="text-sm md:text-base text-gray-600">Улучшение DR/DA повышает доверие поисковиков к вашему сайту</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -279,8 +279,8 @@ export default function AdditionalServices() {
                     <Icon name="Shield" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Защита от конкурентов</h4>
-                    <p className="text-gray-600">Мощный ссылочный профиль защищает от негативного SEO</p>
+                    <h4 className="font-semibold text-base md:text-lg mb-1">Защита от конкурентов</h4>
+                    <p className="text-sm md:text-base text-gray-600">Мощный ссылочный профиль защищает от негативного SEO</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -288,8 +288,8 @@ export default function AdditionalServices() {
                     <Icon name="Clock" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Долгосрочный эффект</h4>
-                    <p className="text-gray-600">Качественные ссылки работают годами, обеспечивая стабильный трафик</p>
+                    <h4 className="font-semibold text-base md:text-lg mb-1">Долгосрочный эффект</h4>
+                    <p className="text-sm md:text-base text-gray-600">Качественные ссылки работают годами, обеспечивая стабильный трафик</p>
                   </div>
                 </div>
               </div>
@@ -300,7 +300,7 @@ export default function AdditionalServices() {
               Никаких автоматических бирж, никаких ссылочных помоек.
             </p>
 
-            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-xl mb-8">
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 md:p-6 rounded-r-xl mb-6 md:mb-8">
               <p className="text-gray-800">
                 <strong>Важно:</strong> можно <strong>купить ссылки для продвижения сайта</strong>, но без стратегии это приведёт к фильтрам. 
                 Мы создаём сбалансированный профиль с учётом вашей ниши, конкурентов и текущего состояния сайта.
@@ -319,26 +319,26 @@ export default function AdditionalServices() {
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+          <div className="mb-12 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+            <h2 className="text-2xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
               ✍️ Продвижение сайта статьями и SEO-контент
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
               <strong>Продвижение статьями</strong> решает сразу две задачи: улучшает поведенческие факторы на вашем сайте и создаёт естественные точки входа для ссылок. 
               Мы пишем экспертный контент, который читают люди и индексируют поисковики.
             </p>
 
-            <h3 className="text-2xl font-bold mb-6 text-gray-900">Как работает продвижение контента:</h3>
+            <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Как работает продвижение контента:</h3>
 
-            <div className="space-y-6 mb-8">
-              <div className="bg-white border-2 border-indigo-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+            <div className="space-y-4 md:space-y-6 mb-6 md:mb-8">
+              <div className="bg-white border-2 border-indigo-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl">
                     1
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Написание SEO-текстов для вашего сайта</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-base md:text-xl font-bold mb-2">Написание SEO-текстов для вашего сайта</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Создаём информационные и коммерческие страницы под кластеры ключевых слов. Каждая статья оптимизирована под поисковые запросы, 
                       но написана для людей — без переспама, с пользой и структурой.
                     </p>
@@ -346,14 +346,14 @@ export default function AdditionalServices() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+              <div className="bg-white border-2 border-purple-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl">
                     2
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Размещение статей на внешних площадках</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-base md:text-xl font-bold mb-2">Размещение статей на внешних площадках</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Публикуем материалы на тематических блогах, новостных порталах, отраслевых медиа. Каждая статья содержит естественные ссылки на ваш сайт 
                       и работает как источник целевого трафика.
                     </p>
@@ -361,14 +361,14 @@ export default function AdditionalServices() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-pink-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-xl">
+              <div className="bg-white border-2 border-pink-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl">
                     3
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Крауд-маркетинг и нативное продвижение</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-base md:text-xl font-bold mb-2">Крауд-маркетинг и нативное продвижение</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Размещаем полезные ответы и рекомендации на форумах, в сообществах, на Q&A-площадках (Quora, TheQuestion, отраслевые форумы). 
                       Создаём репутацию эксперта и получаем качественные переходы.
                     </p>
@@ -378,7 +378,7 @@ export default function AdditionalServices() {
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Преимущества продвижения статьями:</h3>
+              <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Преимущества продвижения статьями:</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
@@ -417,13 +417,13 @@ export default function AdditionalServices() {
                 className="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all text-sm sm:text-lg px-4 sm:px-8"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="FileText" size={24} className="flex-shrink-0 mr-2 sm:mr-3" />
+                <Icon name="FileText" size={20} className="flex-shrink-0 mr-2 sm:mr-3" />
                 <span className="whitespace-nowrap">Заказать написание SEO-текстов</span>
               </Button>
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
+          <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
               🎯 Крауд-маркетинг и безопасные SEO-ссылки
             </h2>
@@ -432,59 +432,59 @@ export default function AdditionalServices() {
               Это создаёт эффект "сарафанного радио" и показывает поисковикам живой интерес пользователей.
             </p>
 
-            <h3 className="text-2xl font-bold mb-6 text-gray-900">Где мы размещаем крауд-ссылки:</h3>
+            <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Где мы размещаем крауд-ссылки:</h3>
 
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-white border-2 border-blue-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
-                    <Icon name="MessageCircle" className="text-white" size={24} />
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
+              <div className="bg-white border-2 border-blue-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="MessageCircle" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Форумы</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Форумы</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Отраслевые обсуждения, где ваше решение действительно может помочь
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
-                    <Icon name="BookOpen" className="text-white" size={24} />
+              <div className="bg-white border-2 border-purple-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="BookOpen" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Блоги и медиа</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Блоги и медиа</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Комментарии под релевантными статьями
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-green-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
-                    <Icon name="HelpCircle" className="text-white" size={24} />
+              <div className="bg-white border-2 border-green-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="HelpCircle" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Q&A-площадки</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Q&A-площадки</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Ответы на вопросы с естественным упоминанием вашего сайта
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-pink-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0">
-                    <Icon name="Users" className="text-white" size={24} />
+              <div className="bg-white border-2 border-pink-200 rounded-xl p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Users" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Социальные сети</h4>
-                    <p className="text-gray-700">
+                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Социальные сети</h4>
+                    <p className="text-sm md:text-base text-gray-700">
                       Обсуждения в тематических группах и сообществах
                     </p>
                   </div>
@@ -492,8 +492,8 @@ export default function AdditionalServices() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-8">
-              <p className="text-gray-800">
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-4 md:p-6 rounded-r-xl mb-6 md:mb-8">
+              <p className="text-sm md:text-base text-gray-800">
                 <strong>Важно:</strong> мы не спамим. Каждое размещение — это полезный контент, который решает проблему читателя. 
                 Такие ссылки не вызывают подозрений у модераторов и поисковиков.
               </p>
@@ -505,262 +505,262 @@ export default function AdditionalServices() {
                 className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg hover:shadow-xl transition-all text-sm sm:text-lg px-4 sm:px-8"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Target" size={24} className="flex-shrink-0 mr-2 sm:mr-3" />
+                <Icon name="Target" size={20} className="flex-shrink-0 mr-2 sm:mr-3" />
                 <span className="whitespace-nowrap">Заказать крауд-маркетинг</span>
               </Button>
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+          <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
               🛠️ Комплексные способы продвижения сайтов в поиске
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
               Мы используем все эффективные способы продвижения, чтобы обеспечить стабильный рост позиций:
             </p>
 
-            <div className="overflow-x-auto mb-8">
+            <div className="overflow-x-auto mb-6 md:mb-8">
               <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-lg">
                 <thead>
                   <tr className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
-                    <th className="px-6 py-4 text-left text-lg font-bold">Метод</th>
-                    <th className="px-6 py-4 text-left text-lg font-bold">Описание</th>
-                    <th className="px-6 py-4 text-left text-lg font-bold">Результат</th>
+                    <th className="px-3 md:px-6 py-3 md:py-4 text-left text-sm md:text-base lg:text-lg font-bold">Метод</th>
+                    <th className="px-3 md:px-6 py-3 md:py-4 text-left text-sm md:text-base lg:text-lg font-bold">Описание</th>
+                    <th className="px-3 md:px-6 py-3 md:py-4 text-left text-sm md:text-base lg:text-lg font-bold">Результат</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-200 hover:bg-indigo-50 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Icon name="Link" className="text-indigo-600" size={24} />
-                        <strong className="text-lg">Ссылочное продвижение</strong>
+                    <td className="px-3 md:px-6 py-3 md:py-4">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        <Icon name="Link" className="text-indigo-600" size={20} />
+                        <strong className="text-sm md:text-base lg:text-lg">Ссылочное продвижение</strong>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-gray-700">Размещение на авторитетных донорах с высоким DR/DA</td>
-                    <td className="px-6 py-4 text-gray-700">Рост позиций и домен-рейтинга</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Размещение на авторитетных донорах с высоким DR/DA</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Рост позиций и домен-рейтинга</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-purple-50 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Icon name="FileText" className="text-purple-600" size={24} />
-                        <strong className="text-lg">Контент-маркетинг</strong>
+                    <td className="px-3 md:px-6 py-3 md:py-4">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        <Icon name="FileText" className="text-purple-600" size={20} />
+                        <strong className="text-sm md:text-base lg:text-lg">Контент-маркетинг</strong>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-gray-700">Публикация статей на внешних площадках и вашем сайте</td>
-                    <td className="px-6 py-4 text-gray-700">Трафик + естественные ссылки</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Публикация статей на внешних площадках и вашем сайте</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Трафик + естественные ссылки</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-pink-50 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Icon name="MessageSquare" className="text-pink-600" size={24} />
-                        <strong className="text-lg">Крауд-маркетинг</strong>
+                    <td className="px-3 md:px-6 py-3 md:py-4">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        <Icon name="MessageSquare" className="text-pink-600" size={20} />
+                        <strong className="text-base md:text-lg">Крауд-маркетинг</strong>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-gray-700">Нативные упоминания на форумах и в сообществах</td>
-                    <td className="px-6 py-4 text-gray-700">Поведенческие факторы + репутация</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Нативные упоминания на форумах и в сообществах</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Поведенческие факторы + репутация</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Icon name="PenTool" className="text-blue-600" size={24} />
-                        <strong className="text-lg">Гостевые посты</strong>
+                    <td className="px-3 md:px-6 py-3 md:py-4">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        <Icon name="PenTool" className="text-blue-600" size={20} />
+                        <strong className="text-base md:text-lg">Гостевые посты</strong>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-gray-700">Экспертные статьи на отраслевых медиа</td>
-                    <td className="px-6 py-4 text-gray-700">Авторитет + целевая аудитория</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Экспертные статьи на отраслевых медиа</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Авторитет + целевая аудитория</td>
                   </tr>
                   <tr className="hover:bg-green-50 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Icon name="Network" className="text-green-600" size={24} />
-                        <strong className="text-lg">PBN-сети</strong>
+                    <td className="px-3 md:px-6 py-3 md:py-4">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        <Icon name="Network" className="text-green-600" size={20} />
+                        <strong className="text-base md:text-lg">PBN-сети</strong>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-gray-700">Размещение на качественных сателлитах (по запросу)</td>
-                    <td className="px-6 py-4 text-gray-700">Быстрый рост по конкурентным запросам</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Размещение на качественных сателлитах (по запросу)</td>
+                    <td className="px-3 md:px-6 py-3 md:py-4 text-xs md:text-sm lg:text-base text-gray-700">Быстрый рост по конкурентным запросам</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center font-semibold">
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 text-center font-semibold">
               Каждый проект получает индивидуальную стратегию с учётом ниши, конкурентов и текущего состояния сайта.
             </p>
 
             <div className="text-center">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 shadow-lg hover:shadow-xl transition-all text-lg px-8 py-6"
+                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 shadow-lg hover:shadow-xl transition-all text-base md:text-lg px-4 md:px-8 py-4 md:py-6"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="MessageCircle" size={24} className="mr-3" />
+                <Icon name="MessageCircle" size={20} className="mr-2 md:mr-3" />
                 Получить бесплатную консультацию
               </Button>
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
-            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+          <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
               🏆 Почему наше поисковое продвижение сайта SEO эффективно
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border-2 border-blue-200 hover:shadow-xl transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-4xl">
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-blue-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                     🔒
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Безопасность превыше всего</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Безопасность превыше всего</h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Мы используем только белые и серые методы, которые не приводят к санкциям. Никаких ссылочных помоек, автоматических бирж и массовых закупок. 
                   Каждый донор проверяется вручную.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 hover:shadow-xl transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-4xl">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-green-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                     📈
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Постепенный рост</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Постепенный рост</h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Мы не обещаем "ТОП-1 за неделю". Наращиваем ссылочную массу плавно, имитируя естественный рост популярности сайта. 
                   Это защищает от фильтров и обеспечивает стабильный результат.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200 hover:shadow-xl transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-4xl">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-purple-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                     🎨
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Качественный контент</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Качественный контент</h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Все тексты пишутся копирайтерами с опытом в SEO. Уникальность не ниже 95%, полезность — приоритет. 
                   Мы не размещаем откровенную рекламу — только экспертный контент.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-4xl">
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                     📊
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Прозрачная отчётность</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Прозрачная отчётность</h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Вы получаете ежемесячные отчёты: где размещены ссылки, динамика позиций, изменение трафика. 
                   Никаких "чёрных ящиков" — всё под вашим контролем.
                 </p>
               </div>
 
-              <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-4xl">
+              <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                     🎯
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2">Индивидуальный подход</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Индивидуальный подход</h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Мы не продаём готовые пакеты. Каждому клиенту — персональная стратегия с учётом бюджета, целей и особенностей ниши.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
-            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+          <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
               📋 Как мы работаем: этапы сотрудничества
             </h2>
 
-            <div className="space-y-6">
-              <div className="bg-white rounded-2xl p-8 border-2 border-indigo-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+            <div className="space-y-4 md:space-y-6">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-indigo-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-indigo-500 to-purple-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     1
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Анализ и аудит</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Анализ и аудит</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Изучаем ваш сайт, конкурентов, текущие позиции. Оцениваем ссылочный профиль, контент, техническое состояние. Определяем точки роста.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border-2 border-purple-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-purple-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-purple-500 to-pink-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     2
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Разработка стратегии</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Разработка стратегии</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Составляем план продвижения: какие ключевые запросы будем продвигать, какие доноры использовать, какой контент создавать. Согласовываем бюджет и сроки.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border-2 border-pink-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-pink-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-pink-500 to-red-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     3
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Подбор доноров</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Подбор доноров</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Находим тематические площадки с высоким авторитетом. Проверяем каждый донор на санкции, трастовость, релевантность. Формируем базу для размещения.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-blue-500 to-cyan-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     4
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Написание SEO-текстов</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Написание SEO-текстов</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Наши копирайтеры создают уникальные статьи под ключевые запросы. Тексты оптимизированы для поисковиков, но написаны для людей — никакой "воды" и переспама.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border-2 border-green-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-green-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-green-500 to-emerald-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     5
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Размещение ссылок</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Размещение ссылок</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Публикуем контент на отобранных площадках. Используем разнообразные анкоры: брендовые, коммерческие, информационные, безанкорные. Соблюдаем естественность распределения.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
+              <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all relative overflow-hidden">
                 <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-orange-500 to-amber-600"></div>
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-2xl shadow-lg">
+                <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-white font-bold text-lg md:text-xl lg:text-2xl shadow-lg">
                     6
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3 text-gray-900">Рост позиций и масштабирование</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-gray-900">Рост позиций и масштабирование</h3>
+                    <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                       Отслеживаем динамику, корректируем стратегию. По мере роста усиливаем продвижение по наиболее перспективным запросам. Добавляем новые направления.
                     </p>
                   </div>
@@ -768,81 +768,81 @@ export default function AdditionalServices() {
               </div>
             </div>
 
-            <div className="text-center mt-12">
+            <div className="text-center mt-8 md:mt-12">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-lg px-8 py-6"
+                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-base md:text-lg px-4 md:px-8 py-4 md:py-6"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Calculator" size={24} className="mr-3" />
+                <Icon name="Calculator" size={20} className="mr-2 md:mr-3" />
                 Рассчитать стоимость продвижения
               </Button>
             </div>
           </div>
 
-          <div className="mb-16 pt-12 border-t-2 border-gray-200">
-            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+          <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
+            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
               📦 Что входит в услуги: полный комплекс работ
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-4 md:space-y-6 lg:space-y-8">
               <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 shadow-lg">
-                <CardHeader>
-                  <div className="flex items-start gap-6">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 shadow-lg text-4xl">
+                <CardHeader className="p-4 md:p-6">
+                  <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                    <div className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 shadow-lg text-2xl md:text-3xl lg:text-4xl">
                       🔗
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-3xl mb-3">Пакет "Ссылочное продвижение"</CardTitle>
-                      <p className="text-lg font-semibold mb-4">Что получаете:</p>
+                      <CardTitle className="text-xl md:text-2xl lg:text-3xl mb-2 md:mb-3">Пакет "Ссылочное продвижение"</CardTitle>
+                      <p className="text-base md:text-lg font-semibold mb-3 md:mb-4">Что получаете:</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3 mb-6">
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Анализ конкурентов и подбор донорской базы</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Анализ конкурентов и подбор донорской базы</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Размещение 15-50 ссылок в месяц (в зависимости от ниши)</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Размещение 15-50 ссылок в месяц (в зависимости от ниши)</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Написание уникальных статей для размещения</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Написание уникальных статей для размещения</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Разнообразный анкор-лист с учётом естественности</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Разнообразный анкор-лист с учётом естественности</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Ежемесячный отчёт по размещённым ссылкам</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Ежемесячный отчёт по размещённым ссылкам</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Мониторинг позиций по целевым запросам</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Мониторинг позиций по целевым запросам</span>
                     </li>
                   </ul>
-                  <div className="bg-white rounded-xl p-6 border-2 border-blue-200 mb-4">
-                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> подходит для молодых сайтов и проектов с низким DR/DA</p>
+                  <div className="bg-white rounded-xl p-4 md:p-6 border-2 border-blue-200 mb-3 md:mb-4">
+                    <p className="text-sm md:text-base text-gray-800 mb-2"><strong>Для кого:</strong> подходит для молодых сайтов и проектов с низким DR/DA</p>
                   </div>
-                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl p-6">
-                    <p className="text-lg"><strong>Результат:</strong> рост домен-рейтинга, выход в топ-30 по средне- и низкочастотным запросам за 2-3 месяца</p>
+                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl p-4 md:p-6">
+                    <p className="text-sm md:text-base lg:text-lg"><strong>Результат:</strong> рост домен-рейтинга, выход в топ-30 по средне- и низкочастотным запросам за 2-3 месяца</p>
                   </div>
                 </CardContent>
               </Card>
 
               <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-300 shadow-lg">
-                <CardHeader>
-                  <div className="flex items-start gap-6">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg text-4xl">
+                <CardHeader className="p-4 md:p-6">
+                  <div className="flex items-start gap-3 md:gap-4 lg:gap-6">
+                    <div className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg text-2xl md:text-3xl lg:text-4xl">
                       ✍️
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-3xl mb-3">Пакет "Продвижение статьями"</CardTitle>
-                      <p className="text-lg font-semibold mb-4">Что получаете:</p>
+                      <CardTitle className="text-xl md:text-2xl lg:text-3xl mb-2 md:mb-3">Пакет "Продвижение статьями"</CardTitle>
+                      <p className="text-base md:text-lg font-semibold mb-3 md:mb-4">Что получаете:</p>
                     </div>
                   </div>
                 </CardHeader>
@@ -951,49 +951,49 @@ export default function AdditionalServices() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3 mb-6">
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg font-semibold">Всё из трёх пакетов выше</span>
+                  <ul className="space-y-2 md:space-y-3 mb-4 md:mb-6">
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700 font-semibold">Всё из трёх пакетов выше</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Техническая оптимизация сайта (рекомендации)</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Техническая оптимизация сайта (рекомендации)</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Работа с семантическим ядром</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Работа с семантическим ядром</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Создание и оптимизация контента на вашем сайте</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Создание и оптимизация контента на вашем сайте</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Мониторинг конкурентов</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Мониторинг конкурентов</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Персональный менеджер проекта</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Персональный менеджер проекта</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Icon name="CheckCircle2" className="text-orange-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Еженедельные созвоны и ежемесячные детальные отчёты</span>
+                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Еженедельные созвоны и ежемесячные детальные отчёты</span>
                     </li>
                   </ul>
-                  <div className="bg-white rounded-xl p-6 border-2 border-orange-300 mb-4 shadow-md">
-                    <p className="text-gray-800 mb-2"><strong>Для кого:</strong> для амбициозных проектов с целью занять топ-3 по высококонкурентным запросам</p>
+                  <div className="bg-white rounded-xl p-4 md:p-6 border-2 border-orange-300 mb-3 md:mb-4 shadow-md">
+                    <p className="text-sm md:text-base text-gray-800 mb-2"><strong>Для кого:</strong> для амбициозных проектов с целью занять топ-3 по высококонкурентным запросам</p>
                   </div>
-                  <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 text-white rounded-xl p-6 shadow-lg mb-6">
-                    <p className="text-xl font-bold"><strong>Результат:</strong> максимальная видимость в поиске, кратный рост трафика и конверсий, вытеснение конкурентов 🏆</p>
+                  <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 text-white rounded-xl p-4 md:p-6 shadow-lg mb-4 md:mb-6">
+                    <p className="text-base md:text-lg lg:text-xl font-bold"><strong>Результат:</strong> максимальная видимость в поиске, кратный рост трафика и конверсий, вытеснение конкурентов 🏆</p>
                   </div>
                   <div className="text-center">
                     <Button 
                       size="lg"
-                      className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 shadow-xl hover:shadow-2xl transition-all text-xl px-10 py-7 w-full md:w-auto"
+                      className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 shadow-xl hover:shadow-2xl transition-all text-base md:text-lg lg:text-xl px-6 md:px-10 py-5 md:py-7 w-full md:w-auto"
                       onClick={() => window.open('https://t.me/seovzlet', '_blank')}
                     >
-                      <Icon name="Rocket" size={28} className="mr-3" />
+                      <Icon name="Rocket" size={20} className="mr-2 md:mr-3" />
                       Заказать комплексное продвижение
                     </Button>
                   </div>
@@ -1004,9 +1004,9 @@ export default function AdditionalServices() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="container max-w-6xl">
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+      <section className="py-10 md:py-20 bg-white">
+        <div className="container max-w-6xl px-4">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
             🛡️ Гарантии безопасности и качества
           </h2>
 
@@ -1018,7 +1018,7 @@ export default function AdditionalServices() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mt-2">Без санкций</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Мы не используем спам-методы и сомнительные площадки. Каждый донор проходит ручную проверку. 
                 Вероятность попадания под фильтр — менее 1%.
               </p>
@@ -1031,7 +1031,7 @@ export default function AdditionalServices() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mt-2">Без резких скачков</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Наращиваем ссылочную массу плавно. Поисковики видят естественный рост популярности сайта, а не манипуляции.
               </p>
             </div>
@@ -1043,31 +1043,31 @@ export default function AdditionalServices() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mt-2">Качество контента</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Все статьи пишутся вручную. Уникальность проверяется через Advego и Text.ru. Тексты проходят редактуру перед публикацией.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0">
-                  <Icon name="BarChart3" className="text-white" size={32} />
+            <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-orange-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="BarChart3" className="text-white" size={24} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Полная отчётность</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Полная отчётность</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Вы видите каждую размещённую ссылку, каждую опубликованную статью. Предоставляем доступ к системам аналитики для контроля результата.
               </p>
             </div>
 
-            <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
-                  <Icon name="RefreshCw" className="text-white" size={32} />
+            <div className="md:col-span-2 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-indigo-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
+                  <Icon name="RefreshCw" className="text-white" size={24} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Гибкость и адаптация</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Гибкость и адаптация</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed text-lg">
+              <p className="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed">
                 Если стратегия не даёт результат — меняем подход без доплат. Ваша цель — наша цель.
               </p>
             </div>
@@ -1075,72 +1075,72 @@ export default function AdditionalServices() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-cyan-50">
-        <div className="container max-w-6xl">
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
+      <section className="py-10 md:py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-cyan-50">
+        <div className="container max-w-6xl px-4">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
             🎓 Для кого подходит раскрутка сайта продвижение сайтов
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-4xl">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+            <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-blue-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                   🏢
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для бизнеса</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Для бизнеса</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Интернет-магазины, сервисные компании, B2B-проекты. Вы получаете стабильный поток заявок из органического поиска, 
                 снижаете стоимость привлечения клиента, перестаёте зависеть от контекстной рекламы.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border-2 border-purple-200 shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-4xl">
+            <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-purple-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                   🚀
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для стартапов</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Для стартапов</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Молодые проекты с ограниченным бюджетом. Мы поможем выйти на рынок, обогнать конкурентов и занять свою нишу без огромных вложений в рекламу.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border-2 border-green-200 shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-4xl">
+            <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-green-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                   📰
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для информационных проектов</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Для информационных проектов</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Блоги, медиа, образовательные порталы. Увеличиваем охваты, привлекаем целевую аудиторию, 
                 монетизируем трафик через рекламу или продажу своих продуктов.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border-2 border-orange-200 shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-4xl">
+            <div className="bg-white rounded-2xl p-4 md:p-6 lg:p-8 border-2 border-orange-200 shadow-lg hover:shadow-2xl transition-all">
+              <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 text-2xl md:text-4xl">
                   🏆
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mt-2">Для интернет-магазинов</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mt-1 md:mt-2">Для интернет-магазинов</h3>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 Продвигаем товарные категории и карточки товаров. Обеспечиваем рост продаж за счёт SEO-трафика, 
                 который конвертируется лучше контекстной рекламы.
               </p>
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-8 md:mt-12">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-xl hover:shadow-2xl transition-all text-lg px-10 py-6"
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-xl hover:shadow-2xl transition-all text-base md:text-lg px-6 md:px-10 py-4 md:py-6"
               onClick={() => window.open('https://t.me/seovzlet', '_blank')}
             >
-              <Icon name="MessageSquare" size={24} className="mr-3" />
+              <Icon name="MessageSquare" size={20} className="mr-2 md:mr-3" />
               Обсудить ваш проект
             </Button>
           </div>
