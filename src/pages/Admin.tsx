@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import { Badge } from '@/components/ui/badge';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 interface Lead {
   id: number;
@@ -71,6 +72,7 @@ export default function Admin() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <ScrollToTopButton />
       <header className="bg-white border-b shadow-sm">
         <div className="container max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">

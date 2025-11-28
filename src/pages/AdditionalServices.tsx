@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 import { useState } from 'react';
 
 export default function AdditionalServices() {
@@ -90,6 +91,7 @@ export default function AdditionalServices() {
 
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <ScrollToTopButton />
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-lg shadow-sm">
         <div className="container flex h-16 md:h-20 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 md:gap-4">
