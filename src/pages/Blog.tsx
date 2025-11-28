@@ -2,10 +2,54 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Blog() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    document.title = 'Блог о продвижении сайтов — SEO, трафик и рост заявок';
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Полезный блог о SEO-продвижении сайтов: практические советы, кейсы, рост трафика и заявок из Яндекса и Google. Всё о раскрутке бизнеса в интернете.');
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = 'description';
+      meta.content = 'Полезный блог о SEO-продвижении сайтов: практические советы, кейсы, рост трафика и заявок из Яндекса и Google. Всё о раскрутке бизнеса в интернете.';
+      document.head.appendChild(meta);
+    }
+
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords) {
+      metaKeywords.setAttribute('content', 'блог о seo, блог о продвижении сайтов, seo блог, продвижение сайтов, seo продвижение, раскрутка сайта, трафик из поиска, рост заявок, продвижение в яндексе, продвижение в google, интернет маркетинг, seo статьи');
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = 'keywords';
+      meta.content = 'блог о seo, блог о продвижении сайтов, seo блог, продвижение сайтов, seo продвижение, раскрутка сайта, трафик из поиска, рост заявок, продвижение в яндексе, продвижение в google, интернет маркетинг, seo статьи';
+      document.head.appendChild(meta);
+    }
+
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', 'Блог о продвижении сайтов — SEO, трафик и рост заявок');
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'og:title');
+      meta.content = 'Блог о продвижении сайтов — SEO, трафик и рост заявок';
+      document.head.appendChild(meta);
+    }
+
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', 'Полезный блог о SEO-продвижении сайтов: практические советы, кейсы, рост трафика и заявок из Яндекса и Google.');
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'og:description');
+      meta.content = 'Полезный блог о SEO-продвижении сайтов: практические советы, кейсы, рост трафика и заявок из Яндекса и Google.';
+      document.head.appendChild(meta);
+    }
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
