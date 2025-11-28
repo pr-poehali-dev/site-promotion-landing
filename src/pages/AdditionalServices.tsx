@@ -89,7 +89,7 @@ export default function AdditionalServices() {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-lg shadow-sm">
         <div className="container flex h-16 md:h-20 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 md:gap-4">
@@ -189,41 +189,41 @@ export default function AdditionalServices() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
         
-        <div className="container relative z-10 px-4">
+        <div className="container relative z-10 px-4 max-w-7xl">
           <div className="text-center mb-8 md:mb-12">
-            <h1 className="text-2xl md:text-6xl font-bold mb-4 md:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+            <h1 className="text-xl md:text-6xl font-bold mb-4 md:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 break-words">
               🚀 SEO-продвижение сайтов ссылками и статьями под ключ
             </h1>
-            <p className="text-base md:text-2xl font-semibold text-gray-700 mb-6 md:mb-8 max-w-4xl mx-auto px-2">
+            <p className="text-sm md:text-2xl font-semibold text-gray-700 mb-6 md:mb-8 max-w-4xl mx-auto break-words">
               Увеличьте трафик и выведите сайт в ТОП с помощью безопасного линкбилдинга, качественного контента и крауд-маркетинга
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto space-y-4 md:space-y-6 text-base md:text-lg text-gray-700 px-2">
-            <p className="leading-relaxed">
+          <div className="max-w-5xl mx-auto space-y-4 md:space-y-6 text-sm md:text-lg text-gray-700">
+            <p className="leading-relaxed break-words">
               <strong>Ваш сайт теряется на 5-й странице поиска?</strong> Конкуренты забирают клиентов, а органический трафик не растёт? 
               Продвижение сайта ссылками и статьями — проверенный способ выйти в топ-10 Google и Яндекса без риска санкций.
             </p>
 
-            <p className="leading-relaxed">
+            <p className="leading-relaxed break-words">
               Мы предлагаем <strong>комплексное поисковое продвижение сайта SEO</strong> с использованием белых методов: размещение на авторитетных площадках, 
               написание SEO-текстов под ключевые запросы и крауд-маркетинг для естественного роста позиций.
             </p>
 
             <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-4 md:p-8 border-2 border-indigo-200 shadow-lg">
-              <p className="text-lg md:text-xl font-semibold text-indigo-900 mb-4">Результат:</p>
+              <p className="text-base md:text-xl font-semibold text-indigo-900 mb-4 break-words">Результат:</p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <Icon name="TrendingUp" className="text-indigo-600 flex-shrink-0 mt-1" size={24} />
-                  <span>Рост позиций на 20-50 пунктов за 2-3 месяца</span>
+                  <Icon name="TrendingUp" className="text-indigo-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-sm md:text-base break-words">Рост позиций на 20-50 пунктов за 2-3 месяца</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Icon name="BarChart3" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                  <span>Увеличение органического трафика в 2-4 раза</span>
+                  <Icon name="BarChart3" className="text-purple-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-sm md:text-base break-words">Увеличение органического трафика в 2-4 раза</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Icon name="Users" className="text-pink-600 flex-shrink-0 mt-1" size={24} />
-                  <span>Стабильные заявки от целевой аудитории</span>
+                  <Icon name="Users" className="text-pink-600 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-sm md:text-base break-words">Стабильные заявки от целевой аудитории</span>
                 </li>
               </ul>
             </div>
@@ -245,63 +245,63 @@ export default function AdditionalServices() {
       <section className="py-10 md:py-20 bg-white">
         <div className="container max-w-6xl px-4">
           <div className="mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
+            <h2 className="text-xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900 break-words">
               📊 Продвижение сайта ссылками: как это работает
             </h2>
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
-              <strong>Купить продвижение ссылками</strong> — значит получить естественную ссылочную массу, которая сигнализирует поисковикам о важности вашего ресурса. 
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 break-words">
+              <strong>Купить продвижение ссылками</strong> — значит получить естественную ссылочную массу, которая сигнализирует поисковикам о важности вашего ресурса.  
               Мы размещаем ссылки на тематических сайтах с высоким DA/DR, создавая качественный ссылочный профиль.
             </p>
 
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-4 md:p-8 mb-6 md:mb-8">
-              <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Что даёт продвижение ссылками:</h3>
+              <h3 className="text-lg md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 break-words">Что даёт продвижение ссылками:</h3>
               <div className="space-y-4">
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
                     <Icon name="TrendingUp" className="text-white" size={20} />
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-base md:text-lg mb-1">Рост позиций по целевым запросам</h4>
-                    <p className="text-sm md:text-base text-gray-600">Сайт поднимается в выдаче за счёт передачи веса от авторитетных доноров</p>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm md:text-lg mb-1 break-words">Рост позиций по целевым запросам</p>
+                    <p className="text-xs md:text-base text-gray-600 break-words">Сайт поднимается в выдаче за счёт передачи веса от авторитетных доноров</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
                     <Icon name="Award" className="text-white" size={20} />
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-base md:text-lg mb-1">Увеличение домен-рейтинга</h4>
-                    <p className="text-sm md:text-base text-gray-600">Улучшение DR/DA повышает доверие поисковиков к вашему сайту</p>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm md:text-lg mb-1 break-words">Увеличение домен-рейтинга</p>
+                    <p className="text-xs md:text-base text-gray-600 break-words">Улучшение DR/DA повышает доверие поисковиков к вашему сайту</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center flex-shrink-0">
                     <Icon name="Shield" className="text-white" size={20} />
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-base md:text-lg mb-1">Защита от конкурентов</h4>
-                    <p className="text-sm md:text-base text-gray-600">Мощный ссылочный профиль защищает от негативного SEO</p>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm md:text-lg mb-1 break-words">Защита от конкурентов</p>
+                    <p className="text-xs md:text-base text-gray-600 break-words">Мощный ссылочный профиль защищает от негативного SEO</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center flex-shrink-0">
                     <Icon name="Clock" className="text-white" size={20} />
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-base md:text-lg mb-1">Долгосрочный эффект</h4>
-                    <p className="text-sm md:text-base text-gray-600">Качественные ссылки работают годами, обеспечивая стабильный трафик</p>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm md:text-lg mb-1 break-words">Долгосрочный эффект</p>
+                    <p className="text-xs md:text-base text-gray-600 break-words">Качественные ссылки работают годами, обеспечивая стабильный трафик</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 break-words">
               Мы используем только <strong>безопасные SEO-ссылки</strong> с естественным анкор-листом, постепенным наращиванием и ручным размещением. 
               Никаких автоматических бирж, никаких ссылочных помоек.
             </p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 md:p-6 rounded-r-xl mb-6 md:mb-8">
-              <p className="text-gray-800">
+              <p className="text-sm md:text-base text-gray-800 break-words">
                 <strong>Важно:</strong> можно <strong>купить ссылки для продвижения сайта</strong>, но без стратегии это приведёт к фильтрам. 
                 Мы создаём сбалансированный профиль с учётом вашей ниши, конкурентов и текущего состояния сайта.
               </p>
@@ -320,10 +320,10 @@ export default function AdditionalServices() {
           </div>
 
           <div className="mb-12 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
-            <h2 className="text-2xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
+            <h2 className="text-xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900 break-words">
               ✍️ Продвижение сайта статьями и SEO-контент
             </h2>
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 break-words">
               <strong>Продвижение статьями</strong> решает сразу две задачи: улучшает поведенческие факторы на вашем сайте и создаёт естественные точки входа для ссылок. 
               Мы пишем экспертный контент, который читают люди и индексируют поисковики.
             </p>
@@ -337,7 +337,7 @@ export default function AdditionalServices() {
                     1
                   </div>
                   <div>
-                    <h4 className="text-base md:text-xl font-bold mb-2">Написание SEO-текстов для вашего сайта</h4>
+                    <p className="text-base md:text-xl font-bold mb-2">Написание SEO-текстов для вашего сайта</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Создаём информационные и коммерческие страницы под кластеры ключевых слов. Каждая статья оптимизирована под поисковые запросы, 
                       но написана для людей — без переспама, с пользой и структурой.
@@ -352,7 +352,7 @@ export default function AdditionalServices() {
                     2
                   </div>
                   <div>
-                    <h4 className="text-base md:text-xl font-bold mb-2">Размещение статей на внешних площадках</h4>
+                    <p className="text-base md:text-xl font-bold mb-2">Размещение статей на внешних площадках</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Публикуем материалы на тематических блогах, новостных порталах, отраслевых медиа. Каждая статья содержит естественные ссылки на ваш сайт 
                       и работает как источник целевого трафика.
@@ -367,7 +367,7 @@ export default function AdditionalServices() {
                     3
                   </div>
                   <div>
-                    <h4 className="text-base md:text-xl font-bold mb-2">Крауд-маркетинг и нативное продвижение</h4>
+                    <p className="text-base md:text-xl font-bold mb-2">Крауд-маркетинг и нативное продвижение</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Размещаем полезные ответы и рекомендации на форумах, в сообществах, на Q&A-площадках (Quora, TheQuestion, отраслевые форумы). 
                       Создаём репутацию эксперта и получаем качественные переходы.
@@ -382,32 +382,32 @@ export default function AdditionalServices() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
-                  <div>
+                  <div className="break-words">
                     <strong>Естественность</strong> — поисковики видят живой интерес к вашему бренду
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
-                  <div>
+                  <div className="break-words">
                     <strong>Долгая жизнь</strong> — статьи остаются в сети годами и приводят трафик
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
-                  <div>
+                  <div className="break-words">
                     <strong>Целевая аудитория</strong> — читатели приходят по интересующим их темам
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={24} />
-                  <div>
+                  <div className="break-words">
                     <strong>Репутация</strong> — экспертный контент повышает доверие к бренду
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 break-words">
               Вы можете <strong>купить статью</strong> отдельно или заказать комплексное продвижение с регулярными публикациями.
             </p>
 
@@ -427,7 +427,7 @@ export default function AdditionalServices() {
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
               🎯 Крауд-маркетинг и безопасные SEO-ссылки
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-8 break-words">
               <strong>Крауд-маркетинг</strong> — это размещение ссылок и упоминаний на форумах, в комментариях блогов, тематических сообществах и социальных сетях. 
               Это создаёт эффект "сарафанного радио" и показывает поисковикам живой интерес пользователей.
             </p>
@@ -441,7 +441,7 @@ export default function AdditionalServices() {
                     <Icon name="MessageCircle" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Форумы</h4>
+                    <p className="text-lg md:text-xl font-bold mb-1 md:mb-2">Форумы</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Отраслевые обсуждения, где ваше решение действительно может помочь
                     </p>
@@ -455,7 +455,7 @@ export default function AdditionalServices() {
                     <Icon name="BookOpen" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Блоги и медиа</h4>
+                    <p className="text-lg md:text-xl font-bold mb-1 md:mb-2">Блоги и медиа</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Комментарии под релевантными статьями
                     </p>
@@ -469,7 +469,7 @@ export default function AdditionalServices() {
                     <Icon name="HelpCircle" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Q&A-площадки</h4>
+                    <p className="text-lg md:text-xl font-bold mb-1 md:mb-2">Q&A-площадки</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Ответы на вопросы с естественным упоминанием вашего сайта
                     </p>
@@ -483,7 +483,7 @@ export default function AdditionalServices() {
                     <Icon name="Users" className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Социальные сети</h4>
+                    <p className="text-lg md:text-xl font-bold mb-1 md:mb-2">Социальные сети</p>
                     <p className="text-sm md:text-base text-gray-700">
                       Обсуждения в тематических группах и сообществах
                     </p>
@@ -515,7 +515,7 @@ export default function AdditionalServices() {
             <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-4 md:mb-6 text-gray-900">
               🛠️ Комплексные способы продвижения сайтов в поиске
             </h2>
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 break-words">
               Мы используем все эффективные способы продвижения, чтобы обеспечить стабильный рост позиций:
             </p>
 
@@ -583,7 +583,7 @@ export default function AdditionalServices() {
               </table>
             </div>
 
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 text-center font-semibold">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 text-center font-semibold break-words">
               Каждый проект получает индивидуальную стратегию с учётом ниши, конкурентов и текущего состояния сайта.
             </p>
 
@@ -771,17 +771,17 @@ export default function AdditionalServices() {
             <div className="text-center mt-8 md:mt-12">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-base md:text-lg px-4 md:px-8 py-4 md:py-6"
+                className="w-full sm:w-auto bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-sm md:text-lg px-4 md:px-8 py-4 md:py-6"
                 onClick={() => window.open('https://t.me/seovzlet', '_blank')}
               >
-                <Icon name="Calculator" size={20} className="mr-2 md:mr-3" />
-                Рассчитать стоимость продвижения
+                <Icon name="Calculator" size={18} className="mr-2 md:mr-3 flex-shrink-0" />
+                <span className="whitespace-nowrap">Рассчитать стоимость</span>
               </Button>
             </div>
           </div>
 
           <div className="mb-8 md:mb-16 pt-8 md:pt-12 border-t-2 border-gray-200">
-            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center">
+            <h2 className="text-xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-gray-900 text-center break-words">
               📦 Что входит в услуги: полный комплекс работ
             </h2>
 
@@ -793,8 +793,8 @@ export default function AdditionalServices() {
                       🔗
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl md:text-2xl lg:text-3xl mb-2 md:mb-3">Пакет "Ссылочное продвижение"</CardTitle>
-                      <p className="text-base md:text-lg font-semibold mb-3 md:mb-4">Что получаете:</p>
+                      <CardTitle className="text-lg md:text-2xl lg:text-3xl mb-2 md:mb-3 break-words">Пакет "Ссылочное продвижение"</CardTitle>
+                      <p className="text-sm md:text-lg font-semibold mb-3 md:mb-4 break-words">Что получаете:</p>
                     </div>
                   </div>
                 </CardHeader>
@@ -802,27 +802,27 @@ export default function AdditionalServices() {
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-start gap-2 md:gap-3">
                       <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Анализ конкурентов и подбор донорской базы</span>
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Анализ конкурентов и подбор донорской базы</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Размещение 15-50 ссылок в месяц (в зависимости от ниши)</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Размещение 15-50 ссылок в месяц (в зависимости от ниши)</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Написание уникальных статей для размещения</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Написание уникальных статей для размещения</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Разнообразный анкор-лист с учётом естественности</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Разнообразный анкор-лист с учётом естественности</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Ежемесячный отчёт по размещённым ссылкам</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Ежемесячный отчёт по размещённым ссылкам</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-sm md:text-base lg:text-lg text-gray-700">Мониторинг позиций по целевым запросам</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Мониторинг позиций по целевым запросам</span>
                     </li>
                   </ul>
                   <div className="bg-white rounded-xl p-4 md:p-6 border-2 border-blue-200 mb-3 md:mb-4">
@@ -841,36 +841,36 @@ export default function AdditionalServices() {
                       ✍️
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl md:text-2xl lg:text-3xl mb-2 md:mb-3">Пакет "Продвижение статьями"</CardTitle>
-                      <p className="text-base md:text-lg font-semibold mb-3 md:mb-4">Что получаете:</p>
+                      <CardTitle className="text-lg md:text-2xl lg:text-3xl mb-2 md:mb-3 break-words">Пакет "Продвижение статьями"</CardTitle>
+                      <p className="text-sm md:text-lg font-semibold mb-3 md:mb-4 break-words">Что получаете:</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3 mb-6">
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Разработка контент-стратегии под ваши цели</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Разработка контент-стратегии под ваши цели</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Написание 5-15 SEO-оптимизированных статей в месяц</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Написание 5-15 SEO-оптимизированных статей в месяц</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Размещение на тематических блогах, новостных порталах, отраслевых медиа</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Размещение на тематических блогах, новостных порталах, отраслевых медиа</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Интеграция естественных ссылок в текст</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Интеграция естественных ссылок в текст</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Продвижение статей в социальных сетях</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Продвижение статей в социальных сетях</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={24} />
-                      <span className="text-gray-700 text-lg">Отчёт по публикациям и переходам</span>
+                    <li className="flex items-start gap-2 md:gap-3">
+                      <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                      <span className="text-xs md:text-base lg:text-lg text-gray-700 break-words">Отчёт по публикациям и переходам</span>
                     </li>
                   </ul>
                   <div className="bg-white rounded-xl p-6 border-2 border-purple-200 mb-4">
