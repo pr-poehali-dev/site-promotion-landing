@@ -1268,6 +1268,280 @@ export default function AdditionalServices() {
         </div>
       </section>
 
+      <section className="py-12 md:py-20 bg-white">
+        <div className="container max-w-7xl overflow-x-hidden px-4">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-gray-900 text-center break-words">
+            🎯 Разовые пакеты услуг по продвижению
+          </h2>
+          <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-8 md:mb-12 text-center max-w-4xl mx-auto break-words">
+            Готовые решения для быстрого старта без ежемесячных платежей. Оплачиваете один раз — получаете результат.
+          </p>
+
+          <div className="grid gap-6 md:gap-8 lg:gap-10">
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    📝
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Ручное размещение статей в 150 RU-блогах</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600 break-words">23 400 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <p className="text-xs md:text-base font-semibold mb-3 md:mb-4 text-gray-800 break-words">В услугу копирайта входит:</p>
+                <ul className="space-y-2 md:space-y-3">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Три уникальные статьи суммарным объемом до 8000 символов (~8-10 word-страниц)</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Формулы размножения статей (~16-18 word-страниц)</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-blue-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Подбор уникальных заголовков к статьям (до 100 шт.)</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    💬
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Размещение ссылок в тематических статьях — 100 шт</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-green-600 break-words">12 500 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <ul className="space-y-2 md:space-y-3">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Полностью ручной процесс, от размещения до формирования отчета</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Только русскоязычные форумы</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Не «нулевые» пользователи на форумах</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Один из лучших методов естественного и безопасного продвижения</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Существенное улучшение позиции вашего ресурса</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Значительный прирост показателя ИКС и др. SEO-показателей</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-green-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Подробный отчет в Excel-файле</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    ❓
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Размещение ссылок "Вопрос-Ответ" — 150 шт</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple-600 break-words">43 750 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <ul className="space-y-2 md:space-y-3">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Размещение только в формате диалога двух пользователей</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Минимальный ИКС сайтов от 20 и выше. Большинство сайтов с ИКС от 200</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Используются только анкорные и безанкорные ссылки</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Все ссылки полностью открыты для поисковых систем</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-purple-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Максимальная выборка сайтов-доноров, подходящих по тематике</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    📱
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Социальные сигналы — 400 шт</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-orange-600 break-words">10 800 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <p className="text-xs md:text-base font-semibold mb-3 md:mb-4 text-gray-800 break-words">Размещение ссылок в сервисах:</p>
+                <div className="grid grid-cols-2 gap-2 md:gap-3">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">ВКонтакте</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Facebook</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Twitter</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Мой Мир@Mail.Ru</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Linkedin</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Tumblr</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Яндекс.Коллекции</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Reddit</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">LiveJournal</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" className="text-orange-600 flex-shrink-0" size={16} />
+                    <span className="text-xs md:text-sm text-gray-700 break-words">Vseti, Univers и др.</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-red-50 to-rose-50 border-2 border-red-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-red-500 to-rose-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    💭
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Размещение статей на 300 русскоязычных форумах</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-red-600 break-words">36 400 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <ul className="space-y-2 md:space-y-3">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Возможность вывести в ТОП высокочастотные поисковые запросы</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Только «живые» русскоязычные форумы с защитой от СПАМа</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Не «нулевые» пользователи на форумах</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Полностью ручной процесс, от размещения до формирования отчета</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Существенное улучшение позиций вашего ресурса уже через 1-2 недели</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-red-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Подробный отчет в Excel-файле</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-300">
+              <CardHeader className="p-4 md:p-6">
+                <div className="flex items-start gap-3 md:gap-5">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center flex-shrink-0 shadow-lg text-xl md:text-3xl">
+                    📊
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-base md:text-xl lg:text-2xl mb-2 break-words">Повышение показателя Ahrefs Domain Rating</CardTitle>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-indigo-600 break-words">10 750 ₽</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="p-4 md:p-6 pt-0">
+                <ul className="space-y-2 md:space-y-3">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-indigo-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Увеличение Ahrefs Domain Rating на 20-50 пунктов</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-indigo-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">100% гарантия прироста при соответствии сайта нашим требованиям</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-indigo-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Существенный прирост внешних ссылок</span>
+                  </li>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <Icon name="CheckCircle2" className="text-indigo-600 flex-shrink-0 mt-1" size={18} />
+                    <span className="text-xs md:text-sm lg:text-base text-gray-700 break-words">Наглядный отчет в формате «До» и «После»</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-8 md:mt-12">
+            <Button 
+              size="lg"
+              className="w-full sm:w-auto bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 shadow-xl hover:shadow-2xl transition-all text-sm md:text-lg px-4 md:px-8 py-4 md:py-6"
+              onClick={() => window.open('https://t.me/seovzlet', '_blank')}
+            >
+              <Icon name="ShoppingCart" size={18} className="mr-2 md:mr-3 flex-shrink-0" />
+              <span className="break-words">Заказать разовый пакет</span>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
         <div className="container max-w-5xl">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-900 text-center">
